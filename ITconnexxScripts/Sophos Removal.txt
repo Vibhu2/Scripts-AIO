@@ -1,0 +1,123 @@
+https://community.sophos.com/kb/en-us/134486  ( Sophos Zap Tool )
+https://community.sophos.com/kb/en-us/12360	
+https://community.sophos.com/kb/en-us/118849#Endpoint
+
+______________________________________________________________________________________________________________________________________________
+
+Get-Service | Where-Object ($_.StartType -imatch "Automatic" -and $_.Status -imatch "Stopped")
+Get-Service | Where-Object {$_.StartType -imatch "Automatic" -and $_.Status -imatch "stopped"}
+
+import-csv
+Get-content
+https://devblogs.microsoft.com/scripting/hey-scripting-guy-can-i-query-a-microsoft-access-database-with-a-windows-powershell-script/
+
+https://support.sophos.com/support/s/article/KB-000034808?language=en_US ( Disable Temper Protection )
+MsiExec.exe /X{23F2C78C-E131-4CA0-8F84-3473FB7728BA} / q REBOOT=ReallySuppress
+MsiExec.exe /X {23F2C78C-E131-4CA0-8F84-3473FB7728BA} /q REBOOT=ReallySuppress
+msi EXIT CODES { https://docs.microsoft.com/en-us/windows/win32/msi/error-codes } 
+http://www.uninstallhelps.com/how-to-uninstall-microsoft-security-client.html
+
+https://support.microsoft.com/en-us/topic/fix-problems-that-block-programs-from-being-installed-or-removed-cca7d1b6-65a9-3d98-426b-e9f927e1eb4d
+https://www.advanceduninstaller.com/Microsoft-Security-Client-0874ce10a3d74304c6c0927774e99e81-application.htm ( WINDOWS SECURITY CLIENT REMOVAL WEB PAGE)
+https://answers.microsoft.com/en-us/protect/forum/mse-protect_start/uninstalling-microsoft-security-essentials/316493c2-8885-46b0-afba-28ebd45c0838
+Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall ( ALL WINDOWS UNISTALL INFORMATION )
+
+
+
+02 Feb 2021 00:09:26 Info: Detected Microsoft Security Client version 4.6.x
+02 Feb 2021 00:09:26 Info: ==============================================
+02 Feb 2021 00:09:26 Info: Removing detected products...
+02 Feb 2021 00:09:26 Info: Checking to see if Microsoft Security Client version 4.6.x is installed
+02 Feb 2021 00:09:26 Info: Starting removal of Microsoft Security Client version 4.6.x
+02 Feb 2021 00:09:26 Info: Creating new process C:\Windows\System32\\MsiExec.exe /X {23F2C78C-E131-4CA0-8F84-3473FB7728BA} /q REBOOT=ReallySuppress 
+02 Feb 2021 00:09:33 Info: Removal process ended normally: exit code 1603
+02 Feb 2021 00:09:33 Failure: Removal of Microsoft Security Client version 4.6.x failed, last error 0
+02 Feb 2021 00:09:33 Failure: Return code 1603
+02 Feb 2021 00:09:34 Info: Known publishers list contains 41 entries
+02 Feb 2021 00:09:39 Info: Result of calling SubmitTelem: {"ErrorCode":0,"StatusCode":200}
+02 Feb 2021 00:09:39 Info: Competitor Removal Tool exit code 16
+02 Feb 2021 00:09:39 Info: AVRemove finished. 1 product found, 0 products removed. Report logged to : C:\WINDOWS\TEMP\avremove.log
+Sophos Anti-Virus software detector - Version 2.18.0.45
+Copyright (C) 2003-2021 Sophos Limited. All rights reserved.
+Running OS: Microsoft Windows 10  [Version 10.00.19042]
+Removing detected products...
+AVRemove finished. 1 product found, 0 products removed. Report logged to : C:\WINDOWS\TEMP\avremove.log
+
+Windows ® Installer. V 5.0.19041.1 
+
+msiexec /Option <Required Parameter> [Optional Parameter]
+
+Install Options
+	</package | /i> <Product.msi>
+		Installs or configures a product
+	/a <Product.msi>
+		Administrative install - Installs a product on the network
+	/j<u|m> <Product.msi> [/t <Transform List>] [/g <Language ID>]
+		Advertises a product - m to all users, u to current user
+	</uninstall | /x> <Product.msi | ProductCode>
+		Uninstalls the product
+Display Options
+	/quiet
+		Quiet mode, no user interaction
+	/passive
+		Unattended mode - progress bar only
+	/q[n|b|r|f]
+		Sets user interface level
+		n - No UI
+		b - Basic UI
+		r - Reduced UI
+		f - Full UI (default)
+	/help
+		Help information
+Restart Options
+	/norestart
+		Do not restart after the installation is complete
+	/promptrestart
+		Prompts the user for restart if necessary
+	/forcerestart
+		Always restart the computer after installation
+Logging Options
+	/l[i|w|e|a|r|u|c|m|o|p|v|x|+|!|*] <LogFile>
+		i - Status messages
+		w - Nonfatal warnings
+		e - All error messages
+		a - Start up of actions
+		r - Action-specific records
+		u - User requests
+		c - Initial UI parameters
+		m - Out-of-memory or fatal exit information
+		o - Out-of-disk-space messages
+		p - Terminal properties
+		v - Verbose output
+		x - Extra debugging information
+		+ - Append to existing log file
+		! - Flush each line to the log
+		* - Log all information, except for v and x options
+	/log <LogFile>
+		Equivalent of /l* <LogFile>
+Update Options
+	/update <Update1.msp>[;Update2.msp]
+		Applies update(s)
+	/uninstall <PatchCodeGuid>[;Update2.msp] /package <Product.msi | ProductCode>
+		Remove update(s) for a product
+Repair Options
+	/f[p|e|c|m|s|o|d|a|u|v] <Product.msi | ProductCode>
+		Repairs a product
+		p - only if file is missing
+		o - if file is missing or an older version is installed (default)
+		e - if file is missing or an equal or older version is installed
+		d - if file is missing or a different version is installed
+		c - if file is missing or checksum does not match the calculated value
+		a - forces all files to be reinstalled
+		u - all required user-specific registry entries (default)
+		m - all required computer-specific registry entries (default)
+		s - all existing shortcuts (default)
+		v - runs from source and recaches local package
+Setting Public Properties
+	[PROPERTY=PropertyValue]
+
+Consult the Windows ® Installer SDK for additional documentation on the
+command line syntax.
+
+Copyright © Microsoft Corporation. All rights reserved.
+Portions of this software are based in part on the work of the Independent JPEG Group.

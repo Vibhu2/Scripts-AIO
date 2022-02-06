@@ -1,0 +1,1 @@
+Set-MailboxFolderPermission -Identity wverheyen@itconnexx.com:\Calendar -User Default -AccessRights Reviewer

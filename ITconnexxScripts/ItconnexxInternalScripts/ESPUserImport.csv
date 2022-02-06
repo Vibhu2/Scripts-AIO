@@ -1,0 +1,2 @@
+Surname,Initials,GivenName,DisplayName,Name,Password,SamAccountName,ProxyAddress,extensionAttribute1,Path,Groups
+Administrator,,ESP,ESP Administrator,ESP Administrator,Hbar2745%,EAdministrator,Eadministrator@npscorp.com,Lubetech,"OU=ESP,OU=Users,OU=Company,DC=corp,DC=npscorp,DC=com","""Domain Users"", ""Password Policy - Lock after 5 failed attempts"""

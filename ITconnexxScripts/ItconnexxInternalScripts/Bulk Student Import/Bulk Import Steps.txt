@@ -1,0 +1,19 @@
+Get the Excel spreadsheet from a teacher or on \\10.0.0.3\tier1 (Check spreadsheet for password)
+Login to KSD-FS1 to do the Import
+Open S:\Clients\Kewaunee School District\Network\Bulk Student Import\Active Directory\KSDStudents.xlsx
+Add the Fisrt Name, MI and Last Name (this will populate filds automatically
+Add passwords requested and confirm OU as the Grad Year is used
+Look at the CSV file inside of C:\UserImport for templates csv
+Copy both a  TestStudents.csv and KSDStudents.csv to C:\UserImport
+Run PowerShell As Administrator
+Change the directory to C:\UserImport
+Type Command:  Import-Module ActiveDirectory
+Type Command:  Set-ExecutionPolicy Unrestricted
+Type Command:  .\TestUserImport.ps1
+Confirm that the test user was successful and there are no errors.
+Delete the test import students or modify KSDStudents.csv to remove test import students
+Once you are very confident on the test. Do the full import.
+Type Command:  .\UserImport.ps1
+Once Complete, go into Active Directory, Do a query to find all users, sort by description, highlight all users go to properties, and choose to change the desciption to blank.  The Import is there to quickly find the users incase everything blows up
+
+Note:  I had to put waits inside the commands so AD can see the new users.  Without them it moved too fast and failed.  Each user will take 20-25 secs to be created.

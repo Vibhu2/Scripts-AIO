@@ -1,0 +1,53 @@
+Serial keys:
+
+ZF3R0-FHED2-M80TY-8QYGC-NPKYF
+YF390-0HF8P-M81RQ-2DXQE-M2UT6
+ZF71R-DMX85-08DQY-8YMNC-PPHV8
+AZ3E8-DCD8J-0842Z-N6NZE-XPKYF
+FC11K-00DE0-0800Z-04Z5E-MC8T6
+
+If the keys worked for you, this(https://isha.sadhguru.org/mahashivratri/sadhguru/articles/shambho-a-gentle-form-of-shiva/) will also work.
+
+https://www.win10productkeys.com/
+
+YNMGQ-8RYV3-4PGQ3-C8XTP-7CFBY
+slmgr.vbs /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX
+
+slmgr.vbs /skms kms.teevee.asia 
+slmgr.vbs /ato 
+
+Get-PSDrive -PSProvider FileSystem
+
+https://docs.microsoft.com/en-us/powershell/scripting/dev-cross-plat/vscode/using-vscode?view=powershell-7
+about_Command_syntax
+about_Comment_Based_Help
+about_Functions_Advanced
+about_Parameters_Default_Values
+about_Pipelines
+about_Wildcards
+about_Quoting_Rules
+about_Transactions
+about_CommonParameters
+about_Aliases
+about_Providers
+about_Certificate_Provider
+about_Providers
+about_Quoting_Rules
+about_Registry_Provider
+ForEach-Object
+about_automatic_Variables
+ABOUT_SPECIAL_CHARACTERS
+Using Enumerators
+about_Comparison_Operators
+about_Regular_Expressions
+about_Functions_CmdletBindingAttribute 
+about_Functions_Advanced
+about_execution_policy
+
+________________________________________________________________________________________________________________________________
+
+Note- create a "Data" folder in visual studio code and it makes visual studio code portable 
+
+
+
+

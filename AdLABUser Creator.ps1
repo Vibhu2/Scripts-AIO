@@ -1,0 +1,1 @@
+1..500 | ForEach-Object {new-aduser -name "Spstress$psitem" -acountpassword -(converto-securestring -asplaintest "StressTest!!**" - Force )-enabled:$true }

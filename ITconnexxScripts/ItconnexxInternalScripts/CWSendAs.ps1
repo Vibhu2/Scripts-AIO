@@ -1,0 +1,1 @@
+Get-Mailbox |% {Add-MailboxPermission $_.Name -User “cwadmin” -AccessRights FullAccess;}

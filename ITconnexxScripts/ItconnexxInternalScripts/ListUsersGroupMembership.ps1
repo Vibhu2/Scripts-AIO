@@ -1,0 +1,2 @@
+Import-Module ActiveDirectory
+Get-ADUser -SearchBase "OU=Users,OU=Company,DC=corp,DC=npscorp,DC=com" -Filter * -Properties * | Select-Object -Property Name,@{n='MemberOf'; e= { ( $_.memberof | % { (Get-ADObject $_).Name }) -join ";" }} | Sort-Object -Property Name | export-CSV c:\work\aduser.csv

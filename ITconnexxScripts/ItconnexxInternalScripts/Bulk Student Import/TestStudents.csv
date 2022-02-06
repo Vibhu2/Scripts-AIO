@@ -1,0 +1,2 @@
+Surname,Initials,GivenName,DisplayName,Name,Password,SamAccountName,Path,Groups,HomeDirectory,HomeDrive
+Samuel,J,Huben,Samuel Huben,Samuel Huben,GGS0T,SJHuben,"OU=2028,OU=Students,OU=Users,OU=KSD-Root,DC=kewaunee,DC=k12,DC=wi,DC=us","""APP-MicroPacePro"", ""APP-MicroTypePro"", ""KSD-Students"", ""Password-Student""",\\ksd-fs1\home\students\SJHuben,U:

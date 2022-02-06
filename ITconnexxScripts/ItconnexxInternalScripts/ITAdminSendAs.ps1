@@ -1,0 +1,1 @@
+Add-RecipientPermission “OWM Support” –AccessRights SendAs –Trustee ITConnexx-Admin
