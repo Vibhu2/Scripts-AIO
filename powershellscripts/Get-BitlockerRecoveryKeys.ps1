@@ -29,7 +29,7 @@ function Get-BitlockerUnlockKey{
             if ($RecoveryKey.Length -gt 5)
             {
                 Write-Output ("The drive $MountPoint has a recovery key $RecoveryKey.")
-                Write-host "$RecoveryKey"
+                #Write-host "$RecoveryKey"
             }        
         }
 }
