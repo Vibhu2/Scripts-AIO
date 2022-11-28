@@ -4,3 +4,4 @@ foreach ($i in $user) {
 echo ($i+6)
 
 }
+
