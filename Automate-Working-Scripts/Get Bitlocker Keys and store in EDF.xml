@@ -1,0 +1,86 @@
+﻿<LabTech_Expansion
+	Version="200.251"
+	Name="LabTech Script Expansion"
+	Type="PackedScript">
+	<PackedScript>
+		<NewDataSet>
+			<Table>
+				<ScriptId>467</ScriptId>
+				<FolderId>74</FolderId>
+				<ScriptName>Get Bitlocker Keys and store in EDF</ScriptName>
+				<ScriptNotes>Will get the bitlocker keys using manage-bde -protectors -get c:
+It will then store them in the computer EDF
+
+</ScriptNotes>
+				<Permission>0,</Permission>
+				<EditPermission>0,</EditPermission>
+				<ComputerScript>1</ComputerScript>
+				<LocationScript>0</LocationScript>
+				<MaintenanceScript>0</MaintenanceScript>
+				<FunctionScript>0</FunctionScript>
+				<LicenseData>H4sIAAAAAAAEAFWPwQrCMBBE74L/kA9oSTZUG8sSEBUvFkHFe5qkkEtS0hTs32uLQj3N7AxvYfDitPW9PaqkJD7GzkpAOiveBn8Ig082SoZ0ceHp1bk4MVbWwRs1ZuSqU2hsJExkhDMQBHjFWfUx+xrpAsC7jq5LTxt7F/z0+T/49ufBGVm0GwFGqFyrHcsBrMh3YMoceFtCsW20AP7jZwDpcs969QbkZVqq3wAAAA==</LicenseData>
+				<ScriptData>H4sIAAAAAAAEAOWY30/bMBDH35H4H05oSNuDaZ1fTVFXlUFB1UCrYOIJaXLiAyJSu4odSsX2v88NLqQVjUbXMlV7qu/OiezPXb5nt3URZ8lQHzHN2ttbAK0nWxWGMbsPOmOT6HGCKVdQmwb6LGMD1JiVfCepjFhacjy97NJMSqRo01Zt1jEz6yRPeNu79kPKQ0Zi1qwTSjEkTcobhDrXDeoFURxSZ/qW4oFizbXyou3rLjQOn3dxEGu7ADuy/uNcFHaPT2Ilq7xJOrdpZ85252xvzvZLPGSm23Wz3smv9R1KoROR48T/PLaxb+o0GSTFI9OhjfQER6FZsRkTLZtlJC8UKrA4VVjc5mIw7RPU8CXRqYzvMIOvOAYmOCgtM4REQyJA3yJ0j45bNfvE/wsyqOAY71+NEsHlSF2psdI4cJ2rARPsBknEcQ8fEMgwkxpjg1YBuTHc4/21QKWrhkrXCNWpV0Clr/Np76pbTNMMVZ7qXTvHmWXWjqZFfYdjO8V9E0Zn1RiddWKs+sY7ZRadtdScu0mwwqqai1nouixC4jaoQ7xmgKTpYUyQhx76NGT1JltQlp1YDoa5aagJ7yyoyldT8ba69Dbp86auX8H6o+k+xHSf04LIpUzzgZHJM5kL3ZeJ0HD4ac+0pP5UN+EnXGBqhkC6D0PTqExkiJkewznG8h6zcZ8pNZIZNzNHt2h62OOHH0AEws7Or7UUvr9JHWw5sR3KkTntvYPiBhvFskpxZ05U+wDvoMCNTYJXqcCRRyPX833iox8RL27EJPLckDhuo0H9AIOA1v+pAoebhHqpb/6lfnsKuoJFKfLiYjC5DGRWa8EAhBFToNi9CWsJB7mWA6bL94V5/E+bOM/FeaElS/FvbtJhYyn+3/tnkChAS357ayYh1l322pwUKfn8utzMZ+KA8564lktlgK784rbOFNBKrV6gJX97CVv5LewPCE1t+1/Qb9QmORgaEgAA</ScriptData>
+				<ScriptVersion>1</ScriptVersion>
+				<ScriptGuid>4f581d8a-ca90-11e8-91d7-12f7146bc812</ScriptGuid>
+				<ScriptFlags>0</ScriptFlags>
+				<Parameters></Parameters>
+			</Table>
+		</NewDataSet>
+		<ExtraDataField>
+			<NewDataSet>
+				<Table>
+					<ID>208</ID>
+					<Form>1</Form>
+					<Name>Bitlocker Recovery Key</Name>
+					<Sort>3</Sort>
+					<NoBreak>0</NoBreak>
+					<FType>0</FType>
+					<Section>Bitlocker</Section>
+					<UnEditable>1</UnEditable>
+					<Collapsed>0</Collapsed>
+					<Fill>Bitlocker Recovery Key</Fill>
+					<LtGuid>ca833abe-3712-496e-94ec-ed84e518a09a</LtGuid>
+					<IsPassword>false</IsPassword>
+					<IsEncrypted>false</IsEncrypted>
+					<IsHidden>false</IsHidden>
+					<IsRestricted>false</IsRestricted>
+					<ViewPermissions>1</ViewPermissions>
+					<EditPermissions></EditPermissions>
+				</Table>
+			</NewDataSet>
+		</ExtraDataField>
+		<ExtraDataField>
+			<NewDataSet>
+				<Table>
+					<ID>209</ID>
+					<Form>1</Form>
+					<Name>Bitlocker Recovery Key Only</Name>
+					<Sort>4</Sort>
+					<NoBreak>0</NoBreak>
+					<FType>0</FType>
+					<Section>Bitlocker</Section>
+					<UnEditable>1</UnEditable>
+					<Collapsed>0</Collapsed>
+					<Fill>Bitlocker Key for C</Fill>
+					<LtGuid>b41b3455-5e5b-4c7c-b438-2377156e6610</LtGuid>
+					<IsPassword>false</IsPassword>
+					<IsEncrypted>false</IsEncrypted>
+					<IsHidden>false</IsHidden>
+					<IsRestricted>false</IsRestricted>
+					<ViewPermissions></ViewPermissions>
+					<EditPermissions></EditPermissions>
+				</Table>
+			</NewDataSet>
+		</ExtraDataField>
+		<ScriptFolder>
+			<NewDataSet>
+				<Table>
+					<FolderID>74</FolderID>
+					<ParentID>0</ParentID>
+					<Name>ITBD</Name>
+					<GUID>74993c69-aa0c-4f0e-b2c5-6f1e333b06d2</GUID>
+				</Table>
+			</NewDataSet>
+		</ScriptFolder>
+	</PackedScript>
+</LabTech_Expansion>

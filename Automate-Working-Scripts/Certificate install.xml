@@ -1,0 +1,37 @@
+﻿<LabTech_Expansion
+	Version="200.251"
+	Name="LabTech Script Expansion"
+	Type="PackedScript">
+	<PackedScript>
+		<NewDataSet>
+			<Table>
+				<ScriptId>445</ScriptId>
+				<FolderId>74</FolderId>
+				<ScriptName>Certificate install</ScriptName>
+				<ScriptNotes></ScriptNotes>
+				<Permission>0,</Permission>
+				<EditPermission>0,</EditPermission>
+				<ComputerScript>1</ComputerScript>
+				<LocationScript>0</LocationScript>
+				<MaintenanceScript>0</MaintenanceScript>
+				<FunctionScript>0</FunctionScript>
+				<LicenseData>H4sIAAAAAAAEAFWP0QqCMBiF74PeYQ/g2OY0U34GURFE3VTk9Zy/MIgp00G+fSgFdnU45/AdOHCxBl2PBz1oBY+xQyWAzQq34PZtcAN6xYEtHBzfnfUTg6rE2mFf6zEi5/AaCRcRiXnMieBFLAuekN0V2AKAu/G2G57oe9u6afk/+PanYGvVyDyR2SajVbVNqBCoqZaYU455ajTKxqTpj58BYMs/69UHjXWe0t8AAAA=</LicenseData>
+				<ScriptData>H4sIAAAAAAAEANWW22rCQBCG7wt9h0XwcmuOHooEJFURhJbG9kqQNRnbhZzYbIq980Hal/NJuomrjaHdm2LFq8w//+xk5ksI6Xs+oym/I5w411cI9Xc6K4WQwzVnpHBHFMIgQ6298UAYiYADq+TGYbIkYSWxa/YsimgSO3q/dZw4qhrnNHBWZs8yO+0OXi67FtZ1IJiY0MMa9GyfgLnybXvfpTxQztyqDi3beRzSwxYDn8sBZCTzozwu9SQovIqqLqnXljZq2qxpq6btCo+EcUcT8xZXmXOTmNM4hyJ/iKV3n01pRMsj+1A6kziAmJNyGeFWZRXJNwUFFkOBxdC038E4Y3FT9r4YjWcLFxifj8ReNAa+cAcLz5ve+MD6LVl7hNBxb+ccolRxwvhvyNjQrY7VNdtW92y4daOtwC3g8OiF3cAaECZBgBoKjA2EM4RZkvCfH8Ef32L9QgGr+LrDx9nTbDIt4WY8YQKzGANYymgm4hXCb6ggirabDwX67ebzJMyNi/py9BSkm9krhCGDLA958ySszEtipSthaScBZJ0B0F7L340vI9T8yX0IAAA=</ScriptData>
+				<ScriptVersion>1</ScriptVersion>
+				<ScriptGuid>f3943767-bb84-11ea-a3e9-0e95cae3fc55</ScriptGuid>
+				<ScriptFlags>0</ScriptFlags>
+				<Parameters></Parameters>
+			</Table>
+		</NewDataSet>
+		<ScriptFolder>
+			<NewDataSet>
+				<Table>
+					<FolderID>74</FolderID>
+					<ParentID>0</ParentID>
+					<Name>ITBD</Name>
+					<GUID>74993c69-aa0c-4f0e-b2c5-6f1e333b06d2</GUID>
+				</Table>
+			</NewDataSet>
+		</ScriptFolder>
+	</PackedScript>
+</LabTech_Expansion>

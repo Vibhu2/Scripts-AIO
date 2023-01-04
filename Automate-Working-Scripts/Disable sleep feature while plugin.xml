@@ -1,0 +1,37 @@
+﻿<LabTech_Expansion
+	Version="200.251"
+	Name="LabTech Script Expansion"
+	Type="PackedScript">
+	<PackedScript>
+		<NewDataSet>
+			<Table>
+				<ScriptId>483</ScriptId>
+				<FolderId>78</FolderId>
+				<ScriptName>Disable sleep feature while plugin</ScriptName>
+				<ScriptNotes></ScriptNotes>
+				<Permission>0,</Permission>
+				<EditPermission>0,</EditPermission>
+				<ComputerScript>1</ComputerScript>
+				<LocationScript>0</LocationScript>
+				<MaintenanceScript>0</MaintenanceScript>
+				<FunctionScript>0</FunctionScript>
+				<LicenseData>H4sIAAAAAAAEAFWPywrCMBBF94L/kA9oyKO1pmXIRkUQBdHiPk0HzCYtaQP277VFoa6GmXvPgYGzs+h73JvBaKjGDrUANk+4Rb9rox8waA5sscHh1bkwMairZwx9Y8aEnKJHIjcJkVxyIkuelUKS6wXYog53G1w3PDD0rvWT9//wzY/RNVqpIjWi2NI6R0uFQEPr2ub0oxeZkjJVAn/8DABbfrNevQE6NHyL3QAAAA==</LicenseData>
+				<ScriptData>H4sIAAAAAAAEAOWU0UrDMBSG7wXfIS8QtmRzdjAKom4MBIWB92lypoEsLckJbm9v26UzK9i7McSrnv//k8M5H6GLjXS6wieBIr+9IWRx1L4VtXzeoxNNutRglCejLngTTuwAwSXeypSFMIlxbPZeH9KlzdlidG6cnVoFrfIsm08Em9/TYgaSMgaCFoWc0TEfs2nG+SRj0HVpL7Qzj9KhY7sNQnXa4kFiHCBW0V8G2+q1arJEpUuy3tK8pyc9Pe3pu4RH6TAf1/M23+g9lha1DdD4pzpmr/5F73R7pStjsrYKLIp2mTpNZYrkh8IAFj6EZfY7l7wqv8DJ7Qehe0I9CquKA0W9gzIgFZLUg8WT/5Yfnw/w2wQpwfttMOZAlPaiMKAIfgLxBqAiWxAYHFyEIvtLFNkgxss8M34FQJ2Ov+Nv9JImxZ0FAAA=</ScriptData>
+				<ScriptVersion>1</ScriptVersion>
+				<ScriptGuid>8893a197-b6ec-11ea-bbc6-02014822381e</ScriptGuid>
+				<ScriptFlags>0</ScriptFlags>
+				<Parameters></Parameters>
+			</Table>
+		</NewDataSet>
+		<ScriptFolder>
+			<NewDataSet>
+				<Table>
+					<FolderID>78</FolderID>
+					<ParentID>0</ParentID>
+					<Name>ITBD</Name>
+					<GUID>c47a3d26-3026-4746-be41-1d0c970256dd</GUID>
+				</Table>
+			</NewDataSet>
+		</ScriptFolder>
+	</PackedScript>
+</LabTech_Expansion>

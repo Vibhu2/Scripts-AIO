@@ -1,0 +1,37 @@
+﻿<LabTech_Expansion
+	Version="200.310"
+	Name="LabTech Script Expansion"
+	Type="PackedScript">
+	<PackedScript>
+		<NewDataSet>
+			<Table>
+				<ScriptId>7867</ScriptId>
+				<FolderId>451</FolderId>
+				<ScriptName>Adobe download</ScriptName>
+				<ScriptNotes></ScriptNotes>
+				<Permission>0,</Permission>
+				<EditPermission>0,</EditPermission>
+				<ComputerScript>1</ComputerScript>
+				<LocationScript>0</LocationScript>
+				<MaintenanceScript>0</MaintenanceScript>
+				<FunctionScript>0</FunctionScript>
+				<LicenseData>H4sIAAAAAAAEAFWPzQrCMBCE74LvkAdoyY+mWlly8e+iIFa8J80KOZiGNAX79tqiUGFg2Bm+hYGTq9G3uNNJK7j1ARUHOjpcO79tOp8wKgZ0csH+FVwcGFSH6KzuM1JhSPg0GAlfZ0QwwUixWXwkyeUMdEJAVUcX0h1j6xo/vP4Pvv2xc1aJVSlLKcr8UVrMOUedG27qnDHJZGEKubbLHz8CQKeD5rM3nUdyxeAAAAA=</LicenseData>
+				<ScriptData>H4sIAAAAAAAEAOVZX2/iOBB/R+I7WJFSwUP+kqTQFq492u4indrV0r1KJySUxE7JbmpnY2dL7+E++9lJKGkX0jtOEUT3Ap4Zz9j+zXjGA2dTPwljdukyd9RuAXCW0zQjOHm1ZIkrpNchiiAF2krwyU3cR8RQUuJ9iIjnRiVGbux3PikkeGScaa8Zr2Z9SEM4Mo8H9sA2B0owgEgxDOQqnuH5iq7buu14jt2H1spKppDtWStvujA3ZSh+OcWFz4oNFKOCf53ijJ5AIStR5UMabw5tvqF7b2jrDW2X8CAJG+l8v+K74I0JZiFOkeC/jAvZLf0tfAwzldWwkEwwRJi52WG4tEyWIVmjUAGLWQWLbW0HZjQ+md0hyjh2BeN/i5PZr4CpCM/ZBSQeApA84Yi4UI3pFuBecN2uYf4naI0mQWs4FdDG5IknkwWKIqBggpYhA9KR+xifAkmqQFGSpFpi1mwSsKbeq0B2gn+Qb0i5R95n9D3lOIIFYzE90TQYqTAhsUeWqk8eNaqF1nJAUsPxcc/E3xhfMeGFgMmmfjnmH7LZvw8xh5/K5mCO8PzLdH4/uZk7lvpnGP8Co6EBlNuUXYcRAmun5Ubml+OfVGpxXe/fu04xDevY6vccq78/Jw4qfChnNyNBNI2YXAtqVqMCvqLIjxxdrwUhu1EI9ewKiMwt5eoc+QsCSBC0WxSxiPhu1G75EGgQyH/BWG+3xi5P0Cdf8B9hnN1y6b1rLr0/RWQCqd3Kcr7mtVvtVmmBo4idZm9Xn92Rowd2mnEweuJKAZ8gWNluwQ+PDiWZocdYns1VTnGbYQC4WZ7yZE7LAKIIaAHQvud0uyW0cxHIjj7ldgJKwBCME+QydOt9RT7rSLkTQvygik1NnylfJpdJ3dzK2lJmaBKAm9s7YUu9JhFEyZXYBu3IRhfcLRDeqCRm5+vmOmL2xolXGPIVNooEEsT7Os0q6U/HEFz1Io6j0M+CbsvuhRFxUDoRfhiu7Kk3vFOYxq6POrLZVUMOAt2ov0nB6KpjEj9/RAnqrG1vXn/thhvCFhz2rbNKR32Z6tPMW0DTMInIA1k5+71gaLf+2ZtstHq7Wa/zxYiXvjhlhdB+lTycRiWPqlJ0np/yvJYce9womKqqkGHWU4X6TUKo8sX/bl1Y8cHlGHSKh2d39msaRnDG734aq2iJJKAolKcTzGqBe9AkuPf8hDSa1ejv4w1p7NCwH0JzUnmRA/YcIxDDQLzHhvxWf0rIA5fkTwjQWfadbt66l270aph9f4Y9U1xmIMlGPf28sUNDfwjA7/tKN7SZroxXl1LiA5UH7LAI2nqw26GlPgTs9h1yO/TZhwCb4ej7+oHd2KG7OAjIKkOtpgq8jxZjRRf/zv0Nf5849KwbAAA=</ScriptData>
+				<ScriptVersion>1</ScriptVersion>
+				<ScriptGuid>27959529-f9de-11ea-b1bc-005056b658d4</ScriptGuid>
+				<ScriptFlags>0</ScriptFlags>
+				<Parameters></Parameters>
+			</Table>
+		</NewDataSet>
+		<ScriptFolder>
+			<NewDataSet>
+				<Table>
+					<FolderID>451</FolderID>
+					<ParentID>0</ParentID>
+					<Name>IT By Design</Name>
+					<GUID>063aaf9b-5f25-459f-b4c4-c2b799589257</GUID>
+				</Table>
+			</NewDataSet>
+		</ScriptFolder>
+	</PackedScript>
+</LabTech_Expansion>

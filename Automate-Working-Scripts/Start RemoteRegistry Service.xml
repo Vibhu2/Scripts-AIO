@@ -1,0 +1,37 @@
+﻿<LabTech_Expansion
+	Version="200.251"
+	Name="LabTech Script Expansion"
+	Type="PackedScript">
+	<PackedScript>
+		<NewDataSet>
+			<Table>
+				<ScriptId>6385</ScriptId>
+				<FolderId>273</FolderId>
+				<ScriptName>Start RemoteRegistry Service</ScriptName>
+				<ScriptNotes>It will Change the Startup Type to Automatic and then Start the Remote Registry Service.</ScriptNotes>
+				<Permission>0,</Permission>
+				<EditPermission>0,</EditPermission>
+				<ComputerScript>1</ComputerScript>
+				<LocationScript>0</LocationScript>
+				<MaintenanceScript>0</MaintenanceScript>
+				<FunctionScript>0</FunctionScript>
+				<LicenseData>H4sIAAAAAAAEAFWPzQrCMBCE74LvkAdoSNJSm5QlICpeFESL99iukkta8gP27aVFoZ6G2ZlvYeBkW3QB9yYaDc04oBbAZoVrcrs+uYhec2ALB4f3YP3EoG4Shs6MGdmmVwqRiCIjOReKyDqv6rIilzOwRR9urbdDvKMPtnfT4//DNz8m2+mufRY8x4o+kCsqBCoqlVSU85KXG2MKifLHzwCw5Zz16gOwTSIv3gAAAA==</LicenseData>
+				<ScriptData>H4sIAAAAAAAEAOWWTWuDQBCG74X+By85Gr+tgkhL24RAoQGh941Om6Vmld2xH/++atZUJRGCpCA9Oe87u8vMw7BrEMWc5vhAkITXV4oS7LWoRSkfv5CTKrugkCZC0ZrEmnCyAwTe8pZptiFpy9gf9lIuohkLjUDrGp1Vy4ImYRK/WroJN+oGdF81DPBVz/d8Vdcd3XEJsTzwmlPqDXXNWrtoeVyEkB+6uItRFiAj6S8KVutVUuVaqt2k0Wva7Gmrp+2edlo8Mo6hXtZbfaV3nzGkrIDKP8Qy9yye6I7WW5pQZlYsAYakbqbMtmUbyS+FASzmEBZHPw0m5LDLyhGANyqQfweatDu0qvJk9G+omQPTFFr6cVAjx8qYEiDLGTlVI2GZU4I1OE2GcxFA1pQAOe6fXd72lLiY/sDgzMQW0pSDKFKcXWSGnEmxsgdYCYRPwnH+XrCkuKW4SeYM8MR7F+VZlgJXIuAfNAZlS4QSYZbnkBx/CcM1pwyVZh8Viugst86i7p5PXTUN+8b2LNf2xvJvtPyh/AEbJa77XwoAAA==</ScriptData>
+				<ScriptVersion>1</ScriptVersion>
+				<ScriptGuid>dcf302e7-be09-11e9-8989-005056aa38e8</ScriptGuid>
+				<ScriptFlags>0</ScriptFlags>
+				<Parameters></Parameters>
+			</Table>
+		</NewDataSet>
+		<ScriptFolder>
+			<NewDataSet>
+				<Table>
+					<FolderID>273</FolderID>
+					<ParentID>0</ParentID>
+					<Name>Stewart</Name>
+					<GUID>afdf7a15-23c6-4b95-b573-114cff470ca3</GUID>
+				</Table>
+			</NewDataSet>
+		</ScriptFolder>
+	</PackedScript>
+</LabTech_Expansion>

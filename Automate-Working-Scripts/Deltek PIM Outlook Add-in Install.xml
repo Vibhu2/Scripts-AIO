@@ -1,0 +1,37 @@
+﻿<LabTech_Expansion
+	Version="200.310"
+	Name="LabTech Script Expansion"
+	Type="PackedScript">
+	<PackedScript>
+		<NewDataSet>
+			<Table>
+				<ScriptId>7865</ScriptId>
+				<FolderId>451</FolderId>
+				<ScriptName>Deltek PIM Outlook Add-in Install</ScriptName>
+				<ScriptNotes></ScriptNotes>
+				<Permission>0,</Permission>
+				<EditPermission>0,</EditPermission>
+				<ComputerScript>1</ComputerScript>
+				<LocationScript>0</LocationScript>
+				<MaintenanceScript>0</MaintenanceScript>
+				<FunctionScript>0</FunctionScript>
+				<LicenseData>H4sIAAAAAAAEAFWPwQrCMBBE74L/kA9oSLY2pS1LQFS8WBAV72mTSi5pSROwfy8tCvU0zM68hcGLbY0bzVEFJfExDUYCskXxFt2hjy4YLzmylcPTe7B+Zoyse6fVlJB9fMUxkB0kJOUpJ1kFRQWCXGtkqzreW2+H8DR+tL2b//4fvvk5Wi3zTuk0UyXtSl5QAKNoA01LORdc5E0uCp39+AVAtl6z3XwAryRRf90AAAA=</LicenseData>
+				<ScriptData>H4sIAAAAAAAEAO2a70/iMBjH319y/0OzxPgKRrcx4aIkBH+RQ/FE7nLJElO2oo2jnV2n+N9fmUMngV5A5+ydb6BP223tJ32ePd8Hdgc+J5HYRwK1vn4BYPfRjlNDmgdTwdFs9JDgMIiBOR84QxxNsMA813cUshEKcx2PN/spJxFGW3DXfNnxYtZRQoKWO0aB5aBmZdysNSoQYlQZwZFfqdXqtbo7cuuNwJnfJb0gXbOZX3R2u4HA0dMu2r7IFpC1sv7DhKZ2N5iN5az8JuHCpq0F216wnQW7nuPBuGjV5Hpn31lfh1FBaIJn/U/tbKwf98iEpJfMm9lIlwaYCpRuRo7mzTySZwoKLJYCS9355LKMi6U4Ly1bPjlrviUgqBMgaNUUhIZU9oLBbYI4Bv1EhIzdgHYQVAgFU9tajm8GIGu9BqO1PsYdHTG6zgqM9ptgtNfH2CgPo6ugeD8hPog4CxJfgPtrLFkaAY7TB8n5e9t/Oa3bwAAJJTQWKAwL8XxHJ8+3mgrWW/E1DkOO4yQUW4WwquvECiphrYiDrwTkagWoOMd1neIdd0cn1iU7bkMnVur38j4OBb4BZ92T905umv9OcqOAWHBqAzeQIrrmNsqjWnyAhFqJmpIjJNxAuvxfuQ3cQJXomtwo4+M7eO6nKFkDll6qRFX1a3W+edl5KwaVVvpEWQeEBdUBtVIVyiA39Vn0AAzPQxN8hyiKohr0/JDIpfhsEjEqG7EB/KcjB8wYmA/FYNVKgJQd0DYQGh/US91ivNTS6vcMpZdyfAVuE8wfwPH3g9+XvX6n3bs8aXeOu6cH3qB/ePGrfX7gnRCfs5iNhdcfj4mPvU5I/JsLdp5QT254TK4Snq4cmHfgLERizPikGPSfomINWFqJCmXFAK6oCiyDuFAhmJ1xEgs+f7XY6zHUSnbsqBgucFhE2ViBb9pwl5NrzUs1jpqgVmpCGS0nMcFT7FflBzAJMJ6Tl/m3lGmEXkqVVpVzDWDeypBImTyfAnEBhqfd/ungx1DG1OF5b89IZkXsOK1hV2WadMVZElV9ZBQTDbQSKmWHTq2kCnRVfl+wqrP00izKg1VQvqiV/HibCNhwP2AE1EvZlBsBbc1ETokR0NZKlJQRAe0ylMjczv4B+we8fBBCECsAAA==</ScriptData>
+				<ScriptVersion>1</ScriptVersion>
+				<ScriptGuid>6fad24a9-f908-11ea-b1bc-005056b658d4</ScriptGuid>
+				<ScriptFlags>0</ScriptFlags>
+				<Parameters></Parameters>
+			</Table>
+		</NewDataSet>
+		<ScriptFolder>
+			<NewDataSet>
+				<Table>
+					<FolderID>451</FolderID>
+					<ParentID>0</ParentID>
+					<Name>IT By Design</Name>
+					<GUID>063aaf9b-5f25-459f-b4c4-c2b799589257</GUID>
+				</Table>
+			</NewDataSet>
+		</ScriptFolder>
+	</PackedScript>
+</LabTech_Expansion>

@@ -1,0 +1,47 @@
+﻿<LabTech_Expansion
+	Version="200.251"
+	Name="LabTech Script Expansion"
+	Type="PackedScript">
+	<PackedScript>
+		<NewDataSet>
+			<Table>
+				<ScriptId>6475</ScriptId>
+				<FolderId>280</FolderId>
+				<ScriptName>Focus VPN install</ScriptName>
+				<ScriptNotes></ScriptNotes>
+				<Permission>0,</Permission>
+				<EditPermission>0,</EditPermission>
+				<ComputerScript>1</ComputerScript>
+				<LocationScript>0</LocationScript>
+				<MaintenanceScript>0</MaintenanceScript>
+				<FunctionScript>0</FunctionScript>
+				<LicenseData>H4sIAAAAAAAEAFWPwQrCMBBE74L/kA9oaJI2LZYlFxUvFkSL9zVdMZe0pA3Yv5cWhXoaZmfewsDZWfIDHXBEA83Uk5GQLgrX6Pdd9CMFIyBdOTi+exdmhkwTaWhxSliNwb6YyBKmhBIsq4Sq8pJdakhXdbjZ4PrxTmFwnZ///h+++Sm61shCy5wy4rotFJeSkO8eaLkQWugCUT5V+eMXANL1mu3mA2kqBo3dAAAA</LicenseData>
+				<ScriptData>H4sIAAAAAAAEANWWUWuDMBDH3wf7Dr700WpiTO0QoXRrKQw21tGngqR6Y4JVMXH0409tbFOhblCK+JT7/y857n4cqLsO8igTz0ww7/FB09yj5rUo5ctB5KzKLiKIQ64ZTeKd5WwPAnLFW8bpjsWKcSy2KS9FaeIh17g0Lm4tiyj0ELURAQt0O6RYRwiYPt2xQDdN27QpY+gLT5oq9YO6Z0NtWpZbC8hOU8wCIRuQkfQXRVLrVVjlFKUOiVpD45a2Wpq0tK3wSHPhmWW/1Sm9eZqIKCmg8k+xzL3x12gf1U+aUGZWSQiJYPUwZVaVKpIzhQ4suAuLTa6D8eZP20/gwjWk7hmTjhGZEMeixOkNGHY6eC3SoOB+kYVMQDjesSvkWlzxTRzRoNaN/r1t25ridXo37h0eEi887eA14t8QxznwIhaju7CyhsTqX7uFHFJ9bKbUKQ//A378mb/czNcgioySMRxAM/hdWJIhsex57+weWDVa/ir9AsH4pIo5CQAA</ScriptData>
+				<ScriptVersion>1</ScriptVersion>
+				<ScriptGuid>16514e3e-5d62-11ea-9bac-005056aa1f27</ScriptGuid>
+				<ScriptFlags>0</ScriptFlags>
+				<Parameters></Parameters>
+			</Table>
+		</NewDataSet>
+		<ScriptFolder>
+			<NewDataSet>
+				<Table>
+					<FolderID>280</FolderID>
+					<ParentID>272</ParentID>
+					<Name>Test scripts</Name>
+					<GUID>145061da-45d2-4c69-9a0e-f3fe0e6e6e50</GUID>
+				</Table>
+			</NewDataSet>
+		</ScriptFolder>
+		<ScriptFolder>
+			<NewDataSet>
+				<Table>
+					<FolderID>272</FolderID>
+					<ParentID>0</ParentID>
+					<Name>Roy</Name>
+					<GUID>f72d390a-cee0-4532-8978-a2d4f98e544b</GUID>
+				</Table>
+			</NewDataSet>
+		</ScriptFolder>
+	</PackedScript>
+</LabTech_Expansion>

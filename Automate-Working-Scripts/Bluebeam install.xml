@@ -1,0 +1,37 @@
+﻿<LabTech_Expansion
+	Version="200.310"
+	Name="LabTech Script Expansion"
+	Type="PackedScript">
+	<PackedScript>
+		<NewDataSet>
+			<Table>
+				<ScriptId>7859</ScriptId>
+				<FolderId>451</FolderId>
+				<ScriptName>Bluebeam install</ScriptName>
+				<ScriptNotes></ScriptNotes>
+				<Permission>0,</Permission>
+				<EditPermission>0,</EditPermission>
+				<ComputerScript>1</ComputerScript>
+				<LocationScript>0</LocationScript>
+				<MaintenanceScript>0</MaintenanceScript>
+				<FunctionScript>0</FunctionScript>
+				<LicenseData>H4sIAAAAAAAEAFWPwQrCMBBE74L/kA9oSFIbbcsSEBUvFkTFe9psJZe0pAnYv5cWhXoaZmfewsDFNugGPOqgFTzGHpUANivcojt00QX0igNbODi9e+snBlXVOaPHhOzjKw6BbERCUp5ykpUiL4Uk1wrYog73xts+PNEPtnPT3//DNz9Ha5Sp02KXt5qiaQsqBGpaS5NTziWX23orc5P9+BkAtlyzXn0AAqQhON0AAAA=</LicenseData>
+				<ScriptData>H4sIAAAAAAAEAOWWXWujQBSG7xf2PwyBXhodq9aURGgS05U2STcfhQVhGfWUDutHVseS/vuOdsxOA/VOiuyNnvccZzjnGV51vA1zemBzwojz/RtC43dd1IJL98hyUlUXFOKoQGpTeCA5SYBBLuVu4ywgsZR43+yRP0Sz1MFj9WPiw1O3JY2cKNBHV/YTUSB6GikYA1ECM7IVTTM10wos046MZpd6Qd2zKjctttsyOJymuAmZaEBEIr8o01p7UVWTlDwkPhtaP9OXZ9o406bEI8uZo/F+q7vIzbKU0bSEKn+KRW1d3NOE1kuaUFS8NIKUkXoYXpWljOQfhRYsehsW0/gcjDO79qdxCQGQJBmrIvn/srJaUB3D7PCKBr5PoFBeSKoEfw7+DsJntKAxFCeO/nLrNfEGXkpdG2pDbB4tY4BCCTdSuc9eO4GO+wRdH7VAvyieIY5zKMqYXXTCSu8Vq5aXnINtrRNCl30i1GrhpKBwhHDIL0ilaMDtGDR2PBkTVaZF3K6IO5evGKDp9PfW3Xg396v9cupuJiNb1y1e5/mHzXq+n+3u3F+Txx/LFVYs6275c39V1dy5t/PWqwn//PxNOzkZo08n88U+N/vECrfC6sbm1hcAarT4e30DXxTeCswKAAA=</ScriptData>
+				<ScriptVersion>1</ScriptVersion>
+				<ScriptGuid>db2978fa-edf9-11ea-b5d8-005056b658d4</ScriptGuid>
+				<ScriptFlags>0</ScriptFlags>
+				<Parameters></Parameters>
+			</Table>
+		</NewDataSet>
+		<ScriptFolder>
+			<NewDataSet>
+				<Table>
+					<FolderID>451</FolderID>
+					<ParentID>0</ParentID>
+					<Name>IT By Design</Name>
+					<GUID>063aaf9b-5f25-459f-b4c4-c2b799589257</GUID>
+				</Table>
+			</NewDataSet>
+		</ScriptFolder>
+	</PackedScript>
+</LabTech_Expansion>

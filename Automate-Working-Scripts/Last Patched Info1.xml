@@ -1,0 +1,60 @@
+﻿<LabTech_Expansion
+	Version="200.251"
+	Name="LabTech Script Expansion"
+	Type="PackedScript">
+	<PackedScript>
+		<NewDataSet>
+			<Table>
+				<ScriptId>456</ScriptId>
+				<FolderId>79</FolderId>
+				<ScriptName>Last Patched Info</ScriptName>
+				<ScriptNotes></ScriptNotes>
+				<Permission>0,</Permission>
+				<EditPermission>0,</EditPermission>
+				<ComputerScript>1</ComputerScript>
+				<LocationScript>0</LocationScript>
+				<MaintenanceScript>0</MaintenanceScript>
+				<FunctionScript>0</FunctionScript>
+				<LicenseData>H4sIAAAAAAAEAFWPTQrCMBSE94J3yAEa8kPTSHlko+LGgqjoOiavmE1a0hbs7bVFoa6GmeEbGDgGh7HDne2tgevYohHAZoXzELfNEHtMhgNbONi/2pAmBs0dfcTO2zEjlU3uSaTKiOSSE13meak4OVXAFgBcXAptf8PUhSZOy//Btz8MwRtVWK3Vo6YFekWFQEs3vkbKueKfzopa6h8/A8CWf9arN45a5QPfAAAA</LicenseData>
+				<ScriptData>H4sIAAAAAAAEAN2XQWvbMBTH74N9B10K20HEku04gWAytjYLdKxQ2GWMIctPiTZFTi2Z9NAPP9lROicsZt1Ig3uK/u9JQu/nv/OsyS0v5dp+YJalr18hNNlq0wgnL+9tyerslQSVGzTYJW5YyVZgoTTp5YpJNRm0In7OTBUZU61F282/uCmy0CmZDPYDe7NmlczTeMiSJM4EHkIeY0KA4VEuAAdBHLgcI4Imu12aBU0Ng3YRfrtbC+vHg73j1h/Aj3z8qtKNnud1rqXaRZMDCPRAhwc6OtBxi0dR2jRw561/fex9oa3UFdTxx7HPfTbXciWbJbuhz8x1DtqyphiXbcs2kt8UOrDQDiw0CI+DSTcrydGdAKSksd4R5NywMCVREo3CYTQ6I7YOauTPpNKLdbFxb8YSlCrBVMpe+Il0H2G6ze62CZ8ElPQU6LgD6NQDmZ7EgrSfxEgYdyB7MwOLPxZWyHv0gOr6kNTGMqUgL/Tbr5h8OwnM8OXDNKCA7+FED88HOHo53WXhqLoOU2Q/ap6YK2YM2kgd0u93leQ/HW7QC6kBSqkXJ6EZ99Ouz9F+6D+1n2Gv7PkXTYeepukkfeI06rKbCLKYC/chP87pGEdhFmOWBwxTgCjJuCBCZEccOeXFal25G4bMp0e8ePgUnubGUZ8o06jLjc2l7IgX02tmLLphli/RfNuEkLvjASoE+sT40v2FHsGL/o/v+Ax8d9pfcX8BmN+tI/EOAAA=</ScriptData>
+				<ScriptVersion>1</ScriptVersion>
+				<ScriptGuid>56a775bf-6ed5-11ea-8dfe-005056aa1f27</ScriptGuid>
+				<ScriptFlags>0</ScriptFlags>
+				<Parameters>Email</Parameters>
+			</Table>
+		</NewDataSet>
+		<ExtraDataField>
+			<NewDataSet>
+				<Table>
+					<ID>195</ID>
+					<Form>1</Form>
+					<Name>Last patch date</Name>
+					<Sort>0</Sort>
+					<NoBreak>0</NoBreak>
+					<FType>0</FType>
+					<Section>Patching</Section>
+					<UnEditable>0</UnEditable>
+					<Collapsed>0</Collapsed>
+					<Fill></Fill>
+					<LtGuid>f0b5cfea-9d29-43b5-ad0a-2ee47bcf1ffb</LtGuid>
+					<IsPassword>false</IsPassword>
+					<IsEncrypted>false</IsEncrypted>
+					<IsHidden>false</IsHidden>
+					<IsRestricted>false</IsRestricted>
+					<ViewPermissions></ViewPermissions>
+					<EditPermissions></EditPermissions>
+				</Table>
+			</NewDataSet>
+		</ExtraDataField>
+		<ScriptFolder>
+			<NewDataSet>
+				<Table>
+					<FolderID>79</FolderID>
+					<ParentID>0</ParentID>
+					<Name>ITBD Scripts</Name>
+					<GUID>33124dbf-5d98-46cc-8980-39891714f10e</GUID>
+				</Table>
+			</NewDataSet>
+		</ScriptFolder>
+	</PackedScript>
+</LabTech_Expansion>

@@ -1,0 +1,202 @@
+﻿<LabTech_Expansion
+	Version="200.251"
+	Name="LabTech Script Expansion"
+	Type="PackedScript">
+	<PackedScript>
+		<NewDataSet>
+			<Table>
+				<ScriptId>460</ScriptId>
+				<FolderId>74</FolderId>
+				<ScriptName>Get Bitlocker Status and Record Keys then set EDF's</ScriptName>
+				<ScriptNotes>Check if a computer has TPM enabled in the BIOS and set it on the EDF
+Check if a computer Bitlocker is Enabled and set it on the EDF
+Get the current Recovery Key and add it to the EDF
+
+</ScriptNotes>
+				<Permission>0,</Permission>
+				<EditPermission>0,</EditPermission>
+				<ComputerScript>1</ComputerScript>
+				<LocationScript>0</LocationScript>
+				<MaintenanceScript>0</MaintenanceScript>
+				<FunctionScript>0</FunctionScript>
+				<LicenseData>H4sIAAAAAAAEAFWPzQrCMBCE74LvkAdoaTa1tZQlUFS86EXFe0xXzSUt+QH79tqiUE8zO8O3MHgwmqynrQpK4mXoSQJmk+Ip2k0XbSAnOWazC3ev3riRIXl5RudbNSSsiY/oA4MyYYJDxUDUOdR5wZojZjMCz9qZPlzJedPZ8fV/8O330bSSuBK84DxVnHQKQNXHlXkK4r6GVXnTFYgfPwGYzQctF2+rz4LZ4AAAAA==</LicenseData>
+				<ScriptData>H4sIAAAAAAAEAOWZ0W6bMBSG7yftHXyTSxZsSEKqDKVd0y5at1ZKtXsHTGqN2MiYrZP28DNgEhIVr9tgGdtFFI6PceADn/8/ymwVCJrISyyx//IFALMyTotAhYtHKXCevaIkDlMwrBJ3WOAtkUTUxq5jvsZx6s/LRRZsQxlZMLyOyQ3fbIiYv74XGZkNq4n6vHL6R7UW5cyHs+HhwMGs64yGPrExske2bWGbBBaExFNHY8eCKJpAd7wOPIiqVYoTilsb1u9NL7eSJNldx3kg9QXoIz1+lbEiXoZ5rhbVWcAjNugodo5i9yge7eMVF9K31fXm33rsDWeSsozk47tjnbtNb+iWFqdUhzqzZCFhEhc3o7L1sI5kT8GABZmwONNmMP49SSWQDwSk6rezFPAI3N+9nw11+j+mNjJQ2xBpyWQLvoGUxCSQwCKPCWZhInhChPwKzjPJVfCZ5ruEsk0nQGHbQGGHQJFt4Amf5uMPEv5FVZoHEseCpFksB3oiOgTnq4dRTkj1BOenSKK2SaIOSU5MJOd7EvMGqKiBYakG4dMA/bMyrYqDtbi80pNcI1WnT1SRqUr+mOpvbmW3bVROl7XRyOosl5QLKmMefCJiVchKJ8xGvWJmVOEnN1e7tMZ9EgvPKBYRctbjSWBFaxdarhMG1noEsfKaU4TdkU2mEWooffOAb5NMOWMazhuqIPwlAZn8M6VOvYNg+QFcLG9XgKaAlKIAOAODCh5T3cXAGuxZDl6Bt0QQgNUn95K6VKpvmQmmzo4E3xYZqWrDGei8nHp9ehzPMOg0AruKWn8qynIqB1oa+K4Kx7Rftv2vkCbYr15nYmDmehPkjr3QCvA4Kvv5KQwnR/18Fwxbb2+6ZGg25evqnSu77CZn7jVo0p3gkhRLg1vW5M9377X28c+26bBX3Y9RvA6KJOOyLl95jawkq5sXtlf9jtnE290Qar3NOZ0um/Zby9Rab3ROp8DXyqzsN+k78rW0MJIr50iVz2GdWhnYehN0OlmORh4MPaxkeWr/UVluvdXpspE8SZU7RfdRxfrfou/uQ4wuPBoAAA==</ScriptData>
+				<ScriptVersion>1</ScriptVersion>
+				<ScriptGuid>e0a20500-a0ec-11e8-a063-12f7146bc812</ScriptGuid>
+				<ScriptFlags>4</ScriptFlags>
+				<Parameters></Parameters>
+			</Table>
+		</NewDataSet>
+		<ExtraDataField>
+			<NewDataSet>
+				<Table>
+					<ID>206</ID>
+					<Form>1</Form>
+					<Name>TPM Enabled In the BIOS</Name>
+					<Sort>0</Sort>
+					<NoBreak>0</NoBreak>
+					<FType>1</FType>
+					<Section>Bitlocker</Section>
+					<UnEditable>1</UnEditable>
+					<Collapsed>0</Collapsed>
+					<Fill></Fill>
+					<LtGuid>1f23b67c-fb41-43dc-b51a-1192a450e9f2</LtGuid>
+					<IsPassword>false</IsPassword>
+					<IsEncrypted>false</IsEncrypted>
+					<IsHidden>false</IsHidden>
+					<IsRestricted>false</IsRestricted>
+					<ViewPermissions></ViewPermissions>
+					<EditPermissions></EditPermissions>
+				</Table>
+			</NewDataSet>
+		</ExtraDataField>
+		<PackedScript>
+			<NewDataSet>
+				<Table>
+					<ScriptId>461</ScriptId>
+					<FolderId>74</FolderId>
+					<ScriptName>Test Bitlocker Status Only and set EDF</ScriptName>
+					<ScriptNotes>Check if a computer Bitlocker is Enabled and set it on the EDF
+Group Search based on EDF status
+</ScriptNotes>
+					<Permission>0,</Permission>
+					<EditPermission>0,</EditPermission>
+					<ComputerScript>1</ComputerScript>
+					<LocationScript>0</LocationScript>
+					<MaintenanceScript>0</MaintenanceScript>
+					<FunctionScript>0</FunctionScript>
+					<LicenseData>H4sIAAAAAAAEAFWPQQrCMBRE94J3yAEa4k9rG8snUFTc6EaL+5qkmk1akgbs7aVFoa6GmeENDJ6tMi6YQzM0EuuxNxKQzYrX6PZddIPxcoNs4fD47q2fGCPrV/RBN2NCqviMYSCQJ4RvQBDgZQpluiXVBdmCwJvyth/uxgfbuWn6P/j2p2i1zETBs1xoqpq8pQBG0B3oggJvC8jyhxLAf/wMIFseWq8+l8aaFOAAAAA=</LicenseData>
+					<ScriptData>H4sIAAAAAAAEAO2XUW+bMBDH3yf1O/ilj1awIWCqCGVtk6rSpFZKtXeDj9UqMRE20j7+gJiUoMC0KmhK1Sf8v7NPdz/sMyw2SSF35p4bHl19Q2ix17oRlVz9NgWvvWsJmdBo1jqeecG3YKDo2B6yPOZZx7AP9rOaJHMVkcXs2HA066GUIvJYQD2fCZxwP8WEAMMhEQEmNA2I58cJI7SN0ixocp51k7bhNgZ2hyq+J8YmYEfWvi5Vox9F7euobpGkVzTtabenvZ6ed3jkhYmcKt/6aW13uTJSlVDbD2Pre9I/5FY2S9qh9TwqAcrwppjK25VdJO8URrDQMSxuOAwmegFtkEzRrTRZnrxBgaRGoHicgUBcCaTBIPMKaHW/Xszsoi+WJ1ne1DAPIDdVAqWehBm5KGb+CLItV/wX4FgAwno6YPTcwOiEwKgzAoyc5hNd61fIsgJ0mZlrO4ceM4vidmsekXb/iaR7SSSDMZLLHo7lAFk2QPO5yA00odGTOs0yujl0g9W+peL3NuqNcvYuiTMb48zjIBWu7+DE82LsgZvgEEKGyTwlLGZkLtJwAP0yybe7svpCkWI58BacD+3i+bnpulM2UDp26TiTNEz/krbfX27lkTN4XmjBuaGRz3lmyYfOLPsPW7LV9ufqD93mCz9rDQAA</ScriptData>
+					<ScriptVersion>1</ScriptVersion>
+					<ScriptGuid>4872468d-ca6f-11e8-91d7-12f7146bc812</ScriptGuid>
+					<ScriptFlags>0</ScriptFlags>
+					<Parameters></Parameters>
+				</Table>
+			</NewDataSet>
+			<ExtraDataField>
+				<NewDataSet>
+					<Table>
+						<ID>207</ID>
+						<Form>1</Form>
+						<Name>Bitlocker Enabled</Name>
+						<Sort>1</Sort>
+						<NoBreak>0</NoBreak>
+						<FType>1</FType>
+						<Section>Bitlocker</Section>
+						<UnEditable>1</UnEditable>
+						<Collapsed>0</Collapsed>
+						<Fill></Fill>
+						<LtGuid>ab7fd360-c44b-4e3c-9e98-15f18b815df9</LtGuid>
+						<IsPassword>false</IsPassword>
+						<IsEncrypted>false</IsEncrypted>
+						<IsHidden>false</IsHidden>
+						<IsRestricted>false</IsRestricted>
+						<ViewPermissions></ViewPermissions>
+						<EditPermissions></EditPermissions>
+					</Table>
+				</NewDataSet>
+			</ExtraDataField>
+			<ScriptFolder>
+				<NewDataSet>
+					<Table>
+						<FolderID>74</FolderID>
+						<ParentID>0</ParentID>
+						<Name>ITBD</Name>
+						<GUID>74993c69-aa0c-4f0e-b2c5-6f1e333b06d2</GUID>
+					</Table>
+				</NewDataSet>
+			</ScriptFolder>
+		</PackedScript>
+		<PackedScript>
+			<NewDataSet>
+				<Table>
+					<ScriptId>467</ScriptId>
+					<FolderId>74</FolderId>
+					<ScriptName>Get Bitlocker Keys and store in EDF</ScriptName>
+					<ScriptNotes>Will get the bitlocker keys using manage-bde -protectors -get c:
+It will then store them in the computer EDF
+
+</ScriptNotes>
+					<Permission>0,</Permission>
+					<EditPermission>0,</EditPermission>
+					<ComputerScript>1</ComputerScript>
+					<LocationScript>0</LocationScript>
+					<MaintenanceScript>0</MaintenanceScript>
+					<FunctionScript>0</FunctionScript>
+					<LicenseData>H4sIAAAAAAAEAFWPwQrCMBBE74L/kA9oSTZUG8sSEBUvFkHFe5qkkEtS0hTs32uLQj3N7AxvYfDitPW9PaqkJD7GzkpAOiveBn8Ig082SoZ0ceHp1bk4MVbWwRs1ZuSqU2hsJExkhDMQBHjFWfUx+xrpAsC7jq5LTxt7F/z0+T/49ufBGVm0GwFGqFyrHcsBrMh3YMoceFtCsW20AP7jZwDpcs969QbkZVqq3wAAAA==</LicenseData>
+					<ScriptData>H4sIAAAAAAAEAOWY30/bMBDH35H4H05oSNuDaZ1fTVFXlUFB1UCrYOIJaXLiAyJSu4odSsX2v88NLqQVjUbXMlV7qu/OiezPXb5nt3URZ8lQHzHN2ttbAK0nWxWGMbsPOmOT6HGCKVdQmwb6LGMD1JiVfCepjFhacjy97NJMSqRo01Zt1jEz6yRPeNu79kPKQ0Zi1qwTSjEkTcobhDrXDeoFURxSZ/qW4oFizbXyou3rLjQOn3dxEGu7ADuy/uNcFHaPT2Ilq7xJOrdpZ85252xvzvZLPGSm23Wz3smv9R1KoROR48T/PLaxb+o0GSTFI9OhjfQER6FZsRkTLZtlJC8UKrA4VVjc5mIw7RPU8CXRqYzvMIOvOAYmOCgtM4REQyJA3yJ0j45bNfvE/wsyqOAY71+NEsHlSF2psdI4cJ2rARPsBknEcQ8fEMgwkxpjg1YBuTHc4/21QKWrhkrXCNWpV0Clr/Np76pbTNMMVZ7qXTvHmWXWjqZFfYdjO8V9E0Zn1RiddWKs+sY7ZRadtdScu0mwwqqai1nouixC4jaoQ7xmgKTpYUyQhx76NGT1JltQlp1YDoa5aagJ7yyoyldT8ba69Dbp86auX8H6o+k+xHSf04LIpUzzgZHJM5kL3ZeJ0HD4ac+0pP5UN+EnXGBqhkC6D0PTqExkiJkewznG8h6zcZ8pNZIZNzNHt2h62OOHH0AEws7Or7UUvr9JHWw5sR3KkTntvYPiBhvFskpxZ05U+wDvoMCNTYJXqcCRRyPX833iox8RL27EJPLckDhuo0H9AIOA1v+pAoebhHqpb/6lfnsKuoJFKfLiYjC5DGRWa8EAhBFToNi9CWsJB7mWA6bL94V5/E+bOM/FeaElS/FvbtJhYyn+3/tnkChAS357ayYh1l322pwUKfn8utzMZ+KA8564lktlgK784rbOFNBKrV6gJX97CVv5LewPCE1t+1/Qb9QmORgaEgAA</ScriptData>
+					<ScriptVersion>1</ScriptVersion>
+					<ScriptGuid>4f581d8a-ca90-11e8-91d7-12f7146bc812</ScriptGuid>
+					<ScriptFlags>0</ScriptFlags>
+					<Parameters></Parameters>
+				</Table>
+			</NewDataSet>
+			<ExtraDataField>
+				<NewDataSet>
+					<Table>
+						<ID>208</ID>
+						<Form>1</Form>
+						<Name>Bitlocker Recovery Key</Name>
+						<Sort>3</Sort>
+						<NoBreak>0</NoBreak>
+						<FType>0</FType>
+						<Section>Bitlocker</Section>
+						<UnEditable>1</UnEditable>
+						<Collapsed>0</Collapsed>
+						<Fill>Bitlocker Recovery Key</Fill>
+						<LtGuid>ca833abe-3712-496e-94ec-ed84e518a09a</LtGuid>
+						<IsPassword>false</IsPassword>
+						<IsEncrypted>false</IsEncrypted>
+						<IsHidden>false</IsHidden>
+						<IsRestricted>false</IsRestricted>
+						<ViewPermissions>1</ViewPermissions>
+						<EditPermissions></EditPermissions>
+					</Table>
+				</NewDataSet>
+			</ExtraDataField>
+			<ExtraDataField>
+				<NewDataSet>
+					<Table>
+						<ID>209</ID>
+						<Form>1</Form>
+						<Name>Bitlocker Recovery Key Only</Name>
+						<Sort>4</Sort>
+						<NoBreak>0</NoBreak>
+						<FType>0</FType>
+						<Section>Bitlocker</Section>
+						<UnEditable>1</UnEditable>
+						<Collapsed>0</Collapsed>
+						<Fill>Bitlocker Key for C</Fill>
+						<LtGuid>b41b3455-5e5b-4c7c-b438-2377156e6610</LtGuid>
+						<IsPassword>false</IsPassword>
+						<IsEncrypted>false</IsEncrypted>
+						<IsHidden>false</IsHidden>
+						<IsRestricted>false</IsRestricted>
+						<ViewPermissions></ViewPermissions>
+						<EditPermissions></EditPermissions>
+					</Table>
+				</NewDataSet>
+			</ExtraDataField>
+			<ScriptFolder>
+				<NewDataSet>
+					<Table>
+						<FolderID>74</FolderID>
+						<ParentID>0</ParentID>
+						<Name>ITBD</Name>
+						<GUID>74993c69-aa0c-4f0e-b2c5-6f1e333b06d2</GUID>
+					</Table>
+				</NewDataSet>
+			</ScriptFolder>
+		</PackedScript>
+		<ScriptFolder>
+			<NewDataSet>
+				<Table>
+					<FolderID>74</FolderID>
+					<ParentID>0</ParentID>
+					<Name>ITBD</Name>
+					<GUID>74993c69-aa0c-4f0e-b2c5-6f1e333b06d2</GUID>
+				</Table>
+			</NewDataSet>
+		</ScriptFolder>
+	</PackedScript>
+</LabTech_Expansion>

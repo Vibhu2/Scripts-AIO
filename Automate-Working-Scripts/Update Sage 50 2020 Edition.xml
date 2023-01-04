@@ -1,0 +1,37 @@
+﻿<LabTech_Expansion
+	Version="200.310"
+	Name="LabTech Script Expansion"
+	Type="PackedScript">
+	<PackedScript>
+		<NewDataSet>
+			<Table>
+				<ScriptId>7850</ScriptId>
+				<FolderId>451</FolderId>
+				<ScriptName>Update Sage 50 2020 Edition</ScriptName>
+				<ScriptNotes>Will Update Sage Application</ScriptNotes>
+				<Permission>0,</Permission>
+				<EditPermission>0,</EditPermission>
+				<ComputerScript>1</ComputerScript>
+				<LocationScript>0</LocationScript>
+				<MaintenanceScript>0</MaintenanceScript>
+				<FunctionScript>0</FunctionScript>
+				<LicenseData>H4sIAAAAAAAEAFWPTQrCMBSE94J3yAEa8tM2lPIIiIobBVHRdZs8JJu0NAnY22uLQl0NM8M3MHB0Bn3AXRMbDbexRy2AzQqX5Ldd8hEHzYEtHOxfvRsmBvUDrcdgmzEjm/RMIRIhMyK55ETVRVHnOTmfgC0IuJrB9fGOQ3Cdn6b/g29/SM7qtqysLCtFrTGGCoENbUVRUc5LXqpWferix88AsOWh9eoNOnbb9uAAAAA=</LicenseData>
+				<ScriptData>H4sIAAAAAAAEAO2WXWuDMBSG7wf7D970pmA1qUo3ilDsxwpjKxR6lZtowhZIVUxc23+/aGObypBdrIyOIZjznjeJ5zwRcbxOCpbLKZY4vL+zrPFRi1ooOdvLAlfunFFOhOU0xgoXeEslLYzcgmcx5kbiuNlGTWJZGoKxc5m4mLUoGQljf0SgPwpskiSJDQDFdgy8ke26vusHcaBsr9mlXlDX7JhF6+3WkuanLiaJ1AXoSOfnZVrrJak8Q5lNglbTsKWHLe21tG/wyAoZuqreatS5KEslS0ta5U+x9l7FM9uyekkTameZEppKXDejXFOaSM4UOrDADiy+98/lKy6w430JoXqyDn8SELglQCDoALRPsvxgITRdRPZm8mJPIxcgor4yaI3faH3rQbe61FDmyqEox4ci41xQWeYDuqdWf9C3oke0YynJdgJxKT4StGrPcmbOkxM5y6ucCPwzJ/INkOIqCIe3hBA+dCDsiXfKeUFFyWXvKqy8X2DVaP2H8AlXyLmfMAgAAA==</ScriptData>
+				<ScriptVersion>1</ScriptVersion>
+				<ScriptGuid>b58d2586-dccc-11ea-b148-005056b658d4</ScriptGuid>
+				<ScriptFlags>0</ScriptFlags>
+				<Parameters></Parameters>
+			</Table>
+		</NewDataSet>
+		<ScriptFolder>
+			<NewDataSet>
+				<Table>
+					<FolderID>451</FolderID>
+					<ParentID>0</ParentID>
+					<Name>IT By Design</Name>
+					<GUID>063aaf9b-5f25-459f-b4c4-c2b799589257</GUID>
+				</Table>
+			</NewDataSet>
+		</ScriptFolder>
+	</PackedScript>
+</LabTech_Expansion>

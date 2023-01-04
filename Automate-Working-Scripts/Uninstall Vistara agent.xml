@@ -1,0 +1,37 @@
+﻿<LabTech_Expansion
+	Version="200.251"
+	Name="LabTech Script Expansion"
+	Type="PackedScript">
+	<PackedScript>
+		<NewDataSet>
+			<Table>
+				<ScriptId>375</ScriptId>
+				<FolderId>66</FolderId>
+				<ScriptName>Uninstall Vistara agent</ScriptName>
+				<ScriptNotes>This script will uninstall Vistara agent from the machine.</ScriptNotes>
+				<Permission>0,</Permission>
+				<EditPermission>0,</EditPermission>
+				<ComputerScript>1</ComputerScript>
+				<LocationScript>0</LocationScript>
+				<MaintenanceScript>0</MaintenanceScript>
+				<FunctionScript>0</FunctionScript>
+				<LicenseData>H4sIAAAAAAAEAFWPzQrCMBCE74LvkAdoSGIS+8OSi4oXC6Ki57TZQi5pSVuwby8tCvU0zM58CwMXX2Po8WgHa+AxdWgEsEXhNoZDO4YBo+HAVg5O787HmUHzQhewd3ZKSGknwmVCdlykJCukKnROriWwVR3udfTd8MTY+zbMf/8P3/w8emdU7irNM0clV4IKgSnNa8UpR2mrRu+dTrMfvwDA1mu2mw97g9gv3QAAAA==</LicenseData>
+				<ScriptData>H4sIAAAAAAAEAOWWQWvCMBTH74N9h+4gbIeuTZrWOkpB3BRhMEHmqZdoMheIqaQp+PGX1tTFshVkbEM89f3/L3l578c7NJmvJNuqR6xwen3lOMleF7XQ8mmnJK6yY0Y5KRyvScywxBuqqLS8Cc+XmFvGvthCH2K5SEHiHRtHpyYlIykakGXox8QNfARcAGjfHayQ7/o0wMu3MCJhP26q1Bfqnj27aVNuruj2MMVwpUwDJjL+uBS1npIqZyl7SNAaGrZ00NKopUOLRy5V6ut+q6/xRrlQTJS08g+xyb0Uz2zD6itNaDJTQahQuB5GZ21pI/mk0IEFdmGB/vdg0gUrlI4cvNavJ55xj2ClN8aHFwQt6mA2eshmMl/r2BkzTgvndhdHd5lBmQ0rlNmrYEJrzu/pjn4N9odbCM4JKBx0AO0V75RzSYuSq96vsILnxOqk5fvztQtOR+lCgPooDiIELnUB0b9Sa7T5SfgA31v2ZDMIAAA=</ScriptData>
+				<ScriptVersion>1</ScriptVersion>
+				<ScriptGuid>49db508d-3041-11e7-9c40-0e3abf56d578</ScriptGuid>
+				<ScriptFlags>0</ScriptFlags>
+				<Parameters></Parameters>
+			</Table>
+		</NewDataSet>
+		<ScriptFolder>
+			<NewDataSet>
+				<Table>
+					<FolderID>66</FolderID>
+					<ParentID>0</ParentID>
+					<Name>ITBD</Name>
+					<GUID>4860adbd-5a8f-467d-b086-3d0a4b270ac8</GUID>
+				</Table>
+			</NewDataSet>
+		</ScriptFolder>
+	</PackedScript>
+</LabTech_Expansion>

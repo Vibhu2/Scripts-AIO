@@ -1,0 +1,37 @@
+﻿<LabTech_Expansion
+	Version="200.251"
+	Name="LabTech Script Expansion"
+	Type="PackedScript">
+	<PackedScript>
+		<NewDataSet>
+			<Table>
+				<ScriptId>849</ScriptId>
+				<FolderId>66</FolderId>
+				<ScriptName>Reterive datto agent id</ScriptName>
+				<ScriptNotes></ScriptNotes>
+				<Permission>0,</Permission>
+				<EditPermission>0,</EditPermission>
+				<ComputerScript>1</ComputerScript>
+				<LocationScript>0</LocationScript>
+				<MaintenanceScript>0</MaintenanceScript>
+				<FunctionScript>0</FunctionScript>
+				<LicenseData>H4sIAAAAAAAEAFWPwQrCMBBE74L/kA9oSNJutS1LLiqCKIgW7zFdMJe0pA3Yv5cWkXoaZmfewuDZWfI97c1gNNZjR1qhmBVv0e/a6AcKWqJYODy8OxcmhnT9iqFvzJiwU/TEJCQslalkUOVQyZJdLygWdbzb4LrhQaF3rZ/+/h+++TG6RtscsqyxhptNAVwpMvxJJXCzlaBsoTIofvwMoFiuWa8+uh3vaN0AAAA=</LicenseData>
+				<ScriptData>H4sIAAAAAAAEANVUXWvCMBR9F/wPwfeuph+bghTFTRGEDYQ99SUm0QVi0iUpzH+/pk1dWra+7GHspb3nntzbe84NXRywYoV5RAZl4xEAiwbrGlTw6cMoZNkNo5xoELbEC1LoQg1VXm7L5RFxL9E0e60OMSkyuAi7ic6pbclIhtMkjglGAbqfJQGEFAVHOk8C9DBNIJ7BOJlN2y51QT1z6A/t2h0MLW4qVti4AVzk8ptS1HhHLOchXyTsiY56OO7hpIdTzw+pTGYF2LfLraUwTJTU5m+x4571nl1YXdKGjtkJQoVBtZiK9aFvyZcLA7ZEA7ZEcfqzMbbSRR2DMkwAluLEzrm+akMvhZInxmm+Kgp7l/K9xIjnVWhk8wRrLksCnH5mruPReHRigoCQgYl+q/zCktAJQOdK551+58xQ9/FoeBvWHhd1tpIpqktuHJn+4xXNBza0bFQuv1/UL28y/AObWuz+WJ+pG8CpwAQAAA==</ScriptData>
+				<ScriptVersion>1</ScriptVersion>
+				<ScriptGuid>c5433dca-a684-11ea-be94-a7041c813480</ScriptGuid>
+				<ScriptFlags>0</ScriptFlags>
+				<Parameters></Parameters>
+			</Table>
+		</NewDataSet>
+		<ScriptFolder>
+			<NewDataSet>
+				<Table>
+					<FolderID>66</FolderID>
+					<ParentID>0</ParentID>
+					<Name>ITBD</Name>
+					<GUID>4860adbd-5a8f-467d-b086-3d0a4b270ac8</GUID>
+				</Table>
+			</NewDataSet>
+		</ScriptFolder>
+	</PackedScript>
+</LabTech_Expansion>

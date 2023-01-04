@@ -1,0 +1,47 @@
+﻿<LabTech_Expansion
+	Version="200.251"
+	Name="LabTech Script Expansion"
+	Type="PackedScript">
+	<PackedScript>
+		<NewDataSet>
+			<Table>
+				<ScriptId>6505</ScriptId>
+				<FolderId>281</FolderId>
+				<ScriptName>Remote registry service restart and auto set service</ScriptName>
+				<ScriptNotes></ScriptNotes>
+				<Permission>0,</Permission>
+				<EditPermission>0,</EditPermission>
+				<ComputerScript>1</ComputerScript>
+				<LocationScript>0</LocationScript>
+				<MaintenanceScript>0</MaintenanceScript>
+				<FunctionScript>0</FunctionScript>
+				<LicenseData>H4sIAAAAAAAEAFWPQQrCMBRE94J3yAEakp8WauWTjVo3CqLiPk1+IZu0pA3Y20uLQl0NM8MbGLx4S2GgoxmNxufUkwYUi+I9hUOXwkhRSxQrh6d37+PMkK6jd2bKWE1NTCZODIqMKakkK/cK9sWO3a4oVgA+bPT9+KI4+C7My//Btz8n7zS4FlpZWl6ZvOIAZHhTguVSSpcb2Tak7I9fABTrP9vNB9OAqCHfAAAA</LicenseData>
+				<ScriptData>H4sIAAAAAAAEAOWW32uDMBDH3wf7H/LSRzHR/qDghLGtpTDYaGHvMcYuYJOSnLD991MbuyibDKQU2ZP3/V5y3H040WjHtDjCIwUa394gFJ20qUUpnz5A0yq7EjxPDfKbxCvV9MCBa8db5yqhuWOcir2Vh4SSMYn8ttE6tS5EGpM0IxleMG9Jw6VHCKdesiDMwxinIcVZwgPWVKkv1D37btO23A748TzFPQPbgI2svypkrTdplXOUOyTpDB10dNjR046eOTyUhhiX/VZP6z0oCUIWvPLPsc29mGdxEPWVJrSZjUy5BFoPU2Zd6SL5ptCDJejDQsLfwcRbflDAt3wvDOjPyLd2i1Y8t37wj6jNe6AZhpiSmdijNj5kgGq4Q7QA9TPKgYtHxoQwWPYgnJh3nueamyKHyUVYBWNi1btuksNps9Bf3taB2MIxYbvyik3HxCqcDfwMDIQ1GxOsKy/WfEysSC8sfBFAiysAarT90/4CAGrHuXgLAAA=</ScriptData>
+				<ScriptVersion>1</ScriptVersion>
+				<ScriptGuid>1df1f07c-9a39-11ea-b71c-000d3a0fbe2c</ScriptGuid>
+				<ScriptFlags>0</ScriptFlags>
+				<Parameters></Parameters>
+			</Table>
+		</NewDataSet>
+		<ScriptFolder>
+			<NewDataSet>
+				<Table>
+					<FolderID>281</FolderID>
+					<ParentID>272</ParentID>
+					<Name>Final scripts</Name>
+					<GUID>c2aabe44-40cc-4864-8bc0-a0979af3f3bc</GUID>
+				</Table>
+			</NewDataSet>
+		</ScriptFolder>
+		<ScriptFolder>
+			<NewDataSet>
+				<Table>
+					<FolderID>272</FolderID>
+					<ParentID>0</ParentID>
+					<Name>Roy</Name>
+					<GUID>f72d390a-cee0-4532-8978-a2d4f98e544b</GUID>
+				</Table>
+			</NewDataSet>
+		</ScriptFolder>
+	</PackedScript>
+</LabTech_Expansion>

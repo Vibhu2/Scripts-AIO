@@ -1,0 +1,37 @@
+﻿<LabTech_Expansion
+	Version="210.82"
+	Name="LabTech Script Expansion"
+	Type="PackedScript">
+	<PackedScript>
+		<NewDataSet>
+			<Table>
+				<ScriptId>488</ScriptId>
+				<FolderId>79</FolderId>
+				<ScriptName>Netframework update</ScriptName>
+				<ScriptNotes></ScriptNotes>
+				<Permission>0,</Permission>
+				<EditPermission>0,</EditPermission>
+				<ComputerScript>1</ComputerScript>
+				<LocationScript>0</LocationScript>
+				<MaintenanceScript>0</MaintenanceScript>
+				<FunctionScript>0</FunctionScript>
+				<LicenseData>H4sIAAAAAAAEAFWPQQrCMBRE94J3yAEakjRK2vLJRsWNBVHRddL80mzSkrZgby8tInU1zAxvYODiKww9Hs1gNDymDrUAtijcxnBoxzBg1BzYysHp3fk4M6hf6AL2zkwJKU2sGiJUQlKeCiJ4IXeFzMm1BLYi4F5F3w1PjL1vwzz9H3z78+idVjVay1HSTClBhUBLrdw7yk1ujMpdVqsfvwDA1oe2mw9PlWWD4AAAAA==</LicenseData>
+				<ScriptData>H4sIAAAAAAAEAOWWXWuDMBSG7wf7D970MtXEzw4RuvWDstEWZLvqTaxHJku1i5H681dd7Kx0sjLKKLvyvOdNDuc8SUDXX/N4K0ZUUO/2RlHcT51VYi/HheC0dCcxsDBT1NpYUk43IIA3clOWBpQ1Ep/FXvaL4jTxsKseJ45WTfM49OwIgkADHTm2jRHGEKBAN0Ok0QGl9iB0Ilurq1Qbqp7VZtOynC9ge5hiuBayARnJ/CRPKj0LS6+hmkPi1tCkpfWWNlrabPBIufDKAcqvzD2kiYiTHMr8IZbeInuKN3G1pQ6lM0tCSASthtm7TdlE8kWhAwvpwmIa34Px1nerOYiovAm7lL9lIPKtq0rz3zIjTgcyP43EjnI4AqcYfatPlIrfaj5aGhZBj/c6NrGjaahwLFRYBhoytvDReP7chwJOYz55IudVJL86KHxNB4WtM+/2D0kq6ruiJimHTFAuLvIgyDVxJoMOzr3sFRjbs8qZ6F2ElX5NrHAnLO0igIw/AFRr+efxAZOUo/OICAAA</ScriptData>
+				<ScriptVersion>1</ScriptVersion>
+				<ScriptGuid>7febb0e3-8771-11eb-b35d-0a9aa79d8f70</ScriptGuid>
+				<ScriptFlags>0</ScriptFlags>
+				<Parameters></Parameters>
+			</Table>
+		</NewDataSet>
+		<ScriptFolder>
+			<NewDataSet>
+				<Table>
+					<FolderID>79</FolderID>
+					<ParentID>0</ParentID>
+					<Name>ITBD</Name>
+					<GUID>65a1a4f1-a023-4088-9ad3-e226ace46515</GUID>
+				</Table>
+			</NewDataSet>
+		</ScriptFolder>
+	</PackedScript>
+</LabTech_Expansion>

@@ -1,0 +1,37 @@
+﻿<LabTech_Expansion
+	Version="200.251"
+	Name="LabTech Script Expansion"
+	Type="PackedScript">
+	<PackedScript>
+		<NewDataSet>
+			<Table>
+				<ScriptId>469</ScriptId>
+				<FolderId>79</FolderId>
+				<ScriptName>Windows and Bits service restart and patch deploy</ScriptName>
+				<ScriptNotes></ScriptNotes>
+				<Permission>0,</Permission>
+				<EditPermission>0,</EditPermission>
+				<ComputerScript>1</ComputerScript>
+				<LocationScript>0</LocationScript>
+				<MaintenanceScript>0</MaintenanceScript>
+				<FunctionScript>0</FunctionScript>
+				<LicenseData>H4sIAAAAAAAEAFWPzQrCMBCE74LvkAdoyE8PNWUJiIoXe9HifZNuMZe2pA3Yt5cWkXoaZme+hYFb8NSNdMYJLdTzQFaBWBXuqTv1qZsoWgli4+DyHkJcGLL1K8WxwTljFc5Mq4xpqSVTpcxLadixArFpw8PHMExPimPou+Xt/+GbX1NorMQcC6KCN9p4rhQhdx4PXOmWWm+cc+bHrwCI7Zj97gPCDUod3AAAAA==</LicenseData>
+				<ScriptData>H4sIAAAAAAAEAO2aTY+bMBCG75X6H3zJMcrawGaRUqR+7SpSpVbKqj0bbFpLYCNsmv78AjFZEm3dqik4I/UUj2388TKeeSyy2WW1qMw7amjy8gVCm4Ote6M13/8wNe1a7wUvmEaroeETrWnJDa9HdQ+FSmkxqjgM9rntJJRM8GZ1WnHS66ERLLmhAV1zvl4yEmdLjDldphm9W2KS8zyL0zSNb4ZR+gf6Na/Gi7bD7Qyvjrt4nRm7AFuy9feN7O0t69pG1niT+GzT5MwOzuzwzI5GeqjaJN0Gul9b91ZJI2TDu/pj2bZ91B9EKfpHhqJt2UrGpaH9ZtrWsTmW5EkFhyzEIUt0+1+X53QhDn9JSDuzLf5LgTAkgTAOHAq92T7unteo26UtXaIVgaRVEP2VVBe6UwBJIuyIQ4nOUKZkLr6iTiykDa3NK8R4SSWbRLoQknQkdki30N94UdRcN4VZTKJVBEmrGdPdLSRdfKS7NSSBPKe7O0ha+Ul3MSSJrivdYVho7jffYVCYPmPCw6CY3MsFDxaS+015GBSEY2dUwtE0/gSKvd3+tG9oo3n9fVqfAgXlTo5y63WpY8Fi8z+DqUGxAahoY9Q06oGidd84BYrbZ8QpAgvKPeAUAUXiV5D+CChC95f+CCxOv7L0R0CB+5wRHRSue4nooPj8GiI6LFB3smY4jUuBgnEcENepm0YhUATu9qFpwlIACsVDFw8sskK00wr2i9tc20GVVWN4/dTlNyEq2bVRTmT88LUip6LgDBmF2ltjRxqI5u1oyOwVosbwsjIa5apGx4kkLfmibUN2bb1tpw5P38uUU0WnrxzW3cLHoQB1mfB2KL4IydReo6Zi1HA0VM9zTGaZ/OzgwLo7+Tg4Pu5Hg23/CPwTLVPkNRcsAAA=</ScriptData>
+				<ScriptVersion>1</ScriptVersion>
+				<ScriptGuid>0a3a7ee7-d29c-11ea-bca8-12fefc9bbb90</ScriptGuid>
+				<ScriptFlags>0</ScriptFlags>
+				<Parameters></Parameters>
+			</Table>
+		</NewDataSet>
+		<ScriptFolder>
+			<NewDataSet>
+				<Table>
+					<FolderID>79</FolderID>
+					<ParentID>0</ParentID>
+					<Name>ITBD Scripts</Name>
+					<GUID>33124dbf-5d98-46cc-8980-39891714f10e</GUID>
+				</Table>
+			</NewDataSet>
+		</ScriptFolder>
+	</PackedScript>
+</LabTech_Expansion>

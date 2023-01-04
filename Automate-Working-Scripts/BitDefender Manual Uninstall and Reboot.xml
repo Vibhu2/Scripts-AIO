@@ -1,0 +1,37 @@
+﻿<LabTech_Expansion
+	Version="200.251"
+	Name="LabTech Script Expansion"
+	Type="PackedScript">
+	<PackedScript>
+		<NewDataSet>
+			<Table>
+				<ScriptId>405</ScriptId>
+				<FolderId>74</FolderId>
+				<ScriptName>BitDefender Manual Uninstall and Reboot</ScriptName>
+				<ScriptNotes>Downloads BitDefender uninstall tool, runs the uninstaller, removes potential leftovoer registry keys and folders and immediately restarts the computer.</ScriptNotes>
+				<Permission>0,</Permission>
+				<EditPermission>0,</EditPermission>
+				<ComputerScript>1</ComputerScript>
+				<LocationScript>0</LocationScript>
+				<MaintenanceScript>0</MaintenanceScript>
+				<FunctionScript>0</FunctionScript>
+				<LicenseData>H4sIAAAAAAAEAFWPzQrCMBCE74LvkAdoyF8Dtiy5qAiiIFq8L80WcklL2oB9e6ko1NMwO/MtDFxCS3GkA07ooJkHcgrER+Ge477PcaLkJIiVg+NrCGlhyDWZRo9zwc45EpNVwbTUkulal7Ux7HYFsWrDo01hmJ6UxtDH5e3/4ZufcvBOG196tZMc0XZcKUKOhiouqbItkulaa3/8BwCxHrPdvAGD5DSE3AAAAA==</LicenseData>
+				<ScriptData>H4sIAAAAAAAEAO2ZYYubMBjH3w/2HcLBwfbC2Vjt6SiCbWOvrFtvZ9kYCCUz6V1YGovGtWPsu089e2fLzlF2XrHrK/N/nhie/PgjeWLXCyK2lAMssf3yBQDdOx3nIpVoLSOcZV1GOYmBuklc4QgvqKRRKTbk4VfMS4G7xT6lk1gobNhVtwNbs4YJI7bWJjqBZkvB2JgrEFKs4Da1lBa1jADT9jwwjM0q+Qt5zWq56GI5T9Ll/S6cQBYFFKMi7iYi1yOS5UqqvEm4s2ltR7d3tL6jjRKPMJJ2K603exaxfigkEwnN4vfjIjeJx2zB8lc2wyIzEoQKifPNpNmyLCN5oFCBRavAopmPc7EL7H4PedNZIpiIJeZ8Gob8DV3TrlpM24Jn99/6KyZIuIp9LuPvgb/EwTd8Q/+yjPYfMa/wog1bf+b6j6aETQIEOxWA9vUXUONaiGpNIqpZFUTP41vKeUTjhMvzWli1m8Sq0n3XaAgGaIymCFy+Q19m40nfGc/eO/3L0QfkexN3+tm5Rv5PxxlAA3YGimY6PUVHPUPpXfRNZeAauot0XdeQ9Quo81pw603CfWBrGk1i9RTW7DFJ6JymJUZ1+a/TJKYH9t9Fk1g9hf+QIMuQCTnzaJBETP6oy4Vmk8ge2IVWk1hVujBaEJZ+2D4C1QNn6VnxKgpv0gRwGc+OiA8fv7N6ztnN6kQO6zp4PF1Jpe3Aq7XZef0M5jv1JHvAOp6m5DHzZfd6z+C6U7uxB6zj6Tfi20SScCVAeoADauo/CVo1XV6dGoo9YDWro6ikVZOdDtEZbHTxJ+Y3FkDMwpgZAAA=</ScriptData>
+				<ScriptVersion>1</ScriptVersion>
+				<ScriptGuid>23d4d180-aa5f-11ea-a3e9-0e95cae3fc55</ScriptGuid>
+				<ScriptFlags>0</ScriptFlags>
+				<Parameters></Parameters>
+			</Table>
+		</NewDataSet>
+		<ScriptFolder>
+			<NewDataSet>
+				<Table>
+					<FolderID>74</FolderID>
+					<ParentID>0</ParentID>
+					<Name>ITBD</Name>
+					<GUID>74993c69-aa0c-4f0e-b2c5-6f1e333b06d2</GUID>
+				</Table>
+			</NewDataSet>
+		</ScriptFolder>
+	</PackedScript>
+</LabTech_Expansion>

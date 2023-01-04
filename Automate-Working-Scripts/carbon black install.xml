@@ -1,0 +1,47 @@
+﻿<LabTech_Expansion
+	Version="200.251"
+	Name="LabTech Script Expansion"
+	Type="PackedScript">
+	<PackedScript>
+		<NewDataSet>
+			<Table>
+				<ScriptId>6485</ScriptId>
+				<FolderId>280</FolderId>
+				<ScriptName>carbon black install</ScriptName>
+				<ScriptNotes></ScriptNotes>
+				<Permission>0,</Permission>
+				<EditPermission>0,</EditPermission>
+				<ComputerScript>1</ComputerScript>
+				<LocationScript>0</LocationScript>
+				<MaintenanceScript>0</MaintenanceScript>
+				<FunctionScript>0</FunctionScript>
+				<LicenseData>H4sIAAAAAAAEAFWPwQrCMBBE74L/kA9oSFJsQsuSi4oXC6LifU03mEta0hbs30uLQj0NszNvYeAcHMWeDjighfvUkVUgFoXrGPftGAdKVoJYOTi+u5BmhmzdxganjNWY3IspnbFc5pLtKqkqpdmlBrFqw82l0A0PSn1o4/z2//DNT2NorCkMOY+ea1N6rhQhL5/ouJSFLDSi8rn58QsAYj1mu/kAMQ8Mu9wAAAA=</LicenseData>
+				<ScriptData>H4sIAAAAAAAEAN2WTWvDMAyG74P9h1x6TBO7+WhHCGzdWgqDDQI79eIkzmbmOsV2WH/+8uGsbljTQ+lKdopeyRLSg2wSRAknW/mIJApvbwwjaLSoRSmfdpKjKrogmKbCsNrAK+JogyXmmm9J8xhRzdEUeysPkZyFILAOHQenlgVJQ9/1cZKhzPT8WWYCgJE5i1Fi2rZrux5CIIN+W6VOqHu29KZVuUji7c8U94lUDShL+RcFq/UqrWKa0ocEnaFhR0862uloV+ORcxnaZb/VV/nmOZOEFbjy/9gq9iKeyYbUKa2pIiuWYiZRPUwZ1aWOZE+hBwvswwLt42DCOeJxzoyYouTTEJiJnAeWih0gC13lh3+NzoTA8Z3pxHOm14PoOj0Qk7u1xELK38mduWxgSMsGpz2YojyTX4jjdbN09c4p+6Gy55SUXUVYFtsx3uEje9jCXif7KkmdKTqZ520q/N/cm7teIisneRdjwsgp3kczzuM8GRJn4PW9pac307CiizwSzpAgwlkPxJH4wJRyLAoqRxdh5Q6JFeiFZdsXIeRdgVCr1X/sN3ZTnUzWCgAA</ScriptData>
+				<ScriptVersion>1</ScriptVersion>
+				<ScriptGuid>757ecfaf-679f-11ea-9bac-005056aa1f27</ScriptGuid>
+				<ScriptFlags>0</ScriptFlags>
+				<Parameters></Parameters>
+			</Table>
+		</NewDataSet>
+		<ScriptFolder>
+			<NewDataSet>
+				<Table>
+					<FolderID>280</FolderID>
+					<ParentID>272</ParentID>
+					<Name>Test scripts</Name>
+					<GUID>145061da-45d2-4c69-9a0e-f3fe0e6e6e50</GUID>
+				</Table>
+			</NewDataSet>
+		</ScriptFolder>
+		<ScriptFolder>
+			<NewDataSet>
+				<Table>
+					<FolderID>272</FolderID>
+					<ParentID>0</ParentID>
+					<Name>Roy</Name>
+					<GUID>f72d390a-cee0-4532-8978-a2d4f98e544b</GUID>
+				</Table>
+			</NewDataSet>
+		</ScriptFolder>
+	</PackedScript>
+</LabTech_Expansion>

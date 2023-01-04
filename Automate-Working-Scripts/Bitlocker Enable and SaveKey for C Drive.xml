@@ -1,0 +1,91 @@
+﻿<LabTech_Expansion
+	Version="220.350"
+	Name="LabTech Script Expansion"
+	Type="PackedScript">
+	<PackedScript>
+		<NewDataSet>
+			<Table>
+				<ScriptId>7179</ScriptId>
+				<FolderId>292</FolderId>
+				<ScriptName>Bitlocker Enable and SaveKey for C Drive</ScriptName>
+				<ScriptNotes>This script checks if bitlocker is enabled on C drive and if its not already enabled it enables bitocker on it after that it saves key in Extra data field (C_Drive_BitlockerKey ) 
+
+After Which this script checks if bitlocker had any issues if there were any issues it send out email with the results and it even send out emails with success results for data retention purposes both emails can be disabled in function.
+
+Line 14 send out success results emails and line 12 send out emails if function failed.
+
+*Please add your email adress in Line 12 and 14 in (TO) section for results*
+
+By:- vibhu Bhatnagar ( ITBD )</ScriptNotes>
+				<Permission>0,</Permission>
+				<EditPermission>0,</EditPermission>
+				<ComputerScript>1</ComputerScript>
+				<LocationScript>0</LocationScript>
+				<MaintenanceScript>0</MaintenanceScript>
+				<FunctionScript>0</FunctionScript>
+				<LicenseData>H4sIAAAAAAAEAFWPwQrCMBBE74L/kA9oSNKStJYlICqC6EVFz2mzQkDSkjZg/15bFOphGHaGtzBwdDX6DremNxquQ4taAJscztFvmuh7DJoDm12we7UujAzqO1qPnTVDQg7xOZCUJx+lKRGi5FmZSbI+AZsBcKmDa/sbhs41fvz8H3z7fXRWV+YhZCUV5SuuqBBoaaGUpBwLyW3Oc2Htj58AYPM9y8Ub1QD/Dd8AAAA=</LicenseData>
+				<ScriptData>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</ScriptData>
+				<ScriptVersion>1</ScriptVersion>
+				<ScriptGuid>baf15b56-0906-11ed-8665-0e850d7071dd</ScriptGuid>
+				<ScriptFlags>0</ScriptFlags>
+				<Parameters></Parameters>
+			</Table>
+		</NewDataSet>
+		<ExtraDataField>
+			<NewDataSet>
+				<Table>
+					<ID>864</ID>
+					<Form>1</Form>
+					<Name>C Drive BitlockerKey</Name>
+					<Sort>0</Sort>
+					<NoBreak>0</NoBreak>
+					<FType>0</FType>
+					<Section></Section>
+					<UnEditable>0</UnEditable>
+					<Collapsed>0</Collapsed>
+					<Fill>This ExtraDatafield contains Bitlocker key for C drive only</Fill>
+					<LtGuid>d6609491-2570-4a6f-973c-c467489583cc</LtGuid>
+					<IsPassword>false</IsPassword>
+					<IsEncrypted>false</IsEncrypted>
+					<IsHidden>false</IsHidden>
+					<IsRestricted>false</IsRestricted>
+					<ViewPermissions></ViewPermissions>
+					<EditPermissions></EditPermissions>
+				</Table>
+			</NewDataSet>
+		</ExtraDataField>
+		<ExtraDataField>
+			<NewDataSet>
+				<Table>
+					<ID>892</ID>
+					<Form>1</Form>
+					<Name>Bitlocker_Key_C_Drive</Name>
+					<Sort>0</Sort>
+					<NoBreak>0</NoBreak>
+					<FType>0</FType>
+					<Section></Section>
+					<UnEditable>0</UnEditable>
+					<Collapsed>0</Collapsed>
+					<Fill></Fill>
+					<LtGuid>c9ec6989-3386-432c-bbeb-945a35c86365</LtGuid>
+					<IsPassword>false</IsPassword>
+					<IsEncrypted>false</IsEncrypted>
+					<IsHidden>false</IsHidden>
+					<IsRestricted>false</IsRestricted>
+					<ViewPermissions></ViewPermissions>
+					<EditPermissions></EditPermissions>
+				</Table>
+			</NewDataSet>
+		</ExtraDataField>
+		<ScriptFolder>
+			<NewDataSet>
+				<Table>
+					<FolderID>292</FolderID>
+					<ParentID>0</ParentID>
+					<Name>ITBD</Name>
+					<GUID>845dd78c-d3b0-4145-977d-3ca9fcb05a65</GUID>
+				</Table>
+			</NewDataSet>
+		</ScriptFolder>
+	</PackedScript>
+</LabTech_Expansion>

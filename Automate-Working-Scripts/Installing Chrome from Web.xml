@@ -1,0 +1,37 @@
+﻿<LabTech_Expansion
+	Version="200.251"
+	Name="LabTech Script Expansion"
+	Type="PackedScript">
+	<PackedScript>
+		<NewDataSet>
+			<Table>
+				<ScriptId>6421</ScriptId>
+				<FolderId>273</FolderId>
+				<ScriptName>Installing Chrome from Web</ScriptName>
+				<ScriptNotes>This Script will download Google Chrome from Web and install it into the system.</ScriptNotes>
+				<Permission>0,</Permission>
+				<EditPermission>0,</EditPermission>
+				<ComputerScript>1</ComputerScript>
+				<LocationScript>0</LocationScript>
+				<MaintenanceScript>0</MaintenanceScript>
+				<FunctionScript>0</FunctionScript>
+				<LicenseData>H4sIAAAAAAAEAFWPzQrCMBCE74LvkAdoyA8m1rLkouJFRbR4X9Mt5GBb0lbs20uLQj0NM8M3MHAMnqqWdtihg3xoyCkQk8K1r7Z1X3UUnQQxc7B/NyGODLm8p7bAIWHn+kXPB0WmbcK0VBums5XJtGGXE4gZATcfQ9PdKbahrsbp/+DbH/pQOG99gWVquZJGc6UIOdoUuZRGGouoSr3+8RMAYn5oufgAbEo7rOAAAAA=</LicenseData>
+				<ScriptData>H4sIAAAAAAAEAOWX0WqDMBSG7wd7B296qTGx2q6IMLq2FAYrFHZVGJmmbSCaEiP08adp7FSYpatlyK48/380nHznGNRfh4Ie5AuWOHh8MAz/pFMlcjk7SoGL7JwSFqUGKBMrLHBMJBEVb8H4J2YV47TYe34T5UkAfVA3anctMhoFoRdGeDv2TGi7yISQYBN7Y2zatmu7HsZwi0blKuoBVTOoFq2XW0tyOO/iOZS6AB1pf54lSi+jIldR1U3CxqZRQzsNPWxot8KDCxnYeb3FVXtTnkiaZKTwz7HOvaWvNKbqkTLUmWUSkURitZk8W5VVJN8UWrCgNizI/hlMsOB8x4gx3QseEx9otwarqE5H/wcaHLZAm042K8F3eWzMKSPpJlT4LHK8EmEwoUkqMWM67VxFFPaK6FML0L2UhwkAEbN2ah6tkMfgBBVoQsAZuRZEnrY/tE1EC/XLfWr2w/5VI1CvGuG0daIxkA2iN56bTq84uZ2eAGYdbDeDN+wVUKdLoDeOotsncqjtjR2ke8KYIGnG5OAurLw+sbpwvM2OVN4F0qhXkNomquOP5fEfgCm1/in6Anx/nC0jDQAA</ScriptData>
+				<ScriptVersion>1</ScriptVersion>
+				<ScriptGuid>c6cdaf86-1052-11ea-a68a-005056aa1f27</ScriptGuid>
+				<ScriptFlags>0</ScriptFlags>
+				<Parameters></Parameters>
+			</Table>
+		</NewDataSet>
+		<ScriptFolder>
+			<NewDataSet>
+				<Table>
+					<FolderID>273</FolderID>
+					<ParentID>0</ParentID>
+					<Name>Stewart</Name>
+					<GUID>afdf7a15-23c6-4b95-b573-114cff470ca3</GUID>
+				</Table>
+			</NewDataSet>
+		</ScriptFolder>
+	</PackedScript>
+</LabTech_Expansion>

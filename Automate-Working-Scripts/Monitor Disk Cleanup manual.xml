@@ -1,0 +1,178 @@
+﻿<LabTech_Expansion
+	Version="200.251"
+	Name="LabTech Script Expansion"
+	Type="PackedScript">
+	<PackedScript>
+		<NewDataSet>
+			<Table>
+				<ScriptId>6519</ScriptId>
+				<FolderId>281</FolderId>
+				<ScriptName>Monitor Disk Cleanup manual</ScriptName>
+				<ScriptNotes></ScriptNotes>
+				<Permission>1,2,4,5,</Permission>
+				<EditPermission>1,4,5,</EditPermission>
+				<ComputerScript>1</ComputerScript>
+				<LocationScript>0</LocationScript>
+				<MaintenanceScript>0</MaintenanceScript>
+				<FunctionScript>0</FunctionScript>
+				<LicenseData>H4sIAAAAAAAEAFWPzQrCMBCE74LvkAdoyCYF+8OSixUvCqKi5zTZQg6mJW3Bvr20KNTTMDN8A4Mnbyn0VJnBaLxPHWmJYlG8jmHfjmGgqAHFyuHh3fk4M6Sf5AL1zkwJq8jSq6bIIEuYAilZVqZQQs4uZxQrBm82+m54UOx9G+bx/+DbH0fvtEqhsC5vuNkVwKUkw+tMWg4ALjXQ1KTsj18AFOtL280HCedO4eIAAAA=</LicenseData>
+				<ScriptData>H4sIAAAAAAAEAO2aW2/bNhTH3wfsO5wXoelQ2yIl3wLXcBfHrYGsGeosfckLJVIxF5k0RCqXffpRsuzYhqX1IjVRs5dIh6Qk8ncOyf+hM5j5EV/qMdFk+OsvAIOVrVLDmKf3OiJJ7YSzkCporSv+JBFZMM2irbL3ofRIuFWwetmlacSlGCIHYdzv9Nr9QWu3Zqf5+5jTIXbsvk97QYN0+nYDIUYaXhf5Ddu2qUPswGPYX78lfSDtfGu799nrZpotN8N55+u0J4NWdpeVT2KR2lOa1G1Z26NFe6PHe7azZ7t7dnsLjIz00Db9Ta5Z2YkUmouYJeWb+6zuXJ3xBU8fWd9mNVNBmdAkHYyp3Ta3kTxSKMCCi7A4/Xwww+NPsXgXaxnw+0ErK3u5qLoFpEin2/ZdxBp2x3ZMYFMT4n3zh7oEE9ZDXY+1K0GIykaIKkTYdn7YLMR14oLtgtBC6HDgDGcsZL4GmE4+/nV2dgSRjAU9gqMgYgxaoPg/7DX8hmwbXsMbWF1hEskFjCN+yxTczVnEMqN5IhfL2Cz80/HbkZ/dczoCIui6yRnTpvDtq5NXWY/wrouGWmoSJp/P6p2vcplTJ5d1i1w22oAY5fjOzSGI7MPohsfZOjwhPGQ0a+QW8nTrxNPtFPC0/JCbz3Jq5eC0HiPWyiH7982ciBHXHm0KpnMoXzClQXP/ZtNiD/EQLuYMKFc34IeMiHgJKh0v3BEFUSzS+aJNm4ipONQKAhkBTeYPnAAx020rNixILs3sS+0d57Xr5DzkuEXeWwHN956T47ILvmBAKN3E+7672jlOQgeRdmqF1G5XgdQPpWK7Ef51i3S3VhBxkbq1KxFkvVoBKpb/h/accmn165QB4F4BrCxHvZoYVjMjvVTz1lN529UdF5RH1pXZIG79K1XwKP4uvCgvw0LPMhpR4Tby5dD2eds5q2GS317+PvumhRDVKvMqXAh3EEJgrFTNCKmNejE5RRPG8k6EklBYkAeYEyNmgnRNgKURQWZDWZAbBio28oZcmwGATwTQ9TOJGkpe2oTTe264XMNqDNXkw6UnfvinV70H/L9a8kHLRzdKAZsPCrJgFhANWR9Tu5mjxsp6fUlReFAbotKTzyrDph56G5WegFbK9JkKblR6JlgpxSdQ3Kj0xK7auftfJ+6PiqRkTvXK3Qq3xrUWVA9Ks4WDr/yVHmyyewatlpChvJbw7ZLxe1HnZYEFurv7dCH5RahnD+rz+eeO+9xQ56WQBah7L1zwJWeY6Zk+jILkB+BEX42OU9GfnmoaSRUvwXtIRdNqioEXa1Cah6FRXgpCppSpNQIL2RbIID3JVEviG5U/k0ZGePw6lVsqEXYfzv84HX+aXp4mJ6DHYKk5C8PVAamVIymeYRd31Q0u/cfL/xUjLj2nfomKEdcqBX4KxYifIttb29k/5fwLUJNt76MjAAA=</ScriptData>
+				<ScriptVersion>1312296859</ScriptVersion>
+				<ScriptGuid>2309cd8f-a690-11ea-b71c-000d3a0fbe2c</ScriptGuid>
+				<ScriptFlags>0</ScriptFlags>
+				<Parameters></Parameters>
+			</Table>
+		</NewDataSet>
+		<PackedScript>
+			<NewDataSet>
+				<Table>
+					<ScriptId>8</ScriptId>
+					<FolderId>16</FolderId>
+					<ScriptName>Disk Cleanup</ScriptName>
+					<ScriptNotes>This script will run clean manager using the registry value set by the Disk Cleanup Script.
+The script first trys to run it as admin if the password is set and if not it runs it via the Tray program as the logged on user. If a user is not online the script will run as shell.
+</ScriptNotes>
+					<Permission>1,2,4,5,</Permission>
+					<EditPermission>1,4,5,</EditPermission>
+					<ComputerScript>1</ComputerScript>
+					<LocationScript>0</LocationScript>
+					<MaintenanceScript>0</MaintenanceScript>
+					<FunctionScript>0</FunctionScript>
+					<LicenseData>H4sIAAAAAAAEAFWPzQrCMBCE74LvkAdoSba/WpaAWPGiFy3e02TFHExL2oJ9e21RqJcZdoZvYfBkNbmOStUridXYkgTks+NlcPtmcD15KZAvLjy8WusnhmT1GHxn1BiwkjQ9a/JMbAIWCQAGoohFIXK2OyNfMHjV3rb9jXxnGzc9/w++/XGwRqosT3UCFIpMxCGAuYdq+xGTqEjRBvKa0h8/A8iXk9arN4abzoviAAAA</LicenseData>
+					<ScriptData>H4sIAAAAAAAEAO1bbU/qSBT+vsn+h/lCoskinba0xbhEAuVqVsVY7jWbkHCHzqDN9oWdtor/fqeleNHYUXAGqNkvykxpmXnOnOecZ3rmxHGpN0t6KEHt338D4GTRjvMGa9rzhKLsat8jPo5BY3nhGlEUkITQlb5vfjRB/krH4mE/2Je8KGxDtWUqLb0FrZPGyysvvv4t9XAbGWbT1SGpK4ai1SHE0zpqsT9YRyoiFjQnpLl8Sn5DPvjG6uiLxzkJmT1Pp+Mm+UhOGsWnor+fhnn7HLf1k8ZKa3W2sH32l/33+GLQ7VyMLzvds/Mre+QM+sPbzo09uvRcGsXRNBndeiGOHuNRN6WUhMtJjuz5zI8ooaMfkZ8GpIvcexKPsnE8EOCQJJ2BIQlmoB/5mN0ychKUkL6P7mJFUdiIizGsjkhtq0W/+qJfe+7XXvTrr+zXXDFVRJO2whDM/hd93ShMvDAlWf/z5+LaIL7wAi+/ZfmxuHIeYjZrlMPLrq42V430yy4cQ6kcQ0GtxTHVMYPdmz4NnLeBewWE9qr9pYBqNstxejXPz+ICReOiylxAurU1YNQqAaPyHKsDCn4DAwc8ohiEUQIwiwRuQvARsOcem80dWPyyFOfT1scSGlwwdZlgwu25n14pZN4hcDvEUjm8WSUOfwerXpaJBV5IspGTuRy/M6oEmKlw8DrN061uFMx8BtxpSW5lleRWQ5qSt9Or9vFNGnbiDmamKL6hcyE1qxQWoMmBdAINS8cKrJsTU2UJO1HrLX1q1BVLUVQTTxWIWlJWpSUaQpmUx1+VXUqy3/WYhlp3TT5kTOkRLGhdtqoEKlwnwhZQfI8JfRvKdTNe4VLAkAkVN7VbQOPcE9+X4qpQuDywdpqebCXqQuHSYYd5CltgXZ+g8PKOygFrA22wz2BJ9cYN1MIONSkvcsKy7bGY+EyXAjcKWYBMDhIvIAe9ztAed3q9g6vo8eDwD4+5Ln1APlABc+U0IYeHII0zCeuzaYTwsCTiZs9KIpqGG+20QeHqQ2qE5QTYdu3RC7FHa6P4KU5IoKkjN8BHZE5KbNJwQWcITp/xOwWN3AZosRP6xuMyxgjuaPZM0IjRHWF3HcMSuyib2UO4uJFqD34YvyZ0GtGg58X/5Gwrhz6Eaxepic8HqHYlJxQMlXCNIpNpdXU9Z1/xzjKPf89na4yg48gnYRpMCK1t5sHV0ix74MFqtaTLBzx4VeAKxqpSbza42wy1gVNbc3dBVRSrbGfBYdnTM2/ydxVU4VJGrouumfUIIMLNkhdVuOrZ4R7EdqhPuPbZIfW98EDBOFVLppi81MWxL+zuEPy8QgH5Cfo3g0vghQ/jGY1cEscRBbdn9o3NtGIwYyqQehj8CWq/WiWc+VmAhesOmQuRH1fif31K4tRP1g0v50z++WXxJb94vTTSx+LMV5ImnQC/nr3gJShcnUjdlf1YVGb/43k8QgE29HGwLM2qPy5KF+rLWD3W4GSqWU0DYc3QidYcG0fwyDQU5QgarH8cRiEZuy2tpVqKZZqai02MdhnqhascKHWHcw9ivSZc5siFjE8Hb9KhYMCq9ZpmLUKYW8an6cDAEFmupU8InhoG0ndIB5pwRbXLtW2HWPYLIu0rvSDaDn0Kl0pSy3445duCi+004dpoZzWdw3sC8hWUzsCyKgoDJ3WzKDNNff9JztISLn6klj8p/OKdweX196F9c94rq90pEHZcFDKay8r7hVSgaNUqItti0bVWqfcuTW17wAhXEVKXzLtZw1YCob53hz60/0/HCABqi4QkXFhBicDs+SmQDZTPO2cdPsthXDC3eApE/PkYmcjs+BTI3qkbLla8CvzsyKxqaQr/yKwECHdxkGbZLg4u/wePedznxzwAAA==</ScriptData>
+					<ScriptVersion>1297094918</ScriptVersion>
+					<ScriptGuid>a675c41e-0603-11df-a9df-d4a2ae817be5</ScriptGuid>
+					<ScriptFlags>0</ScriptFlags>
+					<Parameters></Parameters>
+				</Table>
+			</NewDataSet>
+			<PackedScript>
+				<NewDataSet>
+					<Table>
+						<ScriptId>5764</ScriptId>
+						<FolderId>50</FolderId>
+						<ScriptName>Verify Location Admin Credentials</ScriptName>
+						<ScriptNotes>Verifies the "Login to use for Administrator Access" on the Deployment &amp; Defaults tab has valid credentials on the Password tab.  Script outputs the @Credentials@ replacement variable with the results of the verification process.</ScriptNotes>
+						<Permission>0,</Permission>
+						<EditPermission>0,</EditPermission>
+						<ComputerScript>1</ComputerScript>
+						<LocationScript>0</LocationScript>
+						<MaintenanceScript>0</MaintenanceScript>
+						<FunctionScript>0</FunctionScript>
+						<LicenseData>H4sIAAAAAAAEAFWPTQqDMBSE94XeIQcwJC8Vo/IIlP5t2k0r3UcTaTZRooF6+6K0YFfDzPANDF5dY/1gj3rUCquptwqQLYr36A9d9KMNiiNbOTy9exdmxqrqFcNg9JSQs61D1GEiAhIiOOwIQClkmWZkf0O2YvDRBNePTxsG1/l5/D/49pfojKohy1PDgcpaCgpgBS3SNqM851xI03LQxY9fAGTrS9vNB2RUizXiAAAA</LicenseData>
+						<ScriptData>H4sIAAAAAAAEAOWba3PiNhSGv3em/0HDlEwvIfhCuCWhpAnZoU0hEza77SzbGQUJ0FTYriWS7LT977WNnRgWaYORIKSfsCTj2M8575FemRz3Bj7x+DnksPH1VwAcz9osagTN1gP3YTh6QTBFDBSTgSvowwnm2E/1vaHuLaSpjtnF3gUnEddpmMfF+Y65s95MCWrcmuVqCRlmoXJbsQqmia1CrTQsF4yqYVgVNDRMWEuuEn0huudi+qbjy/U49h6f4nTA4xuIj+L+i6kTtdsoHEu10g9pLjy0tdC2F9qlhfZhiofr84YR3G/4GfeduQ4nzhSH/Y/H8ViXXZIJib6SHMYjbQdhh8PoYYLRdDON5ImCBIslw2LXxGAa9WvMfYLv8KU7GmHUdm4Y9o+L8ej/F5plSKC9Jw5y7xnoTT0veCTw1nUpWw6tUf8ds/dj93TSbrP4fIzic621gJqrA7WlQC2NQK2qhGcs/n6314/R/nZV+OWnql01KrVCTC2CXGh1bg7wAxbAzlPO7gaI+PkVL7ReJCxBJMyskSjpTG2zJAlFZoKLoTCWk23U2w7jkNKeO+T30E++bq8E3Fad+jqBW7L6ewEJxQhwFwSsHepCBJ7J/QC0HkjwqCPAots60FK1S6pJl3WSNg83tgY43CUwX1gDLJek2kQq75JkzbLSEgmKf2lhWlE97+jMwUPJtKNYm9Wd0uYOLDVruwT0mfMtmRU9sJTwZiZXM4MnknOtvpLZ1VRubnSS+cL0KpGl4nwSGZEXaQlNSzbL5vKe746Cw2EgWJbvz8mzfz924YSEc2tOD0mRw3iZlk5a8uotB21sl8dUbhi2l4KzJNODKYN9kO+Gac0veX3baH5l8BE7sPc6iP74KZoQRw82kVV4kdikK+JwabB0+dtrXbbO3oJpkHoOnGBwcd39FdAYLQMUtDud1jX4udvuAA8ydu/6iAEPdDuAHiQdBIET4KWbp53zYDy5DkEn+afjvGCTKzkDpgK62g6XmcHDyAOmtY4aliRizTkcTUH4vv3wR79f/ND/+E//hz3Kj/ZG/OikfpTb//H75se/S/u29e933wh4e9BnGCmgnsHobJH6CmV5AGlUXc58HN4NgSIXuWahsXbrNY+c4Dvsk+En7cgyeJ3tIavIanOejTGlPmZTyvMCnVcFGm4uEXFzuYqDyEBK0OeBKclBZ7BH21O3NtCzLRAR2bZzF7INF3Ar883wWmZ7fOWLDAHTGwfeUhxuH91FtQFEaUoY9yF3fTB4IrYPBmM8+BMM3Ik35dh/XImA3Dn2qPtpEpwI9uDEOwLneAiDQLIc4PD2aeupN7f1tBjGz6Oz2lxnZXBqW7Qgcosb+I7rSAyaSvRrsmtShSvmptytvbiKkEIIgk8cNEEgcj7GKcVfJXYjUjiAPgaOy0EUB9FWs3K9K7eAr1jvyt3XFvUuWCspJrZTzmltpUezP8FIl1ht5TZqiwmoWay2cv+kNfVkqJqpvBHsk6wLS7kH0plYUg/0DFhCD5ToV+SCWg4SmX+5B7KVeyCtP03b4CtdW7nf2OIvpiT5oVivyp3HMzaHknb8PwX/AV/1IzFiMAAA</ScriptData>
+						<ScriptVersion>1</ScriptVersion>
+						<ScriptGuid>b1684d01-7b72-11e2-94f6-080027df01a9</ScriptGuid>
+						<ScriptFlags>0</ScriptFlags>
+						<Parameters></Parameters>
+					</Table>
+				</NewDataSet>
+				<ScriptFolder>
+					<NewDataSet>
+						<Table>
+							<FolderID>50</FolderID>
+							<ParentID>47</ParentID>
+							<Name>Functions</Name>
+							<GUID>5e052966-d1b5-4c3f-899d-9ff09f989e7c</GUID>
+						</Table>
+					</NewDataSet>
+				</ScriptFolder>
+				<ScriptFolder>
+					<NewDataSet>
+						<Table>
+							<FolderID>47</FolderID>
+							<ParentID>0</ParentID>
+							<Name>_System Automation</Name>
+							<GUID>68c423ca-41a6-4fae-a052-08a4fd27ea53</GUID>
+						</Table>
+					</NewDataSet>
+				</ScriptFolder>
+			</PackedScript>
+			<PackedScript>
+				<NewDataSet>
+					<Table>
+						<ScriptId>7</ScriptId>
+						<FolderId>16</FolderId>
+						<ScriptName>Disk Clean Setup</ScriptName>
+						<ScriptNotes>This script sets the registry entries for cleanmgr.exe to automatically clean files in the following locations:
+Active Setup Temp Folder, Content Indexer Cleaner, Downloaded Program Files,Internet Cache Files, Memory Dump Files, Old ChkDsk Files.
+Files required to perform disk clean operation are not available on Core versions of the Windows operating system.
+</ScriptNotes>
+						<Permission>1,2,4,5,</Permission>
+						<EditPermission>1,4,5,</EditPermission>
+						<ComputerScript>1</ComputerScript>
+						<LocationScript>0</LocationScript>
+						<MaintenanceScript>0</MaintenanceScript>
+						<FunctionScript>0</FunctionScript>
+						<LicenseData>H4sIAAAAAAAEAFWPQQuCQBCF70H/YX+AsrOarsqwl4wuBVFR59WdYA+tsirkvy+lwC7vMe/xDTw82JpcR6XutcLr2JISyGfH8+C2zeB68gqQLy7cvVrrJ4bUnYyjzugxYCXV9KzIM5ABi0AIJosYCpDsdES+YPBSe9v2N/Kdbdz0/D/49vvBGqVTmURZDCGkEIdCmEeo84+YjY40ZUJWlPz4GUC+nLRevQE9d02h4gAAAA==</LicenseData>
+						<ScriptData>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</ScriptData>
+						<ScriptVersion>1296657850</ScriptVersion>
+						<ScriptGuid>a6752830-0603-11df-a9df-d4a2ae817be5</ScriptGuid>
+						<ScriptFlags>0</ScriptFlags>
+						<Parameters></Parameters>
+					</Table>
+				</NewDataSet>
+				<ScriptFolder>
+					<NewDataSet>
+						<Table>
+							<FolderID>16</FolderID>
+							<ParentID>8</ParentID>
+							<Name>Hard Disk Cleanup</Name>
+							<GUID>97c91b10-7ff0-48d5-a499-881ec1003845</GUID>
+						</Table>
+					</NewDataSet>
+				</ScriptFolder>
+				<ScriptFolder>
+					<NewDataSet>
+						<Table>
+							<FolderID>8</FolderID>
+							<ParentID>0</ParentID>
+							<Name>Maintenance</Name>
+							<GUID>064548fa-1133-4823-a069-4197f8256f3e</GUID>
+						</Table>
+					</NewDataSet>
+				</ScriptFolder>
+			</PackedScript>
+			<ScriptFolder>
+				<NewDataSet>
+					<Table>
+						<FolderID>16</FolderID>
+						<ParentID>8</ParentID>
+						<Name>Hard Disk Cleanup</Name>
+						<GUID>97c91b10-7ff0-48d5-a499-881ec1003845</GUID>
+					</Table>
+				</NewDataSet>
+			</ScriptFolder>
+			<ScriptFolder>
+				<NewDataSet>
+					<Table>
+						<FolderID>8</FolderID>
+						<ParentID>0</ParentID>
+						<Name>Maintenance</Name>
+						<GUID>064548fa-1133-4823-a069-4197f8256f3e</GUID>
+					</Table>
+				</NewDataSet>
+			</ScriptFolder>
+		</PackedScript>
+		<ScriptFolder>
+			<NewDataSet>
+				<Table>
+					<FolderID>281</FolderID>
+					<ParentID>272</ParentID>
+					<Name>Final scripts</Name>
+					<GUID>c2aabe44-40cc-4864-8bc0-a0979af3f3bc</GUID>
+				</Table>
+			</NewDataSet>
+		</ScriptFolder>
+		<ScriptFolder>
+			<NewDataSet>
+				<Table>
+					<FolderID>272</FolderID>
+					<ParentID>0</ParentID>
+					<Name>Roy</Name>
+					<GUID>f72d390a-cee0-4532-8978-a2d4f98e544b</GUID>
+				</Table>
+			</NewDataSet>
+		</ScriptFolder>
+	</PackedScript>
+</LabTech_Expansion>

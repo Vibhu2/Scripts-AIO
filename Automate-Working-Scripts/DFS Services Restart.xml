@@ -1,0 +1,37 @@
+﻿<LabTech_Expansion
+	Version="200.251"
+	Name="LabTech Script Expansion"
+	Type="PackedScript">
+	<PackedScript>
+		<NewDataSet>
+			<Table>
+				<ScriptId>857</ScriptId>
+				<FolderId>66</FolderId>
+				<ScriptName>DFS Services Restart</ScriptName>
+				<ScriptNotes>This Script will try to Restart the DFS and DFSR Services once and if the services fail to restart, then it will create a ticket.</ScriptNotes>
+				<Permission>0,</Permission>
+				<EditPermission>0,</EditPermission>
+				<ComputerScript>1</ComputerScript>
+				<LocationScript>0</LocationScript>
+				<MaintenanceScript>0</MaintenanceScript>
+				<FunctionScript>0</FunctionScript>
+				<LicenseData>H4sIAAAAAAAEAFWPzQrCMBCE74LvkAdoyE+DrWXJRUUQBbHiPW1WyCUtaQL27bVFpB6WZWb2G1g4uxb9gHsTjYb72KMWwOYNt+R3XfIRg+bAFgoOr96FiUFdm5iCNWNGTskjkTz7jOSkqOS24oJcL8AW51C3wfXxgWFwnZ96/41vfkzO6tyaZ2s2ija5tFQINLTBraKm4Eq0pchV+eNnANjym/XqDVoNaBDdAAAA</LicenseData>
+				<ScriptData>H4sIAAAAAAAEAO2Y3WvCMBDA3wf7H+7FR9E0rR8ghaFThMFEYe9nEzGsptKmY/vv19aoUbSCn2Tsqbm79JL75Xrm7EyCWCxVDxX6z08AnZWcFEImvn6rGHNrX/CQJVBbG0YY44IrHhu6QRhNMTQUK2cf2SQRSZ90aruKnVmDVDCfMpwF2HCrU+qwKiEcq1PedqvYrLskaBHqtuprL8ULxZ5r5qa1u4niy00UL4HSG9Ajre+nspCHLLcZkhkk2Qva2ZPpnuzuyZ7BI4qVnweQP7WuG0klZMpz/Wasbe/Jm1iI4pX1UFuGknGpsAgms5qiiWRLoQSLU4LFa/xzOcTFKckXn2Yr6+E1ARGbABFCSwj1ZslhRD7VeuciVI5NqKh3DqkLk4naROiOVci1icsjqpBnE6ATVag/Gd+0DDVsYlVeho6iujCdmjYhumMdatnE5RF1qG0ToHNvQ+QqZYhYdbV2Sz4yvxKEIltWsMoRYpUgWizTrC/dTjkBL69tMOHxlwg4zDGBGYqQM1ARxDxRGCtABXphmTW9FYgkwIGF3N1T8Echx4RDd86DT1BzDuZKKBmsvAsFC5QphuGPduTtHt9fuvjf6neEWHXlf0SOj++X5ONzstyqjoQ47ZITvFH//4jeZC3rfwh/ASziAzcwFAAA</ScriptData>
+				<ScriptVersion>1</ScriptVersion>
+				<ScriptGuid>3dafca64-b32d-11ea-be94-a7041c813480</ScriptGuid>
+				<ScriptFlags>0</ScriptFlags>
+				<Parameters></Parameters>
+			</Table>
+		</NewDataSet>
+		<ScriptFolder>
+			<NewDataSet>
+				<Table>
+					<FolderID>66</FolderID>
+					<ParentID>0</ParentID>
+					<Name>ITBD</Name>
+					<GUID>4860adbd-5a8f-467d-b086-3d0a4b270ac8</GUID>
+				</Table>
+			</NewDataSet>
+		</ScriptFolder>
+	</PackedScript>
+</LabTech_Expansion>

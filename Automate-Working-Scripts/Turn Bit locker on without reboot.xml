@@ -1,0 +1,37 @@
+﻿<LabTech_Expansion
+	Version="200.251"
+	Name="LabTech Script Expansion"
+	Type="PackedScript">
+	<PackedScript>
+		<NewDataSet>
+			<Table>
+				<ScriptId>466</ScriptId>
+				<FolderId>74</FolderId>
+				<ScriptName>Turn Bit locker on without reboot</ScriptName>
+				<ScriptNotes></ScriptNotes>
+				<Permission>0,</Permission>
+				<EditPermission>0,</EditPermission>
+				<ComputerScript>1</ComputerScript>
+				<LocationScript>0</LocationScript>
+				<MaintenanceScript>0</MaintenanceScript>
+				<FunctionScript>0</FunctionScript>
+				<LicenseData>H4sIAAAAAAAEAFWPzQrCMBCE74LvkAdoyE+JtmXJRUUQBdHiPSRbDEha0gbs20uLQj0NszPfwsDZWww97s1gNNRjh1oAmxVuKezaFAaMmgNbODi8Ox8nBnX9TLF3ZszIKb1GkvOMSC45kZXilZLkegG2qMPdRt8ND4y9b8P09//wzY/JO22FbJBvcurktqRCoKGFKiTlWCprMG+sUj9+BoAt16xXH/Itl+TdAAAA</LicenseData>
+				<ScriptData>H4sIAAAAAAAEAOWUwUvDMBTG74L/Qy87hjapnauUgkw3BoLCwPtb8qaBNB1pCv75tlk6s4K9jSGe8r7vSx7v/Q4pttzIg30CC+XtTRQVR9040cnnL2ugT1cSlWiieAjewECFFk3grVW9AxUYx2bv3SVZ65IW8blxdmvdSlFyyvaYzFMi2H1OKEUgi2zBSIJ5xgHTPc+yoYt74GaOw6F9u63Fw2mLR279AL7y/qrVTm9EnwUqXJKOlmYjnY703UhnAY/a2DLp5u1P7y1rbaVusfdPtc9emxdZSfdkKH2y0QK1BbdMl4YyRPJDYQILm8Iy/51LWYGGDyQ7gRGpdbR8KGKf/FteLJ/gNWs+USmDTavs7CKs6F9iRSdhJRcBxK4AaND+k/0GiIrKlnMFAAA=</ScriptData>
+				<ScriptVersion>1</ScriptVersion>
+				<ScriptGuid>c12fe063-d279-11ea-8582-0e95cae3fc55</ScriptGuid>
+				<ScriptFlags>0</ScriptFlags>
+				<Parameters></Parameters>
+			</Table>
+		</NewDataSet>
+		<ScriptFolder>
+			<NewDataSet>
+				<Table>
+					<FolderID>74</FolderID>
+					<ParentID>0</ParentID>
+					<Name>ITBD</Name>
+					<GUID>74993c69-aa0c-4f0e-b2c5-6f1e333b06d2</GUID>
+				</Table>
+			</NewDataSet>
+		</ScriptFolder>
+	</PackedScript>
+</LabTech_Expansion>

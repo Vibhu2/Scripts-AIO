@@ -1,0 +1,37 @@
+﻿<LabTech_Expansion
+	Version="200.251"
+	Name="LabTech Script Expansion"
+	Type="PackedScript">
+	<PackedScript>
+		<NewDataSet>
+			<Table>
+				<ScriptId>5982</ScriptId>
+				<FolderId>222</FolderId>
+				<ScriptName>Chrome Cache Deletion</ScriptName>
+				<ScriptNotes>This Script will cleanup google Chrome data from all users Profiles on a given machine, it does not delete Bookmarks for any users or its passwords.</ScriptNotes>
+				<Permission>0,</Permission>
+				<EditPermission>0,</EditPermission>
+				<ComputerScript>1</ComputerScript>
+				<LocationScript>0</LocationScript>
+				<MaintenanceScript>0</MaintenanceScript>
+				<FunctionScript>0</FunctionScript>
+				<LicenseData>H4sIAAAAAAAEAFWPwQrCMBBE74L/kA9oyKamrZQlFxVBFESL97RZISBpSRuwfy8tCvU0zM68hcGza8j3tDeD0ViNHWmJYla8Rb9rox8oaECxcHh4dy5MDOkqUm/NmLBTfI0s3SYshRSYKjd5qVJ2vaBYtPHeBNcNDwq9a/309v/wzY/RWU15QaDqglt4Si4lGW4aRRxAZpkFUxuQP34GUCzHrFcfs7ltzNwAAAA=</LicenseData>
+				<ScriptData>H4sIAAAAAAAEAO2WUU/CMBDH3038DosJj5NuMIkGlyiCMSGROKMvvHTriU1Ku7Qd4Le3GwXGEIwxxKA+rf/73116v3XN2lEiaapvsMbh8ZHjtOdaFcLI7kxLnLs9Cowop74wBljiMWiQpdgtEzFmKpz36PIR5dDlOGbQF6MRyEuvXV/k2JJ56pNpQwUPjb8eWMu6zSgJ4awFqBm3XIJePNfzALs4aYKLkBcEBOEYo2WXoqCYql4ey7aLNKTLfVwl2m7Army8l/FC35HcK6kyBq+Cxa/oRkU3KzpY6UhIHSKz3/xpYx3BNeUZ5PHl2nr3qk/HtChZLK1zxwlwjYthjFuWZSQrCjuw+Duw+AhtBxN2XqUYg9thgHmWnqbKULTWGrGwczGcUk7EVA2ZVpNkuLXS/2dbZvsAYzGBCE+ADLBSUyGJ+jrnT7p8j7l3SMy9RrCDeQTa7c4gyXJ3IBhN3pyNwPVbahh+/AK+eTX4vwflQEzNLf8KjJ3CDBy3Rxk4J+Z8Ptvz2X+MNu4Blh/Kk72gbfxRtNs+/f1Qbh4SZf98B+RauqQsQWVM1/YCLPgBYAttfwvfASSgV9klCgAA</ScriptData>
+				<ScriptVersion>1</ScriptVersion>
+				<ScriptGuid>e67e04b7-d0f1-11ea-ac4e-00155d0aba01</ScriptGuid>
+				<ScriptFlags>0</ScriptFlags>
+				<Parameters></Parameters>
+			</Table>
+		</NewDataSet>
+		<ScriptFolder>
+			<NewDataSet>
+				<Table>
+					<FolderID>222</FolderID>
+					<ParentID>0</ParentID>
+					<Name>ITBD</Name>
+					<GUID>904f9ea7-92f8-4c66-9634-ea01a74fafd6</GUID>
+				</Table>
+			</NewDataSet>
+		</ScriptFolder>
+	</PackedScript>
+</LabTech_Expansion>

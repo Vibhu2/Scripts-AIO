@@ -1,0 +1,47 @@
+﻿<LabTech_Expansion
+	Version="200.251"
+	Name="LabTech Script Expansion"
+	Type="PackedScript">
+	<PackedScript>
+		<NewDataSet>
+			<Table>
+				<ScriptId>6491</ScriptId>
+				<FolderId>280</FolderId>
+				<ScriptName>Script Update Agent</ScriptName>
+				<ScriptNotes></ScriptNotes>
+				<Permission>1,34,</Permission>
+				<EditPermission>1,34,</EditPermission>
+				<ComputerScript>1</ComputerScript>
+				<LocationScript>0</LocationScript>
+				<MaintenanceScript>0</MaintenanceScript>
+				<FunctionScript>0</FunctionScript>
+				<LicenseData>H4sIAAAAAAAEAFWPzQqDMBCE74W+Qx7AYH6Moiy5tKWXCqWV3mPc0lyiRAP17YvSgj0NszPfwsDFWfQjHs1kNDTzgJpDuircoj/00U8YNIN04+D0HlxYGNRNxLEzc0JqE+yLSJ4QwQQjZcVlJRW51pBu6nC3wQ3TA8Poer/8/T9883N0nS5amWcCBS1kmVHO0VCjbEsZU0zlxvCnKH78CkC6XbPffQAifkgB3QAAAA==</LicenseData>
+				<ScriptData>H4sIAAAAAAAEANWVX2uDMBTF3wf7Dn3po2hirC1IsPQfQkfLuu091hQCbSwaYR9/0V67aNHBGCt9MuecJNz746rBbp+Js5ozxejz02AQXHReCS0XnypjZboU/JjkA7sOtixjJ654ZnirYxqzo2FcLvvQm0QqKQrsptHYtSpEQv3YHRHMseW7E2IhxJnFvH1sOY7neCPG0AH79S3Vgapm2ywartspfr52Md0rKABW4C8LWekooV5gG8psEtEwV0wVeRjYYJgxphh83PBdupxG68UcQrcRkhZIz2CWZoo6uqfyCd4slUrIgpf+dQ3ZJl+Lk6iO1EtIIplwqSsvG9apKU1s36R60OEedNjpYYc6oIWHcqCknqGwAx9MyX/xszAiPhnr+Rvfj+RvQAKnDowtUIQOZ5uX7fvb4jWaD+EIabIsW4SVyRQ9JlM0Id1UW3RwS9/Q+2Hs8CO9tl7PJ++Pubh34FJr+LV9AQjXbTLpBgAA</ScriptData>
+				<ScriptVersion>1</ScriptVersion>
+				<ScriptGuid>7b3642e2-7394-11ea-a5cb-005056aa1f27</ScriptGuid>
+				<ScriptFlags>0</ScriptFlags>
+				<Parameters></Parameters>
+			</Table>
+		</NewDataSet>
+		<ScriptFolder>
+			<NewDataSet>
+				<Table>
+					<FolderID>280</FolderID>
+					<ParentID>272</ParentID>
+					<Name>Test scripts</Name>
+					<GUID>145061da-45d2-4c69-9a0e-f3fe0e6e6e50</GUID>
+				</Table>
+			</NewDataSet>
+		</ScriptFolder>
+		<ScriptFolder>
+			<NewDataSet>
+				<Table>
+					<FolderID>272</FolderID>
+					<ParentID>0</ParentID>
+					<Name>Roy</Name>
+					<GUID>f72d390a-cee0-4532-8978-a2d4f98e544b</GUID>
+				</Table>
+			</NewDataSet>
+		</ScriptFolder>
+	</PackedScript>
+</LabTech_Expansion>

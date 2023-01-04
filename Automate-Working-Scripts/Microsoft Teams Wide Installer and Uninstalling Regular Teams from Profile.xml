@@ -1,0 +1,37 @@
+﻿<LabTech_Expansion
+	Version="200.251"
+	Name="LabTech Script Expansion"
+	Type="PackedScript">
+	<PackedScript>
+		<NewDataSet>
+			<Table>
+				<ScriptId>6336</ScriptId>
+				<FolderId>220</FolderId>
+				<ScriptName>Microsoft Teams Wide Installer and Uninstalling Regular Teams from Profile</ScriptName>
+				<ScriptNotes>This will first check if Teams Non machine wide is installed on the System, If it is installed it will uninstall it from all the User profiles created on the machine and delete the Shortcut from Desktop and Start Menu. Then it will check for Machine Wide Version, If it is installed on the Machine, the Script will Exit otherwise it will install Teams  Machine Wide Version (32/64) on the machine.</ScriptNotes>
+				<Permission>0,</Permission>
+				<EditPermission>0,</EditPermission>
+				<ComputerScript>1</ComputerScript>
+				<LocationScript>0</LocationScript>
+				<MaintenanceScript>0</MaintenanceScript>
+				<FunctionScript>0</FunctionScript>
+				<LicenseData>H4sIAAAAAAAEAFWPwQrCMBBE74L/kA9oSHa1rZYlFxVBFETFe9qkEJC0pA3Yv5cWhXoaZmfewtDZVdZ3dq97regxtFYBiUnpFv2uib63QUkSM0eHd+vCyFj1iLYzekjYKb4GhpAwlCgZyGINRQrseiExq9O9Cq7tnzZ0rvHj3//DNz9GZ9TGGMwQgVelzjmA1XyLmHJADSuZlnWe1T9+AkjM1ywXHzLeqlLdAAAA</LicenseData>
+				<ScriptData>H4sIAAAAAAAEAOVZbW/aMBD+Pmn/warUjyFxeK9YpK2DCqnVkKjWL0iVSQ6wFBxmO4P++zrBocAaS7ykKN2n+O58p/i5x3c56Ax9ThfyJ5HE+/oFoc5aFqmgxO5KcpJYexTCQCA7MwwIJ3OQwLd0d2E0JqHw1jG6bEoZdBkZh3AfTafAv+GOne3RLuutv1UYGjFP2XcVO7vuYhp4rSBwG66LLX9MmhbGQKy269Yt7BJcderjSbMxyaKkDump7O1j6XBDCYvNe3z3pX4BvdL6XsxSuR8kti1pGwa8B4u7J1f35NqeXH+ThxGXnqPeN3lq3W3EJGUxJPrNWtt+iXs6p6lLttSWPguASZIeRlm3xW1I3lAwwOKaYHGdfGC8B+rzSEQTiR6BzEXH1voduBJo9eo/gq1tgK32PlAn8gqXCSDXMVw4byblQtzYdiBq2BEy4mQKlbGqLRU/4lBZUhZES1FhIO1Qars6/EQuCQdbJlyMGWVCkjCsLATOIebtzUiHGqkwf/1RrucedRNo9OqQDLllyhCu1g0ZGoK0uivw48Q6iELqv6B/FD9eFkTkVIUTyV79PFAOoqXqhzNQhIMVIKtHQ0BXiptPmpv3j8N3uXmFCoG2ViZojXX2erGBloOIQ3ldCGD1MgFmbuhpG0cPxJ+pjzvriQaA+mvCAc8pos5ZunujTBgW2bzSDDxnm+aC5veurD7kuZynaTUPz0zz82fmedWoHZGdPbfzZKh1eIZal6s/DUOCFDKqBfrIpsjEb2T/iSlI9WDIZip1qkJxWUhtb5eK/cZmWHgfxOUa0U4kYnaVP5CM+IgR73I3/dJsLNe0ZWJjAKGxHhaD3xEj1uVK39H4mRv5qRgeMUtd7sLWax/2Gygu2cxkKmVOMdS5xESUyfoPg1dq7UZTPxgAAA==</ScriptData>
+				<ScriptVersion>1</ScriptVersion>
+				<ScriptGuid>8dd26221-cba7-11ea-9225-12a1305bf76f</ScriptGuid>
+				<ScriptFlags>0</ScriptFlags>
+				<Parameters></Parameters>
+			</Table>
+		</NewDataSet>
+		<ScriptFolder>
+			<NewDataSet>
+				<Table>
+					<FolderID>220</FolderID>
+					<ParentID>0</ParentID>
+					<Name>ITBD</Name>
+					<GUID>4a122fe5-c790-486a-8a26-07a34b58427a</GUID>
+				</Table>
+			</NewDataSet>
+		</ScriptFolder>
+	</PackedScript>
+</LabTech_Expansion>

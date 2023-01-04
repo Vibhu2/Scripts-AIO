@@ -1,0 +1,37 @@
+﻿<LabTech_Expansion
+	Version="200.251"
+	Name="LabTech Script Expansion"
+	Type="PackedScript">
+	<PackedScript>
+		<NewDataSet>
+			<Table>
+				<ScriptId>6515</ScriptId>
+				<FolderId>273</FolderId>
+				<ScriptName>Creating local admin account for Infrastructure Solutions.</ScriptName>
+				<ScriptNotes></ScriptNotes>
+				<Permission>0,</Permission>
+				<EditPermission>0,</EditPermission>
+				<ComputerScript>1</ComputerScript>
+				<LocationScript>0</LocationScript>
+				<MaintenanceScript>0</MaintenanceScript>
+				<FunctionScript>0</FunctionScript>
+				<LicenseData>H4sIAAAAAAAEAFWPzQrCMBCE74LvkAdoyE8ttmUJiIoXBVHxniYrBiQNaQP27aVFoZ6G2ZlvYeDoDPoOd7rXCm5DQCWATQqX5Ldt8j1GxYHNHOzfwcWRQXV7pthZPWRkE6J7EVFlRHJRkrIuZC0rcj4Bm/XhaqIL/R1j51o/Pv4/fPNDclbpSpjC5hXVhV1RIVDTZi0M5ZzbXPNHg9L8+AkANp+zXHwAQaElWd4AAAA=</LicenseData>
+				<ScriptData>H4sIAAAAAAAEANWUwWqEMBCG74W+Q15ANLq2CCJd2u4itLQg9D6atARiIkmkffwaN+5mhbqnRXpy/vknk5kPSV41inXmCQwUtzcI5QetRzHI5x+jwLo7RjnRKJyMd1DQUkOVLjrQ+lsqkode0pXtuayBe+cO/T+GEiZFgfPwPHFWte8ZKSDDTUqSLICUbAKMKQT1PW6CKIpIAtFnTeNm6jIeGNcI/T1cu8rQ7jjYtjFuABe5/K4Xoy6J9Tzl741nHOKZTmZ6M9Opx0MqU0TDvPbrco9SGCZ6avPH2Hlv+oW1bDwyhc4pBaHCwLjM4PrSR3KisIAlXsISZ3+DsTe7aGVAOFuP0N0CIEEN6jVVqKyqLWmZQK+9UpTzBxwnCIVAyFUQ4n/1j10iyGUD/EvJvkNgITI9vFNGKn3CejWS8QokJ+0e6l/ExLoTtwUAAA==</ScriptData>
+				<ScriptVersion>1</ScriptVersion>
+				<ScriptGuid>a91c5d39-a5d4-11ea-b71c-000d3a0fbe2c</ScriptGuid>
+				<ScriptFlags>0</ScriptFlags>
+				<Parameters>password</Parameters>
+			</Table>
+		</NewDataSet>
+		<ScriptFolder>
+			<NewDataSet>
+				<Table>
+					<FolderID>273</FolderID>
+					<ParentID>0</ParentID>
+					<Name>Stewart</Name>
+					<GUID>afdf7a15-23c6-4b95-b573-114cff470ca3</GUID>
+				</Table>
+			</NewDataSet>
+		</ScriptFolder>
+	</PackedScript>
+</LabTech_Expansion>

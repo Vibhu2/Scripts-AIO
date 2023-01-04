@@ -1,0 +1,62 @@
+﻿<LabTech_Expansion
+	Version="200.251"
+	Name="LabTech Script Expansion"
+	Type="PackedScript">
+	<PackedScript>
+		<NewDataSet>
+			<Table>
+				<ScriptId>461</ScriptId>
+				<FolderId>74</FolderId>
+				<ScriptName>Test Bitlocker Status Only and set EDF</ScriptName>
+				<ScriptNotes>Check if a computer Bitlocker is Enabled and set it on the EDF
+Group Search based on EDF status
+</ScriptNotes>
+				<Permission>0,</Permission>
+				<EditPermission>0,</EditPermission>
+				<ComputerScript>1</ComputerScript>
+				<LocationScript>0</LocationScript>
+				<MaintenanceScript>0</MaintenanceScript>
+				<FunctionScript>0</FunctionScript>
+				<LicenseData>H4sIAAAAAAAEAFWPQQrCMBRE94J3yAEa4k9rG8snUFTc6EaL+5qkmk1akgbs7aVFoa6GmeENDJ6tMi6YQzM0EuuxNxKQzYrX6PZddIPxcoNs4fD47q2fGCPrV/RBN2NCqviMYSCQJ4RvQBDgZQpluiXVBdmCwJvyth/uxgfbuWn6P/j2p2i1zETBs1xoqpq8pQBG0B3oggJvC8jyhxLAf/wMIFseWq8+l8aaFOAAAAA=</LicenseData>
+				<ScriptData>H4sIAAAAAAAEAO2XUW+bMBDH3yf1O/ilj1awIWCqCGVtk6rSpFZKtXeDj9UqMRE20j7+gJiUoMC0KmhK1Sf8v7NPdz/sMyw2SSF35p4bHl19Q2ix17oRlVz9NgWvvWsJmdBo1jqeecG3YKDo2B6yPOZZx7AP9rOaJHMVkcXs2HA066GUIvJYQD2fCZxwP8WEAMMhEQEmNA2I58cJI7SN0ixocp51k7bhNgZ2hyq+J8YmYEfWvi5Vox9F7euobpGkVzTtabenvZ6ed3jkhYmcKt/6aW13uTJSlVDbD2Pre9I/5FY2S9qh9TwqAcrwppjK25VdJO8URrDQMSxuOAwmegFtkEzRrTRZnrxBgaRGoHicgUBcCaTBIPMKaHW/Xszsoi+WJ1ne1DAPIDdVAqWehBm5KGb+CLItV/wX4FgAwno6YPTcwOiEwKgzAoyc5hNd61fIsgJ0mZlrO4ceM4vidmsekXb/iaR7SSSDMZLLHo7lAFk2QPO5yA00odGTOs0yujl0g9W+peL3NuqNcvYuiTMb48zjIBWu7+DE82LsgZvgEEKGyTwlLGZkLtJwAP0yybe7svpCkWI58BacD+3i+bnpulM2UDp26TiTNEz/krbfX27lkTN4XmjBuaGRz3lmyYfOLPsPW7LV9ufqD93mCz9rDQAA</ScriptData>
+				<ScriptVersion>1</ScriptVersion>
+				<ScriptGuid>4872468d-ca6f-11e8-91d7-12f7146bc812</ScriptGuid>
+				<ScriptFlags>0</ScriptFlags>
+				<Parameters></Parameters>
+			</Table>
+		</NewDataSet>
+		<ExtraDataField>
+			<NewDataSet>
+				<Table>
+					<ID>207</ID>
+					<Form>1</Form>
+					<Name>Bitlocker Enabled</Name>
+					<Sort>1</Sort>
+					<NoBreak>0</NoBreak>
+					<FType>1</FType>
+					<Section>Bitlocker</Section>
+					<UnEditable>1</UnEditable>
+					<Collapsed>0</Collapsed>
+					<Fill></Fill>
+					<LtGuid>ab7fd360-c44b-4e3c-9e98-15f18b815df9</LtGuid>
+					<IsPassword>false</IsPassword>
+					<IsEncrypted>false</IsEncrypted>
+					<IsHidden>false</IsHidden>
+					<IsRestricted>false</IsRestricted>
+					<ViewPermissions></ViewPermissions>
+					<EditPermissions></EditPermissions>
+				</Table>
+			</NewDataSet>
+		</ExtraDataField>
+		<ScriptFolder>
+			<NewDataSet>
+				<Table>
+					<FolderID>74</FolderID>
+					<ParentID>0</ParentID>
+					<Name>ITBD</Name>
+					<GUID>74993c69-aa0c-4f0e-b2c5-6f1e333b06d2</GUID>
+				</Table>
+			</NewDataSet>
+		</ScriptFolder>
+	</PackedScript>
+</LabTech_Expansion>

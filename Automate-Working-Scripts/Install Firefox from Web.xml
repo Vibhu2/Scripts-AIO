@@ -1,0 +1,37 @@
+﻿<LabTech_Expansion
+	Version="200.251"
+	Name="LabTech Script Expansion"
+	Type="PackedScript">
+	<PackedScript>
+		<NewDataSet>
+			<Table>
+				<ScriptId>6425</ScriptId>
+				<FolderId>273</FolderId>
+				<ScriptName>Download Firefox from Web</ScriptName>
+				<ScriptNotes></ScriptNotes>
+				<Permission>0,</Permission>
+				<EditPermission>0,</EditPermission>
+				<ComputerScript>1</ComputerScript>
+				<LocationScript>0</LocationScript>
+				<MaintenanceScript>0</MaintenanceScript>
+				<FunctionScript>0</FunctionScript>
+				<LicenseData>H4sIAAAAAAAEAFWP0QqCMBiF74PeYQ/gcFvOqfzspqKbiijpfuof7KIp00W+fSgFdnU45/AdOHC0Nboed2YwGsqxQ80hnhWuwW3b4Ab0mkG8cLB/d9ZPDOoyYN+YMSLn9oXPCj0RaUQE4znZFIkquCCXE8QLAm61t91wR9/b1k3T/8G3PwTbaFVlMlcioZzJinKOhpo0M5QxyWRqDH8I9eNnAOLlofXqA+Pr6FjgAAAA</LicenseData>
+				<ScriptData>H4sIAAAAAAAEAOWX0W6bMBSG7yftHbjptF0QbAcTyBKmKW3SVltXqWu7RpUmg01KZ+wIGzXd0w8I6Qhbmbq2mtByE//n2Mb+9B8bRidhGi/1LtHEf/nCMEZrrUqRy72VTkmRncaMU2VYm8QxSUnCNEtrsRmXAeG1wHqys7xTLIUPR9Z2YKvXLIupPwhc7A2QbUKAAxNCRkziuMQEAAPsEAIjNNjMUg4o12zVF11Nd6LZ8m4X70NdLaBqVfFpJkp9QItcTdU3CRubRg3db2i7oXGNh0y1D/L1Fv9VbCKFjkXGivhdu8p9Uh/iJC6HbJpV5kBQJjQpN5Nn67KO5CeFFiyoDQsC94PxP8rvMefEmMYpi+TKGIAe6EHj9cqxDSbM05M3I6vqukWwWHLV+n9IOi0gE2qEw0vNlP49sEdaDnYKFLRbSE2Gl8epXOTt3HWcqcupXPXYij3MaP4wFkoTzqt0/0E4UZdwItBytPlXWi/V0LKovBFcEtpL1iXdk+nCerdMJc1CPY7W9W1yUljUVIq/IsnyrVTjm1g4dik4EYtxWfSlJFqncZAVD/0aSsrGIfJgmBzx4y+0T2+xCJAngtlpdoE8fZhAPp9xGHyGt/PzOQ/F4VUwmV9fnMObi3Mugmsgg8QDB/tHnE6+JfmYjM7OMrq7Fe/98mQVL8aYYhfkl0hgBwQjz4sGmIReiDAKI0hDm9quFzEHEIrDAENIAMp/zIWR4zJE8D3OmqzrteG/ps/AXxms3yWDwb7XYrBGoT3tuWZ3ilPbBdBwk2Em6lmI4U4R6z/ZRfBIbE6XsKG2etxRV4zzlKmM651nYTXoEqs/HF57q/h53sjcTkFqc9QTfx15/wDMRldfwT8AIt1T4RQPAAA=</ScriptData>
+				<ScriptVersion>1</ScriptVersion>
+				<ScriptGuid>7b859724-105b-11ea-a68a-005056aa1f27</ScriptGuid>
+				<ScriptFlags>0</ScriptFlags>
+				<Parameters></Parameters>
+			</Table>
+		</NewDataSet>
+		<ScriptFolder>
+			<NewDataSet>
+				<Table>
+					<FolderID>273</FolderID>
+					<ParentID>0</ParentID>
+					<Name>Stewart</Name>
+					<GUID>afdf7a15-23c6-4b95-b573-114cff470ca3</GUID>
+				</Table>
+			</NewDataSet>
+		</ScriptFolder>
+	</PackedScript>
+</LabTech_Expansion>

@@ -1,0 +1,47 @@
+﻿<LabTech_Expansion
+	Version="200.251"
+	Name="LabTech Script Expansion"
+	Type="PackedScript">
+	<PackedScript>
+		<NewDataSet>
+			<Table>
+				<ScriptId>6494</ScriptId>
+				<FolderId>281</FolderId>
+				<ScriptName>Find a specific file</ScriptName>
+				<ScriptNotes></ScriptNotes>
+				<Permission>0,</Permission>
+				<EditPermission>0,</EditPermission>
+				<ComputerScript>1</ComputerScript>
+				<LocationScript>0</LocationScript>
+				<MaintenanceScript>0</MaintenanceScript>
+				<FunctionScript>0</FunctionScript>
+				<LicenseData>H4sIAAAAAAAEAFWPUQuCQBCE34P+w/0AD/fO1JLlICp6SYiK3jfd4CDO41TIfx9KgT0NszPfwuDJVuxa3lNHBm+DZ6MwnhQvvds1ves4GMB45vDw9jaMDJuycTUNkdj6YF8Cskho0CB0oaBQiTiXGM/aeK2C9d2dQ2sbN779P3zzY29ro1eUJPqRyXyttFSKSdKmYgmQQpoRqafOf/wEYDwfs1x8AD+s+5bcAAAA</LicenseData>
+				<ScriptData>H4sIAAAAAAAEAOWYXWvbMBSG7wP5D6KQS2Prw04ygvHY2lIotLSwq90o9gkT2JaRZNqL/vg6jpw4ofFWM7OYXfm850hCevQKJK+eYyUK850bHk4nCK12WteiktevRvFt9UZAmmjkNoVHrngGBpQOrzMu0pXbytg2t6lc87TVaTf4j6qJkHmIV+5x4qjVbSmSkDBOKVkHznyBiYMxcIcvY3A8z/f8gHO8IfNmlLpDvQa3vQg73LOBYj+xr7GxE7CRzd+Uea3vkm2tpdqLxicQyImmJ5qdaL/FQyoTetV8t1+b+yZzI/IStvl9bGsP+l5kou7ShLZylyeQG14vpqq2ZRvJgUIHFtKFhfrnwYQ5GFRqQG9IQwqxQQoyacB6A/+/2Miyg9qskC/VCfgFaapAl6mZDQIMjwnYH/lsEExkTJguwVd0TMBw8I9sxcZEqdtWgzvKHxUrr4MV/pjPhwzJMbPwqa4SW6WfIhh8nqBDMJuzBQ3Y4jJPZyIUgi8/kVtdKNfVFWMj8gRdFVzrF6mSK+SKQcw4HyfKgW1Je9lyMU6Wv7XlptOWaBBfLsfJcmBfsl6+xD0eExcBk3XAjOp3eXQG6Q6XRhupUCyzoqwe7mjWRCI5hznadcTRdDKdWEGifUgPIYv67UWPd8pf3ItG2z8i77rQG5QgEQAA</ScriptData>
+				<ScriptVersion>1</ScriptVersion>
+				<ScriptGuid>24a332b6-7812-11ea-a9ce-005056aa1f27</ScriptGuid>
+				<ScriptFlags>0</ScriptFlags>
+				<Parameters>Email</Parameters>
+			</Table>
+		</NewDataSet>
+		<ScriptFolder>
+			<NewDataSet>
+				<Table>
+					<FolderID>281</FolderID>
+					<ParentID>272</ParentID>
+					<Name>Final scripts</Name>
+					<GUID>c2aabe44-40cc-4864-8bc0-a0979af3f3bc</GUID>
+				</Table>
+			</NewDataSet>
+		</ScriptFolder>
+		<ScriptFolder>
+			<NewDataSet>
+				<Table>
+					<FolderID>272</FolderID>
+					<ParentID>0</ParentID>
+					<Name>Roy</Name>
+					<GUID>f72d390a-cee0-4532-8978-a2d4f98e544b</GUID>
+				</Table>
+			</NewDataSet>
+		</ScriptFolder>
+	</PackedScript>
+</LabTech_Expansion>

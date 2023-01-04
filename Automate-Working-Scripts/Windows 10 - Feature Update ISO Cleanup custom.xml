@@ -1,0 +1,39 @@
+﻿<LabTech_Expansion
+	Version="200.373"
+	Name="LabTech Script Expansion"
+	Type="PackedScript">
+	<PackedScript>
+		<NewDataSet>
+			<Table>
+				<ScriptId>6462</ScriptId>
+				<FolderId>254</FolderId>
+				<ScriptName>Windows 10 - Feature Update ISO Cleanup custom</ScriptName>
+				<ScriptNotes>This script will clean up the ISO file that is used in the 'Windows 10 - Install Feature Update' script if the upgrade is successful.  If the upgrade fails, the ISO file will remain on the computer so the upgrade can reattempt later and a new ticket will be generated.
+
+The @isoName@, @upgradeifUnderVersion@ and @pathToISO@ variables are disabled by default because the Install script passes them in automatically. If you want to run the cleanup as a standalone script, these variables need to be re-enabled and the parameters may need to be updated accordingly.</ScriptNotes>
+				<Permission>0,</Permission>
+				<EditPermission>0,</EditPermission>
+				<ComputerScript>1</ComputerScript>
+				<LocationScript>0</LocationScript>
+				<MaintenanceScript>0</MaintenanceScript>
+				<FunctionScript>0</FunctionScript>
+				<LicenseData>H4sIAAAAAAAEAFWPzQrCMBCE74LvkAdoyF9ba1ly8e+iKCrek3SFXNKSpmDfXiwK9TTMznwLA0fvMPS4NclouI8dagFsUrgOYdMOIWHUHNjMwe7V+fhhUO+jb8yYkbNLrcVIZJkRyUVFypoXtSrI5QRs1oebi75LD4y9b8Pn8f/hmx8G3+giz9VKNkhz5SwVAi21puR0XT2lVdJWVsofPwHA5nOWizd3O8Nr3gAAAA==</LicenseData>
+				<ScriptData>H4sIAAAAAAAEAO1Z7W/aPBD/Pmn/w31B2j5AyQuFThWiou2G1jeNdtMjIU1OYlqriZ3Hdsr473cJhgLD6dOOTGV6PuHzJWf7d+e7+4XDYShZqo+JJt23bwAOZ7IqBBRPfmhJcu0po3GkYG+uuCKSJFRTuTT3MRYBiZcmZsa+4kNM8K5zuLc6sfLUx4xF3Zbve203onXfC4O649CgHpD9Zv2gM3YDzw06gevOrRQvFHveW960MTfUNF2c4ijUZgNmZOZPM17IgyjXLUnLh3TWDu2uyd6a7K/JrSU8hNTdJu43/zVzfcE14xnN5xdjo7tUZyxhxSvzodEMeES5JsVhULssLkPyiEIJLG4ZLN6BHZjuh76kRNOvRDISxFQd7hnF/3htxOv6jkJAYzGBBwMZKKoVEEkhYiqfiEAxHlLQd3QKExbH+AKkRCnUMA7BNNfAKcKe4Us3aYT4gyr22gC0r+jC9sxuQBm/hZiONdxRlJWY2Q4Jz01LWqd8trAWIDOOWqaMRSBoA5QmPKqTWPDFSpU42tm2o50KHe02S/zsbMan+43xSEzm18RdRavLlLjAnGq03rOwc5+PXd11/Lbf8fb9zm6h6DabvgXCLL2VJKKD8Q3uWJo68yJAvb8+GGtn18OHMGKyNkpJeE9uqS0wU6LvrsVgePkiJP3dDM0nKh/l0Z8ofq2/p/h9wOvIxtOb2RWtBK39XULL9VolaHmWW3vMVCIyrus4uB8keGuhXvxc4SWF3uKq9kY9U096DRxsvtnr8ObnNaMVmLsZP88XfUwBrRXc27uULJ08qfyhXr9jAcZ5jcCUVpGmJR4/fT755/vZZf/o7Pv5Uf/T4OJkNBRjPcHWc3TOQikUSiPT+MDF9aifSYn7N7V59IXGlCg6iGy1RyhtUsbvlPODXYrQdpkjrICse6ZtQbS3sUnqbYa1KHSbErdfCrezddJWaeCXla0LimxthhHwLAmohHe9X53Qew9Im7ANUEigkFqtvaKyNI0Zkqx3FvjfN8AYhFBwxVCFT48JQ2ZWEd3aOt9yK/SRv1/io1qI2OKOo5qt1w1FkmYa43jxyPq1qOVnJqE+SRDzmuU2LGoqGC8aDwF6erEGxwdqlkJqNYDkm3Fk2kj4f7HVePvmqsiSeWjkeyy+AWQK4wrbdxrqeApI0WEi5D1MGPYBqE9yOwnhGZqcmtXyLwG40DwbO00w4QeWqGxsLPdOhWyzyhhynZKOa8uV39k6gawSmafJTvXNu/MCovhquc4xtjWaPvbLW4Zqx2hhCVJPMZYtA2djiK+zIX9mX4INyG3xTULOehAhgf6L+T/P+ZZ+ZGPXobIwxEZmnMUVdR67xRdL3WDhRb+LkI04vk6EnqweFafDrbO7/5AO57L56/Qns9lTMEkdAAA=</ScriptData>
+				<ScriptVersion>1</ScriptVersion>
+				<ScriptGuid>544372de-43cb-11eb-ba60-98f2b32b8b22</ScriptGuid>
+				<ScriptFlags>0</ScriptFlags>
+				<Parameters></Parameters>
+			</Table>
+		</NewDataSet>
+		<ScriptFolder>
+			<NewDataSet>
+				<Table>
+					<FolderID>254</FolderID>
+					<ParentID>0</ParentID>
+					<Name>ITBD</Name>
+					<GUID>61c8aa61-ad85-4cab-901e-e8816bfad2a5</GUID>
+				</Table>
+			</NewDataSet>
+		</ScriptFolder>
+	</PackedScript>
+</LabTech_Expansion>

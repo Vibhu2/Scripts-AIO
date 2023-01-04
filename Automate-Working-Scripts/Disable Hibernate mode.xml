@@ -1,0 +1,37 @@
+﻿<LabTech_Expansion
+	Version="200.251"
+	Name="LabTech Script Expansion"
+	Type="PackedScript">
+	<PackedScript>
+		<NewDataSet>
+			<Table>
+				<ScriptId>485</ScriptId>
+				<FolderId>78</FolderId>
+				<ScriptName>Disable Hibernate mode</ScriptName>
+				<ScriptNotes></ScriptNotes>
+				<Permission>0,</Permission>
+				<EditPermission>0,</EditPermission>
+				<ComputerScript>1</ComputerScript>
+				<LocationScript>0</LocationScript>
+				<MaintenanceScript>0</MaintenanceScript>
+				<FunctionScript>0</FunctionScript>
+				<LicenseData>H4sIAAAAAAAEAFWPQQrCMBBF94J3yAEakklaiDJkoyKIgqjouiSzCEha0gbs7bVFoa6Gmf/fg8FjcBQ72tZ9bfE2tGQBxTTxkuOmybGnZCWK2Ya7VxvSyJB9kI/U+Xoo2CE/ByZNwZRUksG6qtZas/MJxayPV5dC298pdaGJo/j/8M33OXgLpiq9W5XcgdIcgGpunFL8o4fSKKUN0I+fABTzd5aLNz5laMzeAAAA</LicenseData>
+				<ScriptData>H4sIAAAAAAAEAOWV0WqDMBSG7wd7h7yA00Q7LIgwtrUUBhsIu4/JcQ3YRJLIuref2tilwrwrXdmV5///k8M5341ZwbRo7BO1NL+9QSg7aDOITj7vraZ9uhJQc4PCMXijmu7Agva8da1KWnvGYdh71ySUzHEWnhonXetW8Byni4SzZRIwTOIAY6BByggJIhLhJCUkTjGMU4YHw86hv7QbV1hojlc8MOsWcJXzV60c9Ib3maf8I/HkaDLR8UQnE73weCht86jbt/8671FJK2QLvX+sXfZqXsRODE/G0iUbyUFaOhzTpb70kfxQmMFC5rCQ+9/B5I36BM2qjzvYAwq3ogQtqQWkqioLXc//RfeXyOFrIkeWM+SKljEwpmrr+gtxYWhZA0d2C2ik2L1CFVDbajgLS3JNLPEszOgsgOILABq1+5N9A0Keq0rYBgAA</ScriptData>
+				<ScriptVersion>1</ScriptVersion>
+				<ScriptGuid>1854dc94-c123-11ea-8c22-02014822381e</ScriptGuid>
+				<ScriptFlags>0</ScriptFlags>
+				<Parameters></Parameters>
+			</Table>
+		</NewDataSet>
+		<ScriptFolder>
+			<NewDataSet>
+				<Table>
+					<FolderID>78</FolderID>
+					<ParentID>0</ParentID>
+					<Name>ITBD</Name>
+					<GUID>c47a3d26-3026-4746-be41-1d0c970256dd</GUID>
+				</Table>
+			</NewDataSet>
+		</ScriptFolder>
+	</PackedScript>
+</LabTech_Expansion>

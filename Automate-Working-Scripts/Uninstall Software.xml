@@ -1,0 +1,37 @@
+﻿<LabTech_Expansion
+	Version="200.251"
+	Name="LabTech Script Expansion"
+	Type="PackedScript">
+	<PackedScript>
+		<NewDataSet>
+			<Table>
+				<ScriptId>395</ScriptId>
+				<FolderId>74</FolderId>
+				<ScriptName>Uninstall Software</ScriptName>
+				<ScriptNotes>Auto Created Script</ScriptNotes>
+				<Permission>5</Permission>
+				<EditPermission>5</EditPermission>
+				<ComputerScript>1</ComputerScript>
+				<LocationScript>0</LocationScript>
+				<MaintenanceScript>0</MaintenanceScript>
+				<FunctionScript>0</FunctionScript>
+				<LicenseData>H4sIAAAAAAAEAFWPwQqDMBBE74X+Qz7AkERNbWQJSFt6qZe29L7EFXKJEhXq3xelBXsaZmfewsDNOwoDnXFEC8+5J6tArAr3KZy6KYwUrQSxcXB59z4uDNm6Cw3OCatxZqlOWCpTyZQqpSqVYVUNYlOGh4u+H18UB9+F5ev/4ZtfJ9/YtsnpmBeaGyoOXClCjhkZLsloh5S1TusfvwIgtlv2uw+CvTlR2wAAAA==</LicenseData>
+				<ScriptData>H4sIAAAAAAAEAO2WUUvDMBDH3wW/Q1/2WLem7VxlFHS6MRAUqj7IXmJ7xUCWjCTd5re37dKZla0Kc0jBp97/f7nL3Y8WOoxiQRbqFiscnp9Z1nCjZSlyebdWAhfZMQGaSKtbJR6xwHNQIAxvQvkbpoaxafaSHyKchc6wu2vsnJpkJAnTxIOBd+nbAVz2bccBbGMXArsHgR9jcNPY96suZUE5c9ccWreLFCy2W1zHSg+gI+2PM1bqaVLkDGUu6dSWRjXt1rRX077BgwsV9vJ5i6f2RpwpwjIo/G2scw/ynsxJWVKFOjNlCTCFy2XyrClNJF8UGrCgBiy+989lHxfU8L6EKL9Zh78JyGkTIKeAcJDQDVEJpJBfLqyJwEuiPl45g/3YwgonOgofahM+NGigF/FUrbCA2TMjTCpM6RPnNCI0n+UC1ocwjq5mK8ISvpIzquQy/qb8ONpum2g7/QbaP8VmdeVJPnuvTSRR0ECyI9+BUgEyo6pzElb+H7CqtP6H+gTEY7ZmUgkAAA==</ScriptData>
+				<ScriptVersion>1</ScriptVersion>
+				<ScriptGuid>fd4e8475-9e76-11ea-a3e9-0e95cae3fc55</ScriptGuid>
+				<ScriptFlags>0</ScriptFlags>
+				<Parameters></Parameters>
+			</Table>
+		</NewDataSet>
+		<ScriptFolder>
+			<NewDataSet>
+				<Table>
+					<FolderID>74</FolderID>
+					<ParentID>0</ParentID>
+					<Name>ITBD</Name>
+					<GUID>74993c69-aa0c-4f0e-b2c5-6f1e333b06d2</GUID>
+				</Table>
+			</NewDataSet>
+		</ScriptFolder>
+	</PackedScript>
+</LabTech_Expansion>

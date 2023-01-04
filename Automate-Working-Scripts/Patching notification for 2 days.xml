@@ -1,0 +1,47 @@
+﻿<LabTech_Expansion
+	Version="200.251"
+	Name="LabTech Script Expansion"
+	Type="PackedScript">
+	<PackedScript>
+		<NewDataSet>
+			<Table>
+				<ScriptId>6404</ScriptId>
+				<FolderId>281</FolderId>
+				<ScriptName>Patching notification for 2 days</ScriptName>
+				<ScriptNotes>This script will send mail to specified person for locations whose patching is approaching in 2 days.</ScriptNotes>
+				<Permission>0,</Permission>
+				<EditPermission>0,</EditPermission>
+				<ComputerScript>1</ComputerScript>
+				<LocationScript>0</LocationScript>
+				<MaintenanceScript>0</MaintenanceScript>
+				<FunctionScript>0</FunctionScript>
+				<LicenseData>H4sIAAAAAAAEAFWPzQrCMBCE74Lv0AdoyMYabcuSi38XBbHiPW32kINpSFOwb68tCvUwDDvDtzB4tg25jvY6aoX3wZMSyCfHW+92be8iBQXIZxceXt6GkSF1DNboIU0q8pGeNYVkBelHoki2pRQlyOR6QT4jsGqC9fFBobOtG1//B9/+1FujMtOstQHBTE3AhKCC1brIGYAEudE6yyn/8ROAfD5ouXgDT5nT7eAAAAA=</LicenseData>
+				<ScriptData>H4sIAAAAAAAEAO2Z/2/aOhDAf6/U/+E0aa8g8SUOKQXaIRiENhOFqqTtj29u4rXWgs0SZ2z//ZyQQMojfi3vVVPUSUjx+eyz/bmzkzNnM8enCzHEAncPDwDOVnIQC1I0fwgfR9oRJZ4bQD1VXGEfz4kgfqbu3OP32MtUrIzdykaUsy46qz+teNLqPKRut+E6BnY1VHXviVZFiLSr97jdqmrasXbcxLjRIq3UStwhnnM9O+nE3EyQxXoVfUckE0hKSf0oZLFsuZEuI2UXibYWrW/JjS3Z2JKPMzy4L7qanG/0TOoGnAnKQhLVr8uJbhqM6ZzGXdJiorGYS5jA8WKkNitmkWwoKLDoKiztZj6Y7swcmwMbhtbMtiay4HhUTiOorZ7Uhf4M0nJlrWUycDaaSKrAYDq5Na/tknwO+nYp27RyBEcVjzvx6lZVZbiZWZNzCMWXVjkyNU7UchA+X4QyLBdYOI+UPQSSSlD7PCE/hMWk4Hl3lLl8+TnqZpNA3GIvJBXbujSH1mhUYrIhXTVcxg0rMJnelcrxMO8ueOgHN3I53jsYXU8voVTaOSCMzZENn6bWBAaJPoBpRqilJWv4YfeUNw3KGWvpQmNra6GWlqS1zRBpJXWzFgYrtPFsEsqr55O+aw/GffoPUkiV0WmQu5Z/tMwo4e7CvDZf4KG/HsQpHKE6qmuahgDpHU2TP+hfHkF/MgQoPcNtkRENMHPBpvPnNJZmQc6c/I1dtzThy1K5AhaTE/6OPdANiGJANn2uRU+cflCaNFqJyfLpWT3ZWG/2vNHbiuPmffDNc2VMBUT4fOnwkIn3r4IMFQqZpkCGdvNRodSfous6j8T5mugaL8KoFwnjiQpjlsE2Sj2Hm7abWRc1EoWhhNcoEry9YhDlBRwTe4WbUSRiqKE66TrpW3NMA/EqR9xxkWAp92ZPxksvJ8SaOSGmOP62t2vHZO4Ob6g3b7NIdFH7RIF3QyqHcZa//p9i8qRI1PY68nqSZvpZnsNs3fdlh1/rTbBbJ2x58PS94LXfBLxN8ppHb5Ddyy9DiPZIM6o6Mk6MVqNptH7f4acpbn5ycWo5ABX8Mp816ncHKlb2YSjwzTmjgvsyydd7VNy7NZb7FrlZOHwuG8JVci0AlIEus+afQQ7rC+J5HGyC55XDg8ODK4/IlxQwLgikVwsQyA93N/QI0ADwYuFzvKr/wn34SDy+TO5A6un90mpUV47aiYymZ3UHeqgnx46S+DTzJ52eLusOD/bbL4VKjpRevrqWWAX9ToT0xR8/b/m5WHmcys8+/1lzHnH4iNkfL295uVi5p/KW7fVzT1So5PNfMvXd6eH/DKxY+aQyvLTXIfQ7csdUTv49/QUY92qRTB0AAA==</ScriptData>
+				<ScriptVersion>1</ScriptVersion>
+				<ScriptGuid>3dc4ad01-dbe0-11e9-ba98-005056aa38e8</ScriptGuid>
+				<ScriptFlags>0</ScriptFlags>
+				<Parameters></Parameters>
+			</Table>
+		</NewDataSet>
+		<ScriptFolder>
+			<NewDataSet>
+				<Table>
+					<FolderID>281</FolderID>
+					<ParentID>272</ParentID>
+					<Name>Final scripts</Name>
+					<GUID>c2aabe44-40cc-4864-8bc0-a0979af3f3bc</GUID>
+				</Table>
+			</NewDataSet>
+		</ScriptFolder>
+		<ScriptFolder>
+			<NewDataSet>
+				<Table>
+					<FolderID>272</FolderID>
+					<ParentID>0</ParentID>
+					<Name>Roy</Name>
+					<GUID>f72d390a-cee0-4532-8978-a2d4f98e544b</GUID>
+				</Table>
+			</NewDataSet>
+		</ScriptFolder>
+	</PackedScript>
+</LabTech_Expansion>

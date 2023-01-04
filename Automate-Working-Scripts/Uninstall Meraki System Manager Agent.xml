@@ -1,0 +1,37 @@
+﻿<LabTech_Expansion
+	Version="200.251"
+	Name="LabTech Script Expansion"
+	Type="PackedScript">
+	<PackedScript>
+		<NewDataSet>
+			<Table>
+				<ScriptId>6523</ScriptId>
+				<FolderId>273</FolderId>
+				<ScriptName>Uninstall Meraki System Manager Agent</ScriptName>
+				<ScriptNotes></ScriptNotes>
+				<Permission>0,</Permission>
+				<EditPermission>0,</EditPermission>
+				<ComputerScript>1</ComputerScript>
+				<LocationScript>0</LocationScript>
+				<MaintenanceScript>0</MaintenanceScript>
+				<FunctionScript>0</FunctionScript>
+				<LicenseData>H4sIAAAAAAAEAFWPzQrCMBCE74LvkAdoyCZFQmXJxT8QBVHxniZbyCUtaQP27aVFoZ6G2ZlvYfASHMWe9nawBp9jR0aimBXvOe7aHAdKBlAsHB7eXUgTQ+aYgrdjwc45EoNNwRQoYBK2UG1VyW5XFIs2PlwK3fCi1Ic2Tm//D9/8lIM31mrfVLXkVuuKS0mW11o6DgC+tNDUpNyPnwEUyzHr1Qeovtjh3AAAAA==</LicenseData>
+				<ScriptData>H4sIAAAAAAAEANWVTWvCQBCG74X+h0UQ2oMkG60fJQ2IrSJUKgg9eZkkoy7dbGR3U+2/7yauNgrNqbX1lHnf2Z3MPEyIP4skW+tH0BBcXxHi77QqhJFPWy0hzw4Z8lgRZ5+YgoQENcqSN+JpCLxk7Iq9mkMsFQH1nWPj6NQoY3EA0IkXvZA2oNPpNShFaIQdGjVc142b4C5C9KJ9leJC0bNTbtqWm2lcH6boR9o2YCPrDzNR6HGc50qqPCQ9Gdo70c0T3TrRdyUeqdSBa/rNn9YbpEIzkWHuH2Kbe1HPLGHFlX1oM2MRo9BQDGOyZVlG8kWhAotXhaX9PZdgk7CIrGUaZ5EmmxVKJMIsxUNtghLeGJl9KI2JIhMQsERJ+kvTZI1EwDnJBBNK55EjUibMIoF5yTv6ji1+DuT0fyJ3K5gP7udTmS5NTIaMoyI32277dp4UxH8FHr0oeL3u2T5k75LAeL2KpaqrFXIuUWVc139liZqXxIpWwfrhJWr9wd9gr+1f/xOSuOO0BAgAAA==</ScriptData>
+				<ScriptVersion>1</ScriptVersion>
+				<ScriptGuid>aa7df9b1-a779-11ea-b71c-000d3a0fbe2c</ScriptGuid>
+				<ScriptFlags>0</ScriptFlags>
+				<Parameters></Parameters>
+			</Table>
+		</NewDataSet>
+		<ScriptFolder>
+			<NewDataSet>
+				<Table>
+					<FolderID>273</FolderID>
+					<ParentID>0</ParentID>
+					<Name>Stewart</Name>
+					<GUID>afdf7a15-23c6-4b95-b573-114cff470ca3</GUID>
+				</Table>
+			</NewDataSet>
+		</ScriptFolder>
+	</PackedScript>
+</LabTech_Expansion>

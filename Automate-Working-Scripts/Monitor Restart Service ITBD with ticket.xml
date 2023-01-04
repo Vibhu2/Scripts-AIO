@@ -1,0 +1,37 @@
+﻿<LabTech_Expansion
+	Version="200.251"
+	Name="LabTech Script Expansion"
+	Type="PackedScript">
+	<PackedScript>
+		<NewDataSet>
+			<Table>
+				<ScriptId>6382</ScriptId>
+				<FolderId>280</FolderId>
+				<ScriptName>Monitor Restart Service ITBD with ticket</ScriptName>
+				<ScriptNotes>This script will check the state of service and if its failed it will attempt to restart it three times and send the corresponding result via ticket.</ScriptNotes>
+				<Permission>1,2,4,5</Permission>
+				<EditPermission>1,4,5</EditPermission>
+				<ComputerScript>1</ComputerScript>
+				<LocationScript>1</LocationScript>
+				<MaintenanceScript>0</MaintenanceScript>
+				<FunctionScript>1</FunctionScript>
+				<LicenseData>H4sIAAAAAAAEAFWPzQrCMBCE74LvkAdoyKa1P5YlIFa86EXFe5qumINpSRuwby8tCvU0zAzfwODJGnI9VXrQCm9jR0qimBUvwe3b4AbyClAsHB7enfUTQ+r2DL5v9Bixigy9avIMiojFICWTUCZQQsF2ZxQLBq/G2264k+9t66bx/+DbH4NtVG2yfJsb4EWdAJeSNNfxJuUAKaSZ1vIR5z9+BlAsL61XHw3NTK3iAAAA</LicenseData>
+				<ScriptData>H4sIAAAAAAAEAN1a246bMBB9r9R/8AuPKb5ALhJCu+omq0grtVKqvjvgba0SE4Hp5e8LxOwC2hAtWUJmn/DMGMMcJmeOA94mSORe33HN/Y8fEPIOdloaubn8qxNeRFdSRGGK7CrwlSd8J7RIUn8jkt8yEJ5d85lZ91G85VHttMPy3/MpMlY+YRgvsOvOmWc3I43p95kM/W0wnS1mAZ7MtwxPCBF8wqnjTjB2sTvlnDzSWbVKeUKZjl3Pxyy30WL/dIe3gS7vxLPNyPhXmSrtdei7nl2z6vkT/ybVXGfpjUmeNMLUp8ZPG37mr27XD8s7E2SNoNPC2K2BFyfax3lOxdH4PsdKS5WJwv80NrEv6YPcyfKUamgiaxUKld95kXAerZt12J6R6oCOdkBH6KIDPPwyai0AWMseACAyHQ0hd3ocoFai5wJDIFUOJR2Fw4apHAoJIEJYFy89Fnytcjp+JTW9EjIGCTKKOxAjR3BqMXybyQ9R0ovKHUjgsc42eKrczvxlupCQOkFdw3DXFBJCF2x6M0i4jNH05pAAuo6mt4AE2XBNj/ZqegTUBmbUrkfek2Ifhr0IKM1+yc0eLGU+QuMjoOT3dXQ+AkuID9b6WL/WB0qkj9v63pNuH4i/QCn3S7Y+WPp8jD86QWnw4Wjc6UXjFJQsP1c4sDcRDhSUTnc6yMq3gkjml5Whdaz0gni3z7RIZHis/KwiZx7o5Y7LyHq5Cqv3qqj2jJBMkYo1SjKlpPqBYoWs6mrFhGopp/kwzlnKbT5HWNuKrrePfTBB32TwS2gUJIJrEaI/Uv9E+uCTIbIOw6OlcS5tw9qxjPDul8Lan/Qoz1M/1zfGE9SOZZSKu7qNCutdceWSRZFJhSr9hIqjQDzKGS/89+lavtgYD8IximwMwVnZ5tOw/3p9XJYpJgAA</ScriptData>
+				<ScriptVersion>1300905583</ScriptVersion>
+				<ScriptGuid>bc6797c0-8b30-11ea-a245-005056aa1f27</ScriptGuid>
+				<ScriptFlags>0</ScriptFlags>
+				<Parameters>Service</Parameters>
+			</Table>
+		</NewDataSet>
+		<ScriptFolder>
+			<NewDataSet>
+				<Table>
+					<FolderID>280</FolderID>
+					<ParentID>0</ParentID>
+					<Name>ITBD</Name>
+					<GUID>8b7862b8-d7dc-4c6b-ba68-efed534c9100</GUID>
+				</Table>
+			</NewDataSet>
+		</ScriptFolder>
+	</PackedScript>
+</LabTech_Expansion>

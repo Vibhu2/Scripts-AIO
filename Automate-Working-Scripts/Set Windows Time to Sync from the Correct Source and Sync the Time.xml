@@ -1,0 +1,38 @@
+﻿<LabTech_Expansion
+	Version="200.310"
+	Name="LabTech Script Expansion"
+	Type="PackedScript">
+	<PackedScript>
+		<NewDataSet>
+			<Table>
+				<ScriptId>11053</ScriptId>
+				<FolderId>2004</FolderId>
+				<ScriptName>Set Windows Time to Sync from the Correct Source and Sync the Time</ScriptName>
+				<ScriptNotes>Check if the computer is a PDC Emulator. If it is then set the server to sync the time from the Internet. If it is not it sets the computer to sync the time from a domain controller.
+After setting the proper sync source this script will force the computer to sync its time.</ScriptNotes>
+				<Permission>0,</Permission>
+				<EditPermission>0,</EditPermission>
+				<ComputerScript>1</ComputerScript>
+				<LocationScript>0</LocationScript>
+				<MaintenanceScript>0</MaintenanceScript>
+				<FunctionScript>0</FunctionScript>
+				<LicenseData>H4sIAAAAAAAEAFWPzQrCMBCE74LvkAdoSDY1/pQlIP5dFETFe9rsISBpSFuwby8tCvU0zM58C4NnX1FoaG9ba/DRRzKAYlS8dWFXd6GlZCSKicPDO/o0MGSOyTvbZ2wbk38xtcyYkpCzdaFlIXN2vaCYtPFeJR/bJ6XG12F4+3/45qfOO+P0BhSQ5pbKBQcgxUvKSy4laO1WtKwk/fgRQDEdM599AK38VnTcAAAA</LicenseData>
+				<ScriptData>H4sIAAAAAAAEAO2ZW2vbMBTH3wf7DodCX8YSW3acG8EwurYEBi3N2J5l+yQRyFKQ5ab99pMv6ZywmtWZlxjqF+ucIynSz0eXP5ktQsU2+ivV1P/4AWBW2EluGPP6SSuaRW8Y8igBaxe4p4rGqFFVfLdcBpRXHEVnP0wlJoVPZta+Y6/WbcoiP/ImxCHo9SgGgx4h6PQCdIOebRPPi0Y4DG3c9ZI3yMdsVQdddrfQuHmZxZdQlwMoS6X/JhW5PY+yWMWqTpIcTNo5sN0De3BgexUeUmnfNuPN3qXvSgrNRIqZ/6Vcxu6SbyxmeZNdsYzMRYRC03wyJlo1q0h+U6jB4tRhcSevg/E/ZQ/MlyCkBgo/mYjkNoG7xWe4fmIait+cWWX1E1Mkw9NhJG4Nxq3raBbjnzll/ZalY3iRbvHy7Ma87H/Cy+nSKnW9prSOXIVulyhl+VxLKQYrlGLJVmDFVKSUbxAVZ4meXmQE+9tif+uHMobcIUysv5KPF2AlzyJcKhkvOV0l06I5WAo5owHH6TOaYzHdRFS38yEGXfoQTt2ZciVjQy+CB0xSrqdwmayRc5Vbl62w87rEjgzG/+2mMnw7mJ5DBqPB2B1mwzxVetXc5fyh3UoOjbqJ6i1b4v4OF8l4zVC1uqmNuwn1zLa3STcp1iuP6QMuTD62Aow00BbnQKw2776vMb+zgBSg1ywBc4nZpEa/w5ZxbgTcFgIEk4eGKkagpamFkKB6RNVvB3MDSXIOmE+vTUgDcXIO5E4mU0gDnXIOwP7meC6WbDvY3lXFEfDeZcVrZDqqK0hthrWjK0gDYXF0Fu3s8l+BX6S+Qv4kGAAA</ScriptData>
+				<ScriptVersion>1</ScriptVersion>
+				<ScriptGuid>d59121e5-aeb4-11e2-be3b-00155d7e6c0e</ScriptGuid>
+				<ScriptFlags>0</ScriptFlags>
+				<Parameters></Parameters>
+			</Table>
+		</NewDataSet>
+		<ScriptFolder>
+			<NewDataSet>
+				<Table>
+					<FolderID>2004</FolderID>
+					<ParentID>0</ParentID>
+					<Name>ITBD</Name>
+					<GUID>d69df3ed-aa7f-4ea1-9dd9-89eea6cfd184</GUID>
+				</Table>
+			</NewDataSet>
+		</ScriptFolder>
+	</PackedScript>
+</LabTech_Expansion>

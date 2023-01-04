@@ -1,0 +1,37 @@
+﻿<LabTech_Expansion
+	Version="210.27"
+	Name="LabTech Script Expansion"
+	Type="PackedScript">
+	<PackedScript>
+		<NewDataSet>
+			<Table>
+				<ScriptId>475</ScriptId>
+				<FolderId>74</FolderId>
+				<ScriptName>Solarwinds uninstall</ScriptName>
+				<ScriptNotes></ScriptNotes>
+				<Permission>0,</Permission>
+				<EditPermission>0,</EditPermission>
+				<ComputerScript>1</ComputerScript>
+				<LocationScript>0</LocationScript>
+				<MaintenanceScript>0</MaintenanceScript>
+				<FunctionScript>0</FunctionScript>
+				<LicenseData>H4sIAAAAAAAEAFWPzQrCMBCE74LvkAdoaBIbjGUJiH8XBVHxnqZbySUtaQL27aVFoZ6G2ZlvYeDsLPoe9yYaDY+hQ80hnxRuye/a5CMGzSCfOTi8OxdGBvUxuNoMGdmmV+ojYeuMCCYY4WXBS87J9QL5rA53G1wXnxh61/rx7//hm5+Sq7UwoqmwULRWVUE5R0OVVIIy3EhrcNVYKX/8BEA+X7NcfAAo5h+q3QAAAA==</LicenseData>
+				<ScriptData>H4sIAAAAAAAEAO1WTWuDQBC9F/ofzCHQHqy60WJKEIpJSqAhEvtx8bLRSbtg1rCuJT+/rlnT1bZeCg2BnJw3b2edeW9dHIUxI1s+xhx7lxeaNtrjvAIlnOw4w4KdEkiTXDNqIsAMb4ADU3IPabbCqZLYb/ZSLiIZ9ayR0Uw0Vj0UJPEQRusV2K6euCtbtyzAuuu4SDdh6MQYBuvYcepdqoKqZ0NtWm4XctgepriPuWxARjI/LWiFZ4ngFKQOabWGRi08aGG7hR1Fj4xxzyz7FU+Z8zPKCS1A5A+x5Bb5I9mQqqQOJTOjCVCOq2FKVoWqJF8qdMiCOmRBv8siOBk15PH8uyhg2VsZa1OSQq5d7dzb6yjMUsxeCS1P0TwMIh/H7xAC+yAxRAUlNDdN8wZ20Ov1NCMvCymXL0Ddent9fzEPnp8my9m4L0vspgVCIxmdrfhmRTCfHMsB6+yAcGC5jcWnAOxYPqBT8sGx/+2yHpySLhYadpxQ8+cT+keB7CMIVGP51/IJpgdrCsQIAAA=</ScriptData>
+				<ScriptVersion>1</ScriptVersion>
+				<ScriptGuid>2a2fbe48-d8b4-11ea-8582-0e95cae3fc55</ScriptGuid>
+				<ScriptFlags>0</ScriptFlags>
+				<Parameters></Parameters>
+			</Table>
+		</NewDataSet>
+		<ScriptFolder>
+			<NewDataSet>
+				<Table>
+					<FolderID>74</FolderID>
+					<ParentID>0</ParentID>
+					<Name>ITBD</Name>
+					<GUID>74993c69-aa0c-4f0e-b2c5-6f1e333b06d2</GUID>
+				</Table>
+			</NewDataSet>
+		</ScriptFolder>
+	</PackedScript>
+</LabTech_Expansion>

@@ -1,0 +1,37 @@
+﻿<LabTech_Expansion
+	Version="200.251"
+	Name="LabTech Script Expansion"
+	Type="PackedScript">
+	<PackedScript>
+		<NewDataSet>
+			<Table>
+				<ScriptId>377</ScriptId>
+				<FolderId>66</FolderId>
+				<ScriptName>Putting machines to maintenance mode</ScriptName>
+				<ScriptNotes>This script will put the macines in maintenance mode</ScriptNotes>
+				<Permission>0,</Permission>
+				<EditPermission>0,</EditPermission>
+				<ComputerScript>1</ComputerScript>
+				<LocationScript>0</LocationScript>
+				<MaintenanceScript>0</MaintenanceScript>
+				<FunctionScript>0</FunctionScript>
+				<LicenseData>H4sIAAAAAAAEAFWPQQqDMBRE94XeIQcwJDHGVPlk05ZuKpRWuo8m0myiRAP19kVpwa6G+TPvw8DVtdaP9qQnraCeB6sYkFXhHv2xj36yQVEgGwfn9+DCwlhVv2IYjZ4TVOkZ0SxBKWUS5SXPSpaiWwVk04ZHG9wwPW0YXe+Xt/+Hb36JziiR05Y3hmNOuwIzZiUuhBSYWq6bTuRGyMOPXwEg2zH73QcwG1sb3AAAAA==</LicenseData>
+				<ScriptData>H4sIAAAAAAAEANWT32qDMBTG7wd7B19AzJ+mWpDQsa6lMNigsPtoUghoIjHCHn+aHrsorPe78vy+Lzmc8xHLS+105w/CC/78lCTljfsAI759eycm96hVI/skm41P4USrvHKRdmpsJZpIuDX7Gg9pazgus6WwOHUatORsi2paSZpSdN2lGKs83bGcpUhRUV3ZVrK8mLuEC2HmLB4a2l286u5bvNQeBoAK9ONgAp/l5EUUL4lXS5MV0xVvVsyiPKzzHI3zTl/QXq3x2gxq0u81eB/9u251uDKX4JyNVMaLsMzoxhhH8pvCg1jIg1gIKf4Ohu9r23bD+Ai03JcZiIusOC4QOOTfpTYz/B0/7y28JiwDAAA=</ScriptData>
+				<ScriptVersion>1</ScriptVersion>
+				<ScriptGuid>560c3bd3-30f9-11e7-9575-0e3abf56d578</ScriptGuid>
+				<ScriptFlags>0</ScriptFlags>
+				<Parameters></Parameters>
+			</Table>
+		</NewDataSet>
+		<ScriptFolder>
+			<NewDataSet>
+				<Table>
+					<FolderID>66</FolderID>
+					<ParentID>0</ParentID>
+					<Name>ITBD</Name>
+					<GUID>4860adbd-5a8f-467d-b086-3d0a4b270ac8</GUID>
+				</Table>
+			</NewDataSet>
+		</ScriptFolder>
+	</PackedScript>
+</LabTech_Expansion>

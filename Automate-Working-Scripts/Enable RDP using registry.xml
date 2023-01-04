@@ -1,0 +1,37 @@
+﻿<LabTech_Expansion
+	Version="200.251"
+	Name="LabTech Script Expansion"
+	Type="PackedScript">
+	<PackedScript>
+		<NewDataSet>
+			<Table>
+				<ScriptId>418</ScriptId>
+				<FolderId>74</FolderId>
+				<ScriptName>Enable RDP using registry</ScriptName>
+				<ScriptNotes>This script will enable rdp on a machine from registry.</ScriptNotes>
+				<Permission>0,</Permission>
+				<EditPermission>0,</EditPermission>
+				<ComputerScript>1</ComputerScript>
+				<LocationScript>0</LocationScript>
+				<MaintenanceScript>0</MaintenanceScript>
+				<FunctionScript>0</FunctionScript>
+				<LicenseData>H4sIAAAAAAAEAFWPwQrCMBBE74L/kA9oyCY0jZYlFxUvFkSL97VNMZe0pC3Yv5cWhXoaZmfewuDFVy707kgDWSynzlmJYlG8jeHQjmFw0QKKlcPTu/NxZpwtX2Psa5oSVtDEwCRMgQJmcr3PIWPXAsWqjfcq+m54uNj7Nsxv/w/f/Dz62laplE9qdnwPBriUjjipVHMADTojko0yP34BUKzHbDcfuWy84dwAAAA=</LicenseData>
+				<ScriptData>H4sIAAAAAAAEAOVVXWvCMBR9H+w/BMHH0qZanVAK0tYPpnNY2RAEifZ2C9RU0lS2f7+2pi4W5tsQ8an33HNzc+7JhdrBltO98IggzuMDQvYRpyXIof8lOCnYAYU4TJFeEa+Ekx0I4EpuGCcbEiuJY7O3vIgmzMG2fp44qxpmNHS2bYw3JHrSekbX0DAGohGzbWmGYRlWhxAcmd2qS3mg1KyromW7QMD+NEV/K6QAGcn8IGMlHocFpyB1SFwb2qzhVg23a9hS/Ei4cIxcb/GVOTdhgrIMivwpltwsndAdLY9UoWTGLAQmSDlMzqpQteTXhQu2mJds6fzti8PhA5EwRI3Rs79cT2Zuf7Ke9t3R+MVfBctg4U9XbsZ5rqwYjCdxAGIlw9UC+I4yEqMA+AF4A+kHFHnAvhdBXsKgvDLfJYHm/nDtvc/mHtJDZCA9snUp4G6fxexdeJZm+glxzCHNYtH8F6/wLXmFzbvZYfOW3uXKO9y6glcVlr/bHxZiDd99BwAA</ScriptData>
+				<ScriptVersion>1</ScriptVersion>
+				<ScriptGuid>c411baf8-9070-11ea-a245-005056aa1f27</ScriptGuid>
+				<ScriptFlags>0</ScriptFlags>
+				<Parameters></Parameters>
+			</Table>
+		</NewDataSet>
+		<ScriptFolder>
+			<NewDataSet>
+				<Table>
+					<FolderID>74</FolderID>
+					<ParentID>0</ParentID>
+					<Name>ITBD</Name>
+					<GUID>c6e6ea6d-0193-4418-8bd0-2379fc054888</GUID>
+				</Table>
+			</NewDataSet>
+		</ScriptFolder>
+	</PackedScript>
+</LabTech_Expansion>

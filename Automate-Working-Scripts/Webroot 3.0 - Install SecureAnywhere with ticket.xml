@@ -1,0 +1,37 @@
+﻿<LabTech_Expansion
+	Version="200.251"
+	Name="LabTech Script Expansion"
+	Type="PackedScript">
+	<PackedScript>
+		<NewDataSet>
+			<Table>
+				<ScriptId>416</ScriptId>
+				<FolderId>81</FolderId>
+				<ScriptName>Webroot 3.0 - Install SecureAnywhere with ticket</ScriptName>
+				<ScriptNotes>This script will install webroot on machines which don't have webroot and if installation fails it will create ticket.</ScriptNotes>
+				<Permission>0,</Permission>
+				<EditPermission>0,</EditPermission>
+				<ComputerScript>1</ComputerScript>
+				<LocationScript>0</LocationScript>
+				<MaintenanceScript>0</MaintenanceScript>
+				<FunctionScript>0</FunctionScript>
+				<LicenseData>H4sIAAAAAAAEAFWPsQrCMBiEd8F3yAM0pEnbpJafLCouimLFPTb/kCUtaQL27aVFpE7H3fEdHJxdh37Eg4lGw2MaUHNgi8I9+X2ffMSgc2ArB8f34MLMoG5NTMGaKSPXLvYvDESojIicCyIbXjaFJLcLsBUBbRfcEJ8YRtf7efo/+Pan5Kwuc8sr29V0p7iknKOhtagUzWWtqqpEYYsfvwDA1oe2mw+0Bbl14AAAAA==</LicenseData>
+				<ScriptData>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</ScriptData>
+				<ScriptVersion>1</ScriptVersion>
+				<ScriptGuid>40d15dc8-9716-11ea-8257-0687554e2d30</ScriptGuid>
+				<ScriptFlags>0</ScriptFlags>
+				<Parameters></Parameters>
+			</Table>
+		</NewDataSet>
+		<ScriptFolder>
+			<NewDataSet>
+				<Table>
+					<FolderID>81</FolderID>
+					<ParentID>0</ParentID>
+					<Name>ITBD</Name>
+					<GUID>27a0fd4b-d1f1-470a-b46a-f60553d55cce</GUID>
+				</Table>
+			</NewDataSet>
+		</ScriptFolder>
+	</PackedScript>
+</LabTech_Expansion>

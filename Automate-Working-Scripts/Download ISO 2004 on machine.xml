@@ -1,0 +1,107 @@
+﻿<LabTech_Expansion
+	Version="200.373"
+	Name="LabTech Script Expansion"
+	Type="PackedScript">
+	<PackedScript>
+		<NewDataSet>
+			<Table>
+				<ScriptId>6460</ScriptId>
+				<FolderId>254</FolderId>
+				<ScriptName>Download ISO 2004 on machine</ScriptName>
+				<ScriptNotes></ScriptNotes>
+				<Permission>0,</Permission>
+				<EditPermission>0,</EditPermission>
+				<ComputerScript>1</ComputerScript>
+				<LocationScript>0</LocationScript>
+				<MaintenanceScript>0</MaintenanceScript>
+				<FunctionScript>0</FunctionScript>
+				<LicenseData>H4sIAAAAAAAEAFWPTQrCMBSE94J3yAEa8lOraXlkY8WNBVFxn6SvkIVpSVuwt5cWhboaZoZvYODiHYYeSzMYDY+pQy2ALQq3MRzbMQwYNQe2cnB6dz7ODOqqDbWZElKiw5fFSKRIiOSSE1UIVWQHcq2ArQC4u+i74Ymx922Yl/+Db38efa155hQ23NFd6gwVAi21Zs9prhppU2mVlfLHLwCw9Z/t5gMSSf5Q3wAAAA==</LicenseData>
+				<ScriptData>H4sIAAAAAAAEAOWV32uDMBDH3wf7H/oP2PzQbm1xjtGtpTDooNC9FEZMIguokRinf/7Uxi6VTdhDGWVP3vcud9x9LkR/S5XI9CPRJLi+Go38g85bUcunSivSRJeCxywfgS7wQhRJuObK8q1iGZLYchyK7epDQqYB8sGp4+TUqhAsgBM65RGkjudS4iDEQyckN9CZTSMcujichhh3VdqEtmdgN23KbTXPjlM8UG0aMJbxL4u01WvWxCxlD4l6Q+Oednva6+mJxUMqHcC63+ZrfAuZapEWvPEfbRPb5M8iEW1KZ5rIOmU81aQdpo7a0kbyRWEACx7CMvF+BhMs5vv1duMDI/8vpdkApHets3wOQFmWY6ZkFspqTGUCchApVSQfqKKMlYVbgVeRIvi2wxB645rrPYvv0PdwDfl9ncFkmbcZIpfmMD4l34xurN9sAF3UBm4HNoAojWacesOvyhkuMb4ohHjoFsOzAHL/AFCnzT/vE0kFW4oCBwAA</ScriptData>
+				<ScriptVersion>1</ScriptVersion>
+				<ScriptGuid>05c8ef0c-43ca-11eb-ba60-98f2b32b8b22</ScriptGuid>
+				<ScriptFlags>0</ScriptFlags>
+				<Parameters></Parameters>
+			</Table>
+		</NewDataSet>
+		<PackedScript>
+			<NewDataSet>
+				<Table>
+					<ScriptId>6461</ScriptId>
+					<FolderId>254</FolderId>
+					<ScriptName>Windows 10 - Install Feature Update ISO custom</ScriptName>
+					<ScriptNotes>This script will upgrade Windows 10 computers to the specified feature update version provided by an ISO file in the LTShare\Transfer folder.
+
+Users will be prompted to confirm the upgrade if logged in, otherwise the script will run the upgrade automatically for logged out users. The entire upgrade process may take up to 2 hours and includes rebooting the computer.
+
+A cleanup script will also be queued, which will either delete the ISO from the computer if the upgrade succeeded or create a new ticket if it failed.</ScriptNotes>
+					<Permission>0,</Permission>
+					<EditPermission>0,</EditPermission>
+					<ComputerScript>1</ComputerScript>
+					<LocationScript>0</LocationScript>
+					<MaintenanceScript>0</MaintenanceScript>
+					<FunctionScript>0</FunctionScript>
+					<LicenseData>H4sIAAAAAAAEAFWPTQrCMBSE94J3yAEa8tMqbXlko+JGUbS4T9JXyCYtaQL29tKiUFfDzPANDFycRT/iUUetoJkGVALYovBI/tAnHzEoDmzl4PQeXJgZVE3CsdVTRm429gYDkXlGJBclkXW+qwUn9yuwFQBPG9wQXxhG1/t5+T/49ufkWiWs7Sq0BS1yq6kQaKjRe06rspMml6Y0Uv74BQC2/rPdfABViFld3wAAAA==</LicenseData>
+					<ScriptData>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</ScriptData>
+					<ScriptVersion>1</ScriptVersion>
+					<ScriptGuid>1ccf9ec4-43ca-11eb-ba60-98f2b32b8b22</ScriptGuid>
+					<ScriptFlags>0</ScriptFlags>
+					<Parameters></Parameters>
+				</Table>
+			</NewDataSet>
+			<PackedScript>
+				<NewDataSet>
+					<Table>
+						<ScriptId>6462</ScriptId>
+						<FolderId>254</FolderId>
+						<ScriptName>Windows 10 - Feature Update ISO Cleanup custom</ScriptName>
+						<ScriptNotes>This script will clean up the ISO file that is used in the 'Windows 10 - Install Feature Update' script if the upgrade is successful.  If the upgrade fails, the ISO file will remain on the computer so the upgrade can reattempt later and a new ticket will be generated.
+
+The @isoName@, @upgradeifUnderVersion@ and @pathToISO@ variables are disabled by default because the Install script passes them in automatically. If you want to run the cleanup as a standalone script, these variables need to be re-enabled and the parameters may need to be updated accordingly.</ScriptNotes>
+						<Permission>0,</Permission>
+						<EditPermission>0,</EditPermission>
+						<ComputerScript>1</ComputerScript>
+						<LocationScript>0</LocationScript>
+						<MaintenanceScript>0</MaintenanceScript>
+						<FunctionScript>0</FunctionScript>
+						<LicenseData>H4sIAAAAAAAEAFWPzQrCMBCE74LvkAdoyF9ba1ly8e+iKCrek3SFXNKSpmDfXiwK9TTMznwLA0fvMPS4NclouI8dagFsUrgOYdMOIWHUHNjMwe7V+fhhUO+jb8yYkbNLrcVIZJkRyUVFypoXtSrI5QRs1oebi75LD4y9b8Pn8f/hmx8G3+giz9VKNkhz5SwVAi21puR0XT2lVdJWVsofPwHA5nOWizd3O8Nr3gAAAA==</LicenseData>
+						<ScriptData>H4sIAAAAAAAEAO1Z7W/aPBD/Pmn/w31B2j5AyQuFThWiou2G1jeNdtMjIU1OYlqriZ3Hdsr473cJhgLD6dOOTGV6PuHzJWf7d+e7+4XDYShZqo+JJt23bwAOZ7IqBBRPfmhJcu0po3GkYG+uuCKSJFRTuTT3MRYBiZcmZsa+4kNM8K5zuLc6sfLUx4xF3Zbve203onXfC4O649CgHpD9Zv2gM3YDzw06gevOrRQvFHveW960MTfUNF2c4ijUZgNmZOZPM17IgyjXLUnLh3TWDu2uyd6a7K/JrSU8hNTdJu43/zVzfcE14xnN5xdjo7tUZyxhxSvzodEMeES5JsVhULssLkPyiEIJLG4ZLN6BHZjuh76kRNOvRDISxFQd7hnF/3htxOv6jkJAYzGBBwMZKKoVEEkhYiqfiEAxHlLQd3QKExbH+AKkRCnUMA7BNNfAKcKe4Us3aYT4gyr22gC0r+jC9sxuQBm/hZiONdxRlJWY2Q4Jz01LWqd8trAWIDOOWqaMRSBoA5QmPKqTWPDFSpU42tm2o50KHe02S/zsbMan+43xSEzm18RdRavLlLjAnGq03rOwc5+PXd11/Lbf8fb9zm6h6DabvgXCLL2VJKKD8Q3uWJo68yJAvb8+GGtn18OHMGKyNkpJeE9uqS0wU6LvrsVgePkiJP3dDM0nKh/l0Z8ofq2/p/h9wOvIxtOb2RWtBK39XULL9VolaHmWW3vMVCIyrus4uB8keGuhXvxc4SWF3uKq9kY9U096DRxsvtnr8ObnNaMVmLsZP88XfUwBrRXc27uULJ08qfyhXr9jAcZ5jcCUVpGmJR4/fT755/vZZf/o7Pv5Uf/T4OJkNBRjPcHWc3TOQikUSiPT+MDF9aifSYn7N7V59IXGlCg6iGy1RyhtUsbvlPODXYrQdpkjrICse6ZtQbS3sUnqbYa1KHSbErdfCrezddJWaeCXla0LimxthhHwLAmohHe9X53Qew9Im7ANUEigkFqtvaKyNI0Zkqx3FvjfN8AYhFBwxVCFT48JQ2ZWEd3aOt9yK/SRv1/io1qI2OKOo5qt1w1FkmYa43jxyPq1qOVnJqE+SRDzmuU2LGoqGC8aDwF6erEGxwdqlkJqNYDkm3Fk2kj4f7HVePvmqsiSeWjkeyy+AWQK4wrbdxrqeApI0WEi5D1MGPYBqE9yOwnhGZqcmtXyLwG40DwbO00w4QeWqGxsLPdOhWyzyhhynZKOa8uV39k6gawSmafJTvXNu/MCovhquc4xtjWaPvbLW4Zqx2hhCVJPMZYtA2djiK+zIX9mX4INyG3xTULOehAhgf6L+T/P+ZZ+ZGPXobIwxEZmnMUVdR67xRdL3WDhRb+LkI04vk6EnqweFafDrbO7/5AO57L56/Qns9lTMEkdAAA=</ScriptData>
+						<ScriptVersion>1</ScriptVersion>
+						<ScriptGuid>544372de-43cb-11eb-ba60-98f2b32b8b22</ScriptGuid>
+						<ScriptFlags>0</ScriptFlags>
+						<Parameters></Parameters>
+					</Table>
+				</NewDataSet>
+				<ScriptFolder>
+					<NewDataSet>
+						<Table>
+							<FolderID>254</FolderID>
+							<ParentID>0</ParentID>
+							<Name>ITBD</Name>
+							<GUID>61c8aa61-ad85-4cab-901e-e8816bfad2a5</GUID>
+						</Table>
+					</NewDataSet>
+				</ScriptFolder>
+			</PackedScript>
+			<ScriptFolder>
+				<NewDataSet>
+					<Table>
+						<FolderID>254</FolderID>
+						<ParentID>0</ParentID>
+						<Name>ITBD</Name>
+						<GUID>61c8aa61-ad85-4cab-901e-e8816bfad2a5</GUID>
+					</Table>
+				</NewDataSet>
+			</ScriptFolder>
+		</PackedScript>
+		<ScriptFolder>
+			<NewDataSet>
+				<Table>
+					<FolderID>254</FolderID>
+					<ParentID>0</ParentID>
+					<Name>ITBD</Name>
+					<GUID>61c8aa61-ad85-4cab-901e-e8816bfad2a5</GUID>
+				</Table>
+			</NewDataSet>
+		</ScriptFolder>
+	</PackedScript>
+</LabTech_Expansion>

@@ -1,0 +1,37 @@
+﻿<LabTech_Expansion
+	Version="200.251"
+	Name="LabTech Script Expansion"
+	Type="PackedScript">
+	<PackedScript>
+		<NewDataSet>
+			<Table>
+				<ScriptId>6445</ScriptId>
+				<FolderId>273</FolderId>
+				<ScriptName>Top 10 Memory Utilization</ScriptName>
+				<ScriptNotes></ScriptNotes>
+				<Permission>0,</Permission>
+				<EditPermission>0,</EditPermission>
+				<ComputerScript>1</ComputerScript>
+				<LocationScript>0</LocationScript>
+				<MaintenanceScript>0</MaintenanceScript>
+				<FunctionScript>0</FunctionScript>
+				<LicenseData>H4sIAAAAAAAEAFWPQQrCMBRE94J3yAEamqSmLeWTjYogCqLF/bf9gWzSkjZgby8tCnU1zAxvYODiGvIDHXBEA/XUk5GQLgr36Pdd9CMFIyBdOTi+exdmhkwdaWhxStgZfcQwMSUTpoQSrKiErpRmtyukKwAeTXD9+KQwuM7Py//Btz9F15oss0W+s5ZnTSm5lIS8pPbFhdBC54jSquLHLwCk6z/bzQdAG4VW3wAAAA==</LicenseData>
+				<ScriptData>H4sIAAAAAAAEANVXbW/iOBD+Xqn/YYTaXbgjQELprqCgvtAXpNJWC73Vqq0qkxjwNokj2ymtKP/9xkmggQK3q1Ol7RfwzHhenmfGxux1bMEC1SSKNDY3APZiWUYCisdPShBtPWHUdSQUp4YrIohHFRUp3anLe8RNKeJg/+Amxv2GuVecV8ztOg2Z0yiX+192d/p9o2x/NQ3TpMT4Sp2eUSpVSpVdQsy+9WUaJXKIai6mi07CdRQNZigObJUUkKwS/UnoR3LL0baUlAZpLoC2FuTygryzIFdSfHChGiWsV38nuiPuK+aHVOtn68R2Kc+ZxyKX6TKxtHyH+opEYNCaFtOUvLKwhhZrDS1WubKamEZ5r5is5ghqbBGoQ+aTq2pSPbv000DVMpsbkRY//obM4WXzx7hH7IeB4KHvGDZ3uagGlNjDIOz3a5P57d2Dw/PjcY8LhwpjxBw1rIIVPNUSTZSkCpK7zJnq4ojQczFJSueSQOLW6epNorMlWQLiOMwfVMEs/U7ORXRqyKRy6WLG5rqMvwXyDZ3EpQPu4mQI7iyk1b0pppuD1kBwG+oDqtA/9PFog3GULDK3V2ikUnKRve9yRdzc7TbMdNBlHs2A0SFe4NKWdnkkLlgY1A5Cq56NYhcEJRqWBEMGLlOQqWZyN4Z5l2zb3MD5f6RCdblx1m2fg6EYEoYc8QCD97jzHBd+ZumiDxQEgkqcezi6uoZQkgEFJoEEmIw8QRSzEAGNHTDGECuArR68wGWojBOG0Y0+fgZEDeGoevud+Q4fydvzbufRvsW8XeonKAtD5WmasFhMd0WFrTPXYX+sZ/8CL0MUPr+aPmv18ZMuUV92aBzHh2Qr4q9DkWvIXtCRocnrBMRH/hQRCrbuC9FC63OF6W7uOzIOcNPGau+q1W+611nI4n5NwF84nyUovsbP5cHKaZfJ5sZEF36KrU3QIANo6VCX2sq47P3EL9C2AOl/jtDkoeXkNbN5SAHOQ5PK6CbRmF50DLzL3kZIUWRoD+rrzscO80lPmJAKS8eK5i1JEc08rEwPKwZmCrLl97nwomtxyQBhe3Xe1+EJkk4vmxmC2TjOTD+amYMgQES/PDH6TI08xmNg31sXZev+6tvl0XGno2EvZXAk08y9yIgbPa0xXS8xWdOa/Yis/bEmrZ5pUw+uNaRs+zCXqb1OYX1848XDE10UenQwTxFMr5ebTPJT/wRAq7ng21ECa7lDr9mOlNe1pGLRBbcieD7yqcjmCiHumEwWG53Eivs9C5yHBRh5iBOsbvvyeyJps0c9Lp7fs9PJj6G1/nWgf66T1dwroXHsEeYmtsrHfTGYlZ01L4b1PLajHmk2lz8s/ufLy/xIPFrraJSKjvAXovCAhzjcZ6rnFHyqavCAsypIQdLhgLgz/YpX2nkXDlw8RlU4Y4MhtNMHhGgD9AX3YNvmXhDiT7q+Y7Z/bcj/oxHWh2rEmr8Gjcq7DGr5I/Fj7pb+1AO/s4JH8x15nMrJX+p/AUasZvVhDwAA</ScriptData>
+				<ScriptVersion>1</ScriptVersion>
+				<ScriptGuid>33f764ff-3c81-11ea-8edb-005056aa1f27</ScriptGuid>
+				<ScriptFlags>0</ScriptFlags>
+				<Parameters></Parameters>
+			</Table>
+		</NewDataSet>
+		<ScriptFolder>
+			<NewDataSet>
+				<Table>
+					<FolderID>273</FolderID>
+					<ParentID>0</ParentID>
+					<Name>Stewart</Name>
+					<GUID>afdf7a15-23c6-4b95-b573-114cff470ca3</GUID>
+				</Table>
+			</NewDataSet>
+		</ScriptFolder>
+	</PackedScript>
+</LabTech_Expansion>

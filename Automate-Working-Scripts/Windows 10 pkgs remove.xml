@@ -1,0 +1,37 @@
+﻿<LabTech_Expansion
+	Version="200.251"
+	Name="LabTech Script Expansion"
+	Type="PackedScript">
+	<PackedScript>
+		<NewDataSet>
+			<Table>
+				<ScriptId>846</ScriptId>
+				<FolderId>66</FolderId>
+				<ScriptName>Windows 10 pkgs remove</ScriptName>
+				<ScriptNotes></ScriptNotes>
+				<Permission>0,</Permission>
+				<EditPermission>0,</EditPermission>
+				<ComputerScript>1</ComputerScript>
+				<LocationScript>0</LocationScript>
+				<MaintenanceScript>0</MaintenanceScript>
+				<FunctionScript>0</FunctionScript>
+				<LicenseData>H4sIAAAAAAAEAFWPzQrCMBCE74LvkAdoSLamJpYlIP5dFETFe2z3EJA0pC3YtxeLSD0NszPfwuDRVxRa2rrOWbwNkSygGBUvfdg0fegoWYli4nD3ij59GLL75Gs3ZGwdk38y0BnLZS6ZKeWyVJqdTygmbbxWycfuTqn1Tfi8/T9880Pva1toU0AtiRtJmgOQ4w9aKe60VFAZWCjz40cAxXTMfPYG7y6V2dwAAAA=</LicenseData>
+				<ScriptData>H4sIAAAAAAAEAOWWX2uDMBTF3wf7Dr70peA0/kELIpRtlcLGygpjr1HvtjA1EuPmwz781EabChP6sK6yJ3PuSS65P46it40YyfkN5ti/vFAUb6eLVtTytuIMN+6KQBIXitYZG8xwChyYVAsSGuJEKuyaPdWbCM185GmHhYNdQUli33ZcG8U6qK4OjooQYDWEhaViR7dQ5CLTcvWuS3ugvbMmX1q023LI+ymWERcXECtRX5VZq9dx40lKHhINhjYG2hxoa6BtiQdl3G8GaJ6idk0zTrISmnq/Ft5DcUdS0h7plsJZZzFkHLfD1K4sZSR7CiNYjDEspv0zGD8Ari7zvNrg6B2/gjJPScRoQV/4VRXSaq58KY+Q0g+Qd3maOP1voRqLEaaznH7W78cbJAmDokz47FeAoSkBOzKFJ86eMSWU55A9c0rAjsveff8BfK5DWDuni6E1JarnEEP7D4B1WvxwfQMs1qdQfwkAAA==</ScriptData>
+				<ScriptVersion>1</ScriptVersion>
+				<ScriptGuid>57851d0e-80e7-11ea-be94-a7041c813480</ScriptGuid>
+				<ScriptFlags>0</ScriptFlags>
+				<Parameters></Parameters>
+			</Table>
+		</NewDataSet>
+		<ScriptFolder>
+			<NewDataSet>
+				<Table>
+					<FolderID>66</FolderID>
+					<ParentID>0</ParentID>
+					<Name>ITBD</Name>
+					<GUID>4860adbd-5a8f-467d-b086-3d0a4b270ac8</GUID>
+				</Table>
+			</NewDataSet>
+		</ScriptFolder>
+	</PackedScript>
+</LabTech_Expansion>

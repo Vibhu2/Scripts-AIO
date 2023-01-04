@@ -1,0 +1,37 @@
+﻿<LabTech_Expansion
+	Version="200.310"
+	Name="LabTech Script Expansion"
+	Type="PackedScript">
+	<PackedScript>
+		<NewDataSet>
+			<Table>
+				<ScriptId>7858</ScriptId>
+				<FolderId>451</FolderId>
+				<ScriptName>Revit install</ScriptName>
+				<ScriptNotes></ScriptNotes>
+				<Permission>0,</Permission>
+				<EditPermission>0,</EditPermission>
+				<ComputerScript>1</ComputerScript>
+				<LocationScript>0</LocationScript>
+				<MaintenanceScript>0</MaintenanceScript>
+				<FunctionScript>0</FunctionScript>
+				<LicenseData>H4sIAAAAAAAEAFWPwQrCMBBE74L/kA9oSFKTEmQJiIoXC6LiPW1WySUtaQL276VFoZ6G2Zm3MHD2LYYBDzZZA/exRyOAzQrXHPZdDgmj4cAWDo7v3seJQVN3wdmxILv8ykMiG1GQkpecyK3QW6HIpQa2qMOtjb5PD4yD78L09//wzU/ZO6PbSmspkWJjn1QItLRRTlPOFVdVUynt5I+fAWDLNevVB+Gt893dAAAA</LicenseData>
+				<ScriptData>H4sIAAAAAAAEAOWWUWuDMBDH3wf7DlLoS8FqrIobIpSu7QqDjXVsL4JEc6VhqYqJo/v2Uxs7K8w3KbIn7/+/5Lj7wQXdbZTRVDxggb3bG0VxT5pXopDLo8hwmV1RYIQrWp14wRk+gICs4a1ZEmLWME7F3otDNIk95GqXxsWpdU6J50S245gmqBDinYoQYDW0iKPquqVbdmhbDjHrKtWFqmet2bQstxWQnqeYR0I2ICPpr/K40htS5hqqOSRqDW209KylzZa2GjySTHh60W/5ld4iiQWNcyj9cyxzz/yJHmh1pQ5lZhMTiAWuhimyTdlE8kuhA4vRhcUy/wbjLe79V/iiwtWk8X852R2YjlGSfiu+j4FHmJFIR/4bRPsdZcD9eS4SAvzTN3QDnXAGZRhkKFij4IPGgW2GhUnYwZ9MJ0okoSvaUnvUFtqmF/poSPSNuw76Y74HxjLgORPjXlgZg2LV8dJ5yNH1XhDNhoSoc5lH9aPnb0Hk6RSOMFJUlRfLHPfzEJpDYnflVbSGxAp1wupnEe0rAKq1/Mv8AW3h1wZ0CgAA</ScriptData>
+				<ScriptVersion>1</ScriptVersion>
+				<ScriptGuid>8c68844e-ebaf-11ea-b5d8-005056b658d4</ScriptGuid>
+				<ScriptFlags>0</ScriptFlags>
+				<Parameters></Parameters>
+			</Table>
+		</NewDataSet>
+		<ScriptFolder>
+			<NewDataSet>
+				<Table>
+					<FolderID>451</FolderID>
+					<ParentID>0</ParentID>
+					<Name>IT By Design</Name>
+					<GUID>063aaf9b-5f25-459f-b4c4-c2b799589257</GUID>
+				</Table>
+			</NewDataSet>
+		</ScriptFolder>
+	</PackedScript>
+</LabTech_Expansion>

@@ -1,0 +1,274 @@
+﻿<LabTech_Expansion
+	Version="200.251"
+	Name="LabTech Script Expansion"
+	Type="PackedScript">
+	<PackedScript>
+		<NewDataSet>
+			<Table>
+				<ScriptId>6215</ScriptId>
+				<FolderId>279</FolderId>
+				<ScriptName>PF memory autofx action</ScriptName>
+				<ScriptNotes></ScriptNotes>
+				<Permission>1,2,4,5,</Permission>
+				<EditPermission>1,4,5,</EditPermission>
+				<ComputerScript>1</ComputerScript>
+				<LocationScript>1</LocationScript>
+				<MaintenanceScript>0</MaintenanceScript>
+				<FunctionScript>1</FunctionScript>
+				<LicenseData>H4sIAAAAAAAEAFWPTQrCMBSE94J3yAEa8lNpankExIob3ai4T9InZmFa0gbs7aVFoa6GmeEbGDh5h6HH2gxGw23sUAtgs8IlhX2bwoBRc2ALB4d35+PEoL49U+wbM2akRocvi5HwMiOSC0GErHJe8ZLszsAWDFxd9N1wx9j7Nkzj/8G3PybfaCyMKqR01FlVUiHQULvdWMo5b3KjjFSP4sfPALDlpfXqA2kzanfiAAAA</LicenseData>
+				<ScriptData>H4sIAAAAAAAEAN2YX2/aMBDA3yvtO9wLL5MyYicQIqEISqFC4k9V6J724iRO8RaSKnbW7tvPTgINFWRbVNamvOC7I8b+ne/Ol/7KS9iDuCKCOJ8uAPq5zDNBiuMnkRBlnTAa+hzaO8MNSciWCpqUdNdh7JKwpMgn+yp/xOLIQQYydAsjE/fbh5aDn1+nzHdol1hdjD3Nc62ehhAlmmubrqbrum8Qi2Ar6O5myR7IFt8ur76YbiXow347Q09kK+m3i1Ghn6RRJk99ZStJ5d0iZ8AFESkf9NuFomzGDi70+EBvOJPhdDa+KozGgdF8QbRTghcnwtHlntR3oRvFkWBRSpV+Py5sSz5jW5Y9shsWlmnk00iuXG1YWstiGdszqQp0uAqdYVfA+6w+MI8jJuIEVhlJIJEPt5SnoYCfJGHEDSmHRxaG4FJ4IJxTH8QmidP7DYhYDimsmfeDCpDb53HI/GwfwFOXZ2s+7poXlI0X8hm8gM137YabkBJO4YoGLJJI6ZNQeCXzO0WcRccpB9JxYsM45Ky/nAU2ahRsrFewRicSxe1wDikn9xQGgcqrkUylA3gkHHyZUj0hXbBh8sQTAdAazabjxXoxnI9b8A1as+VouJ4uF5niQmlGy/nN3Xp8m2lOpKDcnaOEEkFXqftd/kmtfIRfOx+h9+ibslcyR+TOYiX/yGj4Z/CXsf+rFnXjw1NfCZXzD4nCRgZEhv9ovFQDj7dbub1atM0PT/uZpzzSsuJymdVJBJYOrS+VWCcsYnxT+xx3mkT2b8roIoaRJHcvLy2XNIwf8+oYqpqaV9izVMhuoyqkVXVC9+F84qSaJ46jmvTYAdw/YFYStJp0EGuFeCu/ojH/VGHK1zKt15b0Pjw/9IfyUroW1yJoN4kgsqoIUmIYgd7TAkxt1aojzTWppyEs+30b+dhH9nkahVdvjs/KEFeVE/08hGr0Ug2L07e6yqBGdUKVAWzZHdrzgo6m2/m7NqzZxLT/QwA3qq95kwB+i15kJxcvhX8Dkm7dciMWAAA=</ScriptData>
+				<ScriptVersion>1313072142</ScriptVersion>
+				<ScriptGuid>e6a7622c-cb78-11ea-b94b-000d3a7a27f6</ScriptGuid>
+				<ScriptFlags>1</ScriptFlags>
+				<Parameters></Parameters>
+			</Table>
+		</NewDataSet>
+		<PackedScript>
+			<NewDataSet>
+				<Table>
+					<ScriptId>5710</ScriptId>
+					<FolderId>50</FolderId>
+					<ScriptName>Ticket Consolidation*</ScriptName>
+					<ScriptNotes>This is the back-end 'Ticket Consolidation' sub-script.  It must be called from a primary script that sets ticket information to be posted.  This script should not be scheduled directly.</ScriptNotes>
+					<Permission>1,2,4,5,</Permission>
+					<EditPermission>1,4,5,</EditPermission>
+					<ComputerScript>1</ComputerScript>
+					<LocationScript>1</LocationScript>
+					<MaintenanceScript>0</MaintenanceScript>
+					<FunctionScript>1</FunctionScript>
+					<LicenseData>H4sIAAAAAAAEAFWPQQrCMBRE94J3yAEakp+4aOUTECtudKPFfZr+YhamJW3A3l5aFOpqmBnewODFOwoDlXa0BqupJwMoFsVbCscuhZGikShWDk/v3seZIVM9UxwaO2WsJEevmiKTecaUBGCg9lruZc4OVxQrBu8u+n58UBx8F+bx/+Dbn5NvDJDVupU5bxUVHICA1ztyHJQGXUCjGih+/AKgWF/abj7PUshN4gAAAA==</LicenseData>
+					<ScriptData>H4sIAAAAAAAEAO2XUW+bMBDH3yftO+QLIHw2nuMJoURNU0WqtEmd9m5sZ7NKIAIj7ePPEKcjKHG7Lm2XaU/47sDc/fz3YdI7WZutXQgrsvfvJpN0Zze94czrH7YWXXRpdKGaSbwPfBa12Gir64HvpqhyUQwcu8m+uptMVWZAEOKIUkzS+DBycPtNa1QGWhCyRtNojTWPADREeaJlBJgA4aCwAr6fpX+gTz4eZu+nu7N6+1DOXNo+kzT2I+9ftmVvr1RG03hgDauFbNZYYdtmlsbeMQzjDHs/PvCTbDlf3V4vfJAcBJMRUTqAV9U2Q66m7up9V1VpTdnqzv8w9rFPza3ZmP6R/dBHVqXSpcu8K9hFh+YQ2y9SAXQ4gI6hALsvRt5r65JuqsKo/u0nMJITGOE4wa4kP/pnSDqNB1B+vPqu5f3CNCIvtJoXunbpfztOc6QvMrIf0x9cFDVEAtQoJQntuknOXDdxLQVFQkiIuGKMrSHRU4pPKHImq822dc3OqNkJcfrVGC3G7212fG7Y8Fab/TiNp/bLP9vo5JIoAoEARs7I8xWJnqXB5LLoPd4md9+dF2mO9KKaIwuggpxJzBISIc5Y1xtxxEXCR8etF0D44W+TG/l/vjmTGEMkg2JknOqpXNNOjNPXFOPZDztPEOPe9n9gPwEeniBpkA0AAA==</ScriptData>
+					<ScriptVersion>1300905523</ScriptVersion>
+					<ScriptGuid>1ea33f08-f2e9-11e1-b4ec-1231391d2d19</ScriptGuid>
+					<ScriptFlags>1</ScriptFlags>
+					<Parameters></Parameters>
+				</Table>
+			</NewDataSet>
+			<ExtraDataField>
+				<NewDataSet>
+					<Table>
+						<ID>30</ID>
+						<Form>1</Form>
+						<Name>Disable Alerting</Name>
+						<Sort>0</Sort>
+						<NoBreak>0</NoBreak>
+						<FType>1</FType>
+						<Section>Exclusions</Section>
+						<UnEditable>0</UnEditable>
+						<Collapsed>0</Collapsed>
+						<Fill>|Checking this checkbox will disable alerting on this computer|2</Fill>
+						<LtGuid>553452e9-b7e1-11e0-aac1-9d777f14e852</LtGuid>
+						<IsPassword>false</IsPassword>
+						<IsEncrypted>false</IsEncrypted>
+						<IsHidden>false</IsHidden>
+						<IsRestricted>false</IsRestricted>
+					</Table>
+				</NewDataSet>
+			</ExtraDataField>
+			<PackedScript>
+				<NewDataSet>
+					<Table>
+						<ScriptId>5673</ScriptId>
+						<FolderId>50</FolderId>
+						<ScriptName>Ticket Comment*</ScriptName>
+						<ScriptNotes>The 'Ticket Comment' script is called by LabTech generated autofix, ticket consolidation and other stock scripts.  It will create a ticket if the ticket does not exist or comment the ticket if it already exists. The following variables must be set before calling this script:
+@TicketCreateSubject@ - Subject for the ticket
+@TicketCreateBody@ - Ticket Body /Comment Text
+@TicketComment@ - Ticket Comment for an Existing Ticket</ScriptNotes>
+						<Permission>0,</Permission>
+						<EditPermission>0,</EditPermission>
+						<ComputerScript>1</ComputerScript>
+						<LocationScript>0</LocationScript>
+						<MaintenanceScript>0</MaintenanceScript>
+						<FunctionScript>1</FunctionScript>
+						<LicenseData>H4sIAAAAAAAEAFWPwQrCMBBE74L/kA9oaHdbLSlLLipeFMSK97TZQw6mJU3B/r20KNTTMDO8gaGLa9kPfDTRaHpMPWugdFG6j/7QjT5y0BmlK0end+/CzLCuTRyDNVMiau4jvxoOAlUiMAMUWMG+ynbidqV0xVDdBtfHJ4fBdX4e/w++/Xl0VkNTtlgWucxUWUoARqlMoSRgDrkCixbUj18ASteXtpsPs1pOs+IAAAA=</LicenseData>
+						<ScriptData>H4sIAAAAAAAEAN2ab1ObMBzHn+9u74HdrnfbA1YSoIjX9epqdd7p9Ky6x4GELZNCD1Kn735QwAE2sdhwFR+VJBSST37/vk2HMzeiC3aIGBq9f6cow6wdrxpJc3rPIpSOHlHi41jpFwMXKEJzwkhU6jv2Qwf5pY7sYTfJTTQMRmDYr3ZU7jpeUjwCjuVCy9BVzbYsFQACVRsZtgqgDnQbYIiBXTxl9YXVnPvlSeePmzGyeFzFgcvyCeRXef/RMli1T3A6VmqVFwlqi4a1tl5rG7W2WeIRRmykJfNNP/O+SRgwGixJ2v94nY+dx6d0TldfKS7zkZMAk4Ch1WKS0XKzjOQ/BQEWKMBiaXwuo0UULk5DhAm+ou4tSab+a9jPxyrE0lfkVxVyKfX8qkJwtD8NcPrki+QNJGKUxPmNxttBCywBWuxZyHQ0pJqeZqaOAFSk20h1Pcc1gEb29IG1nvWW1glkIwSv3zr1htapbWSMsEskk+gqQMl1R7m2p3fJfYW2Nw8DypKlZIaH71DEMT1tvenVwa12YEaSSSJGblBEkeOTjazQ6BJTKGIKOAhrrDm+zN0RvZGJmm/LqTkmJdetB2/eBDlezDHNZhZndYmevSegN3bD+WKZSAaKxxyQ46duOm6R7V6X2Iq9efKbuLcK9ZSs2FEO/Igg/KCQexqzWEEBVmisBCFTLkkc+ncEf2nF2e0uIRXm8Lot8myWp200nraZJDvDNsveoFuKRihpZtPT6eRKmZxf/7j6VED9rBxdnp8pWTNWfn6fXk6VYvDrpltgNJWXTbZAuiJqdQsMGSZtcnhWuTWLtaBbekgKR55dftifhPN5MvOXkZSuk+DuitCKRUn+KUO69tFb5GQMBJh6rk+T11Lc4xVOT2urutH10jUjl03niPo9TmQcZ+VDtiuzpfOHuGy8Pk5W7/0W4ofiRrO6DdI1k/Ha6v9eEQh6LRarQLqOapOjLSoF5CoBXjRuiFe60GoTL4DPSft2Qqp0xdQqpGdSTyUHSwYlXQe1mXvkVDsDbrVzgPE2BQ+UroJ2l0F4KSRXR3GWcl+kiurcA/J3q4QDpSsfs9XjNMER7ghCXp4pUeKB/MgplgCnMFqf7atVEZQuh1qFK46kT/xbbjCF0gVPq8FUVPlouqd7huOotm2Q7FzXgZ6tGgPgOJahQ5cXIbZlKF0MtRlDhT/MZbLjDN3nNsc5jGz8p4MNj3U7JWeAJvxFfsPMPk7P0jPsh8RDS59dxyQ6OeRW5LkyzPaHU4/zwmedt3TZs8NA2VZdDndxSlS08z+P/QNIRDWISyYAAA==</ScriptData>
+						<ScriptVersion>1</ScriptVersion>
+						<ScriptGuid>1b7c2743-0977-11e2-9a49-1231391d2d19</ScriptGuid>
+						<ScriptFlags>1</ScriptFlags>
+						<Parameters></Parameters>
+					</Table>
+				</NewDataSet>
+				<PackedScript>
+					<NewDataSet>
+						<Table>
+							<ScriptId>5218</ScriptId>
+							<FolderId>50</FolderId>
+							<ScriptName>Load Properties - Ticketing*</ScriptName>
+							<ScriptNotes>Wraps the Load Properties function, sets the LoadPropertyClass = 2 for Ticket Properties and calls the main function</ScriptNotes>
+							<Permission>1,2,4,5,</Permission>
+							<EditPermission>1,5,</EditPermission>
+							<ComputerScript>1</ComputerScript>
+							<LocationScript>0</LocationScript>
+							<MaintenanceScript>0</MaintenanceScript>
+							<FunctionScript>1</FunctionScript>
+							<LicenseData>H4sIAAAAAAAEAFWPTQrCMBSE94J3yAEa8tPG2vLIRq0bBVFxn6avkE1a0gbs7aVFoa6GmeEbGLg4i37AoxmNhufUoxbAFoV79Icu+hGD5sBWDk7v3oWZQV0F15gpIRXWIZowEZklRHIhSVGmquSS3K7AVgA8bHD9+MIwuM7Py//Btz9H1+imzY2quaGq5YoKgYKatDDUtrXNBMd9ust//AIAW//Zbj7hsSxZ3wAAAA==</LicenseData>
+							<ScriptData>H4sIAAAAAAAEAO1b/2+aQBz9fcn+B36jTXRyINoujswpdiS2NtV2Py4nnA0ZXwycS/3vB4gWFBDw2IbeD025Ozy59959nu+Mvanq6Es8hBhKHz8wTG/TdoOG15TfsAP90ZGODM1lWtuBR+hAE2HkRPruDHsOjUjHZrIX7ybdtiTQa8U7YnfdrXRN0hZdKM452BQXnNgEAIEmFG5hU13M1Tbg0I3Q6W5nCV4QPHMr+tDhdFOMlrtV9FUcPkB4FfaPVlbQVjRJ7LUiregigbR07OXYhhrSZrr6C2Hdeu21wrHonbwkhP18rF/w3zm8iva39+AUI8jZDpY4b2X+/7BvYFveW6+Q37+7Dscm7lg39eAl28twRLE0ZGEYLNsbjTaj4L3jlQEgnwEgAN0MCKfyWB7MmMHk+WF2ZXnKuWZGT5N7xocWOVhHLvPju/wkM/7YF/anu3Y3WA/RAq4M/OwiRxmyKbB3UmDnkmGXPsdmDW9qnw8XnSwqlIep/DRjlIfZJAp/wErjNzRWHjcv/fGzPGWuUolosIC9TmZjT9TCXvuY6AFpoEGFQPNcBtAgRa0gRa2PGzLWfc2rNKUKBl8nkQLhNgO8xC1KVmlCndDKVlqa1MKyG+zqUwruvlT9WRJuLyXadp1oqNblZBPqBmmTCybN5XFinZio0OM2NDRYc226y6/e3yfVNiuyuw61u9J2162TXvPZXXSzkhXaTZ3A+ttuFyu8R80uSlIxxd7WiYSKvE624NxA/RW2F/rbTDcRMcM7mDmX64GLj3aHjFQY72i+K2944JwCXtpuJaw3mvKyi/AoXoTTzS+Nr4ISpnFv9zni3lssRu7M/qYbxGNfbPJ8RkjzXxIvDVasygtp+DvBC88w/SXtWcKSozGwaEE+GgeTWCuoZZoLEVashe1/uhgYtksuE8ZmzWWD/MXnwTgTDbYt8FxFFsjTOHjC133nFAeTNiphrdEomLvuppteEk8FZUsj4AbGAcTo1XbWypAh6nfv8+YzvIvPfXHQ/NNP7qYqw6OZ7wTDO6fMl7hTCYuNpr3jtTef5R0wVVC5NOHt8rJ/dnwIP6lzz/jsuQxQuPjEl8xMdd8CCjT2lXdB4ZxiX9auJaw5Gv8KF+WjZ5+JvBWUM42DCN/DN2+trm3oWvDQA9s0vQW4xNwx7Q3yGeTFJ8RUfhqsWNXZqECj4gkmeU5R8cjmJSw7GhrLVOh0qzzCXkFd1ypIlioKI2jsTpb3UXWDx8ABrmrpE+h2rQJfZSCayEGq7ZQrsG3iEe6/wzDNndJ/D1wQwn8R5Lbt8CfffwC9dFDkAT4AAA==</ScriptData>
+							<ScriptVersion>1</ScriptVersion>
+							<ScriptGuid>df7a5b0a-5f05-11e1-a39a-cfbc410e8367</ScriptGuid>
+							<ScriptFlags>1</ScriptFlags>
+							<Parameters></Parameters>
+						</Table>
+					</NewDataSet>
+					<ScriptFolder>
+						<NewDataSet>
+							<Table>
+								<FolderID>50</FolderID>
+								<ParentID>47</ParentID>
+								<Name>Functions</Name>
+								<GUID>5e052966-d1b5-4c3f-899d-9ff09f989e7c</GUID>
+							</Table>
+						</NewDataSet>
+					</ScriptFolder>
+					<ScriptFolder>
+						<NewDataSet>
+							<Table>
+								<FolderID>47</FolderID>
+								<ParentID>0</ParentID>
+								<Name>_System Automation</Name>
+								<GUID>68c423ca-41a6-4fae-a052-08a4fd27ea53</GUID>
+							</Table>
+						</NewDataSet>
+					</ScriptFolder>
+				</PackedScript>
+				<PackedScript>
+					<NewDataSet>
+						<Table>
+							<ScriptId>5647</ScriptId>
+							<FolderId>50</FolderId>
+							<ScriptName>Ticket Max Consolidation*</ScriptName>
+							<ScriptNotes>Called by 'Ticket Consolidation' Autofix script.  This script checks @monitorticketid@ to see if it has more ticket comments then the maximum number of comments defined in @propTicketMaxConsolidationComments@.  Both of these values must be defined before calling this script.  The script returns @TicketMaxComments@ 0 for no, 1 for the max number of comments have been met.  The calling script must act on this value.</ScriptNotes>
+							<Permission>0,</Permission>
+							<EditPermission>0,</EditPermission>
+							<ComputerScript>1</ComputerScript>
+							<LocationScript>0</LocationScript>
+							<MaintenanceScript>0</MaintenanceScript>
+							<FunctionScript>1</FunctionScript>
+							<LicenseData>H4sIAAAAAAAEAFWPwQrCMBBE74L/kA9oSDYN2pQlICpe7EVFz027hVzSkrZg/15aFOppmJ15C4NXX1Ho6VQOpcXH1JEFFIvibQzHdgwDRStRrBye352PM0P2RXWgvi6nhBXlxKRJmJKgWJZDlsuMHQoUqzreq+i74Umx922Y//4fvvll9LWVaZM22jlujCYOQMCdagzXO3Bur1NVAfz4BUCxXrPdfABBvZxq3QAAAA==</LicenseData>
+							<ScriptData>H4sIAAAAAAAEAN2W32/aMBDH3yftf7iXqdsDJU5COyaKUvGjQ6MwAd1e65ADrCV25DiC7a+fExwauoV1XauNPeH7nn13/txhpTWdSxarLlW0/fIFQGtrJ7mhzd5GSZp5+wzDIIF64fhIJY1QoSxpV6HwaVgStsE+6U1M8DZp1feFvV1XKQvalrNwFq7v15pNF2uEIKn59qJZc8+I75+7jj0nuyj5gbzmerloE26qMN7d4nKuTAFmZfR+ynN7EGS+klW+JGlPe8NeZwad8c1o9lqx+RdUgUbCgjfQn4yv4U6Cz+97k54RWHBhN2yrAZejLmRe9TXGC6dVN2HLSey2ZXR7T3fuEXfv2Y0SbCFVFiX/NVpHcMV4ipm+WxvfOBmyiOVHiqXxDHiAXJebkdLeslnmfYf4AHP7AHPbOgCd/B6n9ixnfk03HRFFut7E7HP+X36EnD/L1HqR4ExpDEbwHjbBjYrOeLEUcak9PBEhC3IeRa+8nzdr12z3YNPIMTXtUUNPnnXo7afmR/41fpoQbFlBQQomSOcrDN5VoNVHZrhRjwLqHBPQv/WK5OZtZt/CcPChByeeYe69Oqno41lFs6w/ej/co2qX9fZAu36AXgGy9CZ3cUHTUN0kKAddr+oNL1oDIwGRkAhJXj0skaOkCgOYF3+sNQtD8BFoHKOmEIASoFYsMaORmYkSsdawkBZSRLCUYs34MvNTDimPKKdLpH6ok7FveArQT6U+JMFcEmiIUidc6GWegCVJirv8gb5irNOvV0yHKFcgMaKMJyB0gacVo0MeNDqNpx4d+9ejU9jmo/07VqgWScMLAAA=</ScriptData>
+							<ScriptVersion>1</ScriptVersion>
+							<ScriptGuid>03f3f4bb-994e-11e1-b2f9-461bb7432c11</ScriptGuid>
+							<ScriptFlags>1</ScriptFlags>
+							<Parameters></Parameters>
+						</Table>
+					</NewDataSet>
+					<ScriptFolder>
+						<NewDataSet>
+							<Table>
+								<FolderID>50</FolderID>
+								<ParentID>47</ParentID>
+								<Name>Functions</Name>
+								<GUID>5e052966-d1b5-4c3f-899d-9ff09f989e7c</GUID>
+							</Table>
+						</NewDataSet>
+					</ScriptFolder>
+					<ScriptFolder>
+						<NewDataSet>
+							<Table>
+								<FolderID>47</FolderID>
+								<ParentID>0</ParentID>
+								<Name>_System Automation</Name>
+								<GUID>68c423ca-41a6-4fae-a052-08a4fd27ea53</GUID>
+							</Table>
+						</NewDataSet>
+					</ScriptFolder>
+				</PackedScript>
+				<ScriptFolder>
+					<NewDataSet>
+						<Table>
+							<FolderID>50</FolderID>
+							<ParentID>47</ParentID>
+							<Name>Functions</Name>
+							<GUID>5e052966-d1b5-4c3f-899d-9ff09f989e7c</GUID>
+						</Table>
+					</NewDataSet>
+				</ScriptFolder>
+				<ScriptFolder>
+					<NewDataSet>
+						<Table>
+							<FolderID>47</FolderID>
+							<ParentID>0</ParentID>
+							<Name>_System Automation</Name>
+							<GUID>68c423ca-41a6-4fae-a052-08a4fd27ea53</GUID>
+						</Table>
+					</NewDataSet>
+				</ScriptFolder>
+			</PackedScript>
+			<PackedScript>
+				<NewDataSet>
+					<Table>
+						<ScriptId>5679</ScriptId>
+						<FolderId>50</FolderId>
+						<ScriptName>Ticket Finish*</ScriptName>
+						<ScriptNotes>This script will handle finishing an existing ticket, if one exists.  The script is a function script that is designed to be only called from another script. 
+
+@TicketFinishBody@ must be set before calling this script.
+</ScriptNotes>
+						<Permission>0,</Permission>
+						<EditPermission>0,</EditPermission>
+						<ComputerScript>1</ComputerScript>
+						<LocationScript>0</LocationScript>
+						<MaintenanceScript>0</MaintenanceScript>
+						<FunctionScript>1</FunctionScript>
+						<LicenseData>H4sIAAAAAAAEAFWPzQrCMBCE74LvkAdoSDdtaVOWXPy7KIiK99iskINtSFOwby8tCvU0zAzfwODRNdT2tDXRaLyNnjSgmBUvQ7vphjZS0CmKhcPd27swMaT3wVkzJuxKPtLrQYHJKmEyBclkDWVd5Ox8QrEg8NoE5+OdQu+6dpr+D779YXBWl6qgqnkWPFVlxQFIcmVyxUFmkCmw0oL68TOAYnlovfoAPGqE1+AAAAA=</LicenseData>
+						<ScriptData>H4sIAAAAAAAEAN2ZTXObMBCG753pf9CxPVAjPoLJuAytg1PPuHUmdtKzjESjKQYPyJ3035dPF2NLsRsxDTmZ3QVZenhXq7VHCz+hG3aFGHLevgFgVNppYWSm98gSlEcnlIQ4BYM6cIMStCaMJA3fdRivUNhwlIPdZzfROHLgaLDv2LvrekuxY9kmGfqBqai2NVQgJJpiI8NWoKZD3YZYw9CuRykeKOY8aE66Gm7ByGa3ik8+qyZQXVX+yTYq7CnOYw2ruUjYWrTWsvWWbbRss8EjTpijZvPNPyvfOI4YjbYk9++uq9g8ndE1LR6pL6vINMIkYqhYTBZtmk0kfykIsGgCLJbK5+Ks44iybCnU/0kYxb9QMhpUoT1g+QyrKyE459KL8IJkk0SM3KOEolVIqkeN18NUEzGFHIQt1seB8t+IfpZEoWycsEOc2cYg4CmQVAvxM9Nae/US5GQxR5rnKU7vEz17KKDn+vF6s80KI8UuB6R7mKZuh2yNPrEVZ/M0AOyBgGWBA5BHmrI090RgQiOaPgDKPnSS3WafGAqLdlt8PJFqHEWqxzW484sL9UWfOEJoCUAuvJk3XoLx/O7b8l1N8z2Y3M6/gtJMwfcv3q0H6uDHU9kbHPaQw/5yHBKUFDXupLdg9aq+GzLkbHKQHqI7b3MdykapvXiUPHU+F6UtG6X+v/bYTRJvZjHCBJeVikY/ztxluZmeHWfzkW+ybyDZmyLpSQkPpTdIRpcyFW27OLCQuVKRYgaqmf9EABWk20jxg5VvQJUM9QurkyMAlN4VmS9fn/qZ+jztFAClN0tdony6wTyakZLVJ71D6jSDVVNCoXFznZYKvSIB2obsLiXJ9IrXLLnlvWUr8DnGv91/qkNQesPUKWqxOg9qsmRZ9qoxskWFRW7jzmmTnsIpvT864WRe29WfAH8AaimVRBMYAAA=</ScriptData>
+						<ScriptVersion>1</ScriptVersion>
+						<ScriptGuid>795e8cf5-0978-11e2-9a49-1231391d2d19</ScriptGuid>
+						<ScriptFlags>1</ScriptFlags>
+						<Parameters></Parameters>
+					</Table>
+				</NewDataSet>
+				<ScriptFolder>
+					<NewDataSet>
+						<Table>
+							<FolderID>50</FolderID>
+							<ParentID>47</ParentID>
+							<Name>Functions</Name>
+							<GUID>5e052966-d1b5-4c3f-899d-9ff09f989e7c</GUID>
+						</Table>
+					</NewDataSet>
+				</ScriptFolder>
+				<ScriptFolder>
+					<NewDataSet>
+						<Table>
+							<FolderID>47</FolderID>
+							<ParentID>0</ParentID>
+							<Name>_System Automation</Name>
+							<GUID>68c423ca-41a6-4fae-a052-08a4fd27ea53</GUID>
+						</Table>
+					</NewDataSet>
+				</ScriptFolder>
+			</PackedScript>
+			<ScriptFolder>
+				<NewDataSet>
+					<Table>
+						<FolderID>50</FolderID>
+						<ParentID>47</ParentID>
+						<Name>Functions</Name>
+						<GUID>5e052966-d1b5-4c3f-899d-9ff09f989e7c</GUID>
+					</Table>
+				</NewDataSet>
+			</ScriptFolder>
+			<ScriptFolder>
+				<NewDataSet>
+					<Table>
+						<FolderID>47</FolderID>
+						<ParentID>0</ParentID>
+						<Name>_System Automation</Name>
+						<GUID>68c423ca-41a6-4fae-a052-08a4fd27ea53</GUID>
+					</Table>
+				</NewDataSet>
+			</ScriptFolder>
+		</PackedScript>
+		<ScriptFolder>
+			<NewDataSet>
+				<Table>
+					<FolderID>279</FolderID>
+					<ParentID>0</ParentID>
+					<Name>ITBD</Name>
+					<GUID>f42f26fc-ba75-40d3-ba60-7bf219c35645</GUID>
+				</Table>
+			</NewDataSet>
+		</ScriptFolder>
+	</PackedScript>
+</LabTech_Expansion>

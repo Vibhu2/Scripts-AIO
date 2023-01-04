@@ -1,0 +1,47 @@
+﻿<LabTech_Expansion
+	Version="200.251"
+	Name="LabTech Script Expansion"
+	Type="PackedScript">
+	<PackedScript>
+		<NewDataSet>
+			<Table>
+				<ScriptId>6453</ScriptId>
+				<FolderId>281</FolderId>
+				<ScriptName>Windows update registry change and auto set service</ScriptName>
+				<ScriptNotes></ScriptNotes>
+				<Permission>0,</Permission>
+				<EditPermission>0,</EditPermission>
+				<ComputerScript>1</ComputerScript>
+				<LocationScript>0</LocationScript>
+				<MaintenanceScript>0</MaintenanceScript>
+				<FunctionScript>0</FunctionScript>
+				<LicenseData>H4sIAAAAAAAEAFWPzQrCMBCE74LvkAdo6CakP5QlF7VeFETFe9psIZe0pA3Yt5cWhXoaZoZvYPDiWvIjHc1kND7ngbTAdFW8R3/oo58oaMB04/D0HlxYGNJ1cNbMCaupCdGEmQmVMAkSWFFJUamS3a6YbgB8tMEN04vC6Hq/LP8H3/4cndV5QVZBZrnqcuBCkOEl2YYDZJDlxohOFj9+BTDd/tnvPrLBMsPfAAAA</LicenseData>
+				<ScriptData>H4sIAAAAAAAEAOWWXWvCMBSG7wf7D7nxUvqhdRu4QrHVyXQdOieDgsQm3QI1keTU7eevranrhPVORHbVvOckJ+c8eS/an8eSbcHHgN3rK4T6e61KkcvgCyQuskNGU6KQUSWescQbClTWYqNUrHFaC+yLveabmOCu1Td+B37tGmWMuL0bSrqmQ9rdpGe2LYvi9i0l67ZpOqbTw9hK7JuqSnmg7NmoN63LzYFuD1N4MegG9ErHhxkv9ZgUuZqqD2kdDW0f6c6R7h5pp8ZDSHDNvN/iq2MDwYHxjBbxw1rnQjVhG1YeqZY6M+aEcsDlMHm2LutIfig0YLGbsNi9v8G4s2CEPN9HD4/B22oSDrzJauoNHsZPQTQPhy9LbxZEzyJlMaMqmrJYCiUSiJaME/Gpqu9iSzDQyFsgY4e8Rbgt7spdBCivv/KX4cxHBkE516Rv6Jv/7YPYdw3v0VIfNE0lVVkKrZOwsi6JldXkXRWjWPCEvaPPDGeKyh1SgCXcI5yBOAk8+5LgndlonUti1Wg0TmHvrIPRTgKse0nAzmwu5wysKq1/tb4BU3PC63kJAAA=</ScriptData>
+				<ScriptVersion>1</ScriptVersion>
+				<ScriptGuid>67ed405d-4f60-11ea-8edb-005056aa1f27</ScriptGuid>
+				<ScriptFlags>0</ScriptFlags>
+				<Parameters></Parameters>
+			</Table>
+		</NewDataSet>
+		<ScriptFolder>
+			<NewDataSet>
+				<Table>
+					<FolderID>281</FolderID>
+					<ParentID>272</ParentID>
+					<Name>Final scripts</Name>
+					<GUID>c2aabe44-40cc-4864-8bc0-a0979af3f3bc</GUID>
+				</Table>
+			</NewDataSet>
+		</ScriptFolder>
+		<ScriptFolder>
+			<NewDataSet>
+				<Table>
+					<FolderID>272</FolderID>
+					<ParentID>0</ParentID>
+					<Name>Roy</Name>
+					<GUID>f72d390a-cee0-4532-8978-a2d4f98e544b</GUID>
+				</Table>
+			</NewDataSet>
+		</ScriptFolder>
+	</PackedScript>
+</LabTech_Expansion>

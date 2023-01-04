@@ -1,0 +1,70 @@
+﻿<LabTech_Expansion
+	Version="200.251"
+	Name="LabTech Script Expansion"
+	Type="PackedScript">
+	<PackedScript>
+		<NewDataSet>
+			<Table>
+				<ScriptId>6401</ScriptId>
+				<FolderId>280</FolderId>
+				<ScriptName>windows activate</ScriptName>
+				<ScriptNotes>This will give the list of system which are activated with value 1.</ScriptNotes>
+				<Permission>0,</Permission>
+				<EditPermission>0,</EditPermission>
+				<ComputerScript>1</ComputerScript>
+				<LocationScript>0</LocationScript>
+				<MaintenanceScript>0</MaintenanceScript>
+				<FunctionScript>0</FunctionScript>
+				<LicenseData>H4sIAAAAAAAEAFWPTQrCMBSE94J3yAEaktQ2/eGRjYobBbHiPm0fmIVpSBOwt5cWhboaZoZvYOBsOrQjHnTQCu6TQyWALQq3aPdDtAG94sBWDo5vZ/zMoLo/ox97PSWkQRfw1aInIk1IykVFsprLWqTkegG2YqDpvHHhgX40g53H/4Nvf4qmVwWWKLNS0j4vCioEVlSLrqWc5zyXWu9KLH/8AgBbX9puPgHjUmziAAAA</LicenseData>
+				<ScriptData>H4sIAAAAAAAEAOWVTWsbMRCG74H8BxFiclK9n941mMUlrY1JaAKG5BjG0iQRlSUjaeuWJv+98lpO1iY2NJdQelq9846GmUcSO5gyIxbuCziojo8IGay1bYSXX386Ayt3JFByS7ob4xoMzNGhacXGUs9AtgLrYjc+SWhVxYPudmAra1wLXhVYYi8re5TnRUHjGPsUYjajUZRHeQ8gLbHcVGk2ND13202HclOHi5cpPjMXGgirEB/VqtETvvJaqj1kvDN0sqPTHZ3t6LzFQxtXRb7f1TfEzrVyQtW4ir+sg3dlL8VcNFs2y+BMFEfloBnGu23ZRvJK4QCW5ACWJEr3g6nG6Oi5mE+UdaAYkqm+d0sweCkYKivUw7XRvGaO0JGQ/q6Qk2/+0hApviM5uxWK66XtnJ2QJ7J8RIPkNzm9++RrOwEybL3AX+TZJ1iU6AutK+PUz1rbQTf08R8fz4HTid/mU3UWeulf4CNKadDW0nVCYrINrvoBssbgpX8FMf6XIJaHIBZl1u+xjFFMAGgWpQWFfs5pOZulSR8wiYtyD+ch0/NF7a+94MM9hIcN4uG7GCcfwHijw//iD9/K1r4+BgAA</ScriptData>
+				<ScriptVersion>1</ScriptVersion>
+				<ScriptGuid>7e8e6486-d577-11e9-a1cb-005056aa38e8</ScriptGuid>
+				<ScriptFlags>0</ScriptFlags>
+				<Parameters></Parameters>
+			</Table>
+		</NewDataSet>
+		<ExtraDataField>
+			<NewDataSet>
+				<Table>
+					<ID>665</ID>
+					<Form>1</Form>
+					<Name>windows license value</Name>
+					<Sort>0</Sort>
+					<NoBreak>0</NoBreak>
+					<FType>0</FType>
+					<Section>Security Essentials</Section>
+					<UnEditable>0</UnEditable>
+					<Collapsed>0</Collapsed>
+					<Fill></Fill>
+					<LtGuid>78496c4c-e2aa-4037-a95d-8bb329ae2178</LtGuid>
+					<IsPassword>false</IsPassword>
+					<IsEncrypted>false</IsEncrypted>
+					<IsHidden>false</IsHidden>
+					<IsRestricted>false</IsRestricted>
+					<ViewPermissions></ViewPermissions>
+					<EditPermissions></EditPermissions>
+				</Table>
+			</NewDataSet>
+		</ExtraDataField>
+		<ScriptFolder>
+			<NewDataSet>
+				<Table>
+					<FolderID>280</FolderID>
+					<ParentID>272</ParentID>
+					<Name>Test scripts</Name>
+					<GUID>145061da-45d2-4c69-9a0e-f3fe0e6e6e50</GUID>
+				</Table>
+			</NewDataSet>
+		</ScriptFolder>
+		<ScriptFolder>
+			<NewDataSet>
+				<Table>
+					<FolderID>272</FolderID>
+					<ParentID>0</ParentID>
+					<Name>Roy</Name>
+					<GUID>f72d390a-cee0-4532-8978-a2d4f98e544b</GUID>
+				</Table>
+			</NewDataSet>
+		</ScriptFolder>
+	</PackedScript>
+</LabTech_Expansion>

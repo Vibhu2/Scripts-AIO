@@ -1,0 +1,37 @@
+﻿<LabTech_Expansion
+	Version="200.251"
+	Name="LabTech Script Expansion"
+	Type="PackedScript">
+	<PackedScript>
+		<NewDataSet>
+			<Table>
+				<ScriptId>6428</ScriptId>
+				<FolderId>273</FolderId>
+				<ScriptName>Download WinRAR from Web</ScriptName>
+				<ScriptNotes></ScriptNotes>
+				<Permission>0,</Permission>
+				<EditPermission>0,</EditPermission>
+				<ComputerScript>1</ComputerScript>
+				<LocationScript>0</LocationScript>
+				<MaintenanceScript>0</MaintenanceScript>
+				<FunctionScript>0</FunctionScript>
+				<LicenseData>H4sIAAAAAAAEAFWPzwqCQBjE70HvsA/gsn/SNeVjLxVdKqKk+6qfsIdWWd3Itw+lwE7DzPAbGDjZCl2PezMYDcXYoRbAZoVbcLs2uAG95sAWDg7vzvqJQV0E7GszRuTSvvBZoidSRURykRGViyyPE3I9A1sQcK+87YYH+t62bpr+D779Mdhal9tYomg2VPCUUyHQUKO2hnKe8EQZIxqZ/vgZALY8tF59AIzGtG7gAAAA</LicenseData>
+				<ScriptData>H4sIAAAAAAAEAN2UP2vDMBDF90K/g5d0cyw5f5umKiVtQiDQQKBTlkusNAJZMpKM8/ErO3Irm+KlQ6GT773nO+5+GM93R8Uy8wIGyO1NEMyvWlfCyteLUVCmS0Z5ooOoDragIKWGKs9bcXkA7hnXYe/2JSYFwfOoaTTeWuUsIYfpMKb4NAgxmqAQYwohjKcQIjRCozEAPsWTekrVUO0c+Uu7cTtDs68rno/GLeAq5y9zUel1Umae8o/EraPjlh609LClRx4PqQxBdt/y6byFFIaJnJb+V+2yN71hKata6tIla5FQYaA6xqa+9JF8U+jAEndgiVEHGHI2JtOzKCqKol8wESpQ/aNMo0xqk8hCcAlJ/2xS/nQHafawebSrutYGUbKY7bdKftg6WDJO9d5OK4fRC3UdcZM5qScN/jH7+w70PX2mnCuqc256P1P95XeK/4BVrd3/6BNkQTUgngQAAA==</ScriptData>
+				<ScriptVersion>1</ScriptVersion>
+				<ScriptGuid>b842e1f3-1070-11ea-a68a-005056aa1f27</ScriptGuid>
+				<ScriptFlags>0</ScriptFlags>
+				<Parameters></Parameters>
+			</Table>
+		</NewDataSet>
+		<ScriptFolder>
+			<NewDataSet>
+				<Table>
+					<FolderID>273</FolderID>
+					<ParentID>0</ParentID>
+					<Name>Stewart</Name>
+					<GUID>afdf7a15-23c6-4b95-b573-114cff470ca3</GUID>
+				</Table>
+			</NewDataSet>
+		</ScriptFolder>
+	</PackedScript>
+</LabTech_Expansion>
