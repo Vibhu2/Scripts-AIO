@@ -17,7 +17,7 @@ PS> .\SetExchangeComponentToActive.ps1 -Server Server1
 [CmdletBinding()]
 Param(
     [Parameter(Mandatory = $true,
-    HelpMessage="Enter the name of Server to set component to active.")]
+        HelpMessage = "Enter the name of Server to set component to active.")]
     [string]$Server
 )
 
@@ -27,5 +27,5 @@ Set-ServerComponentState $Server -Component Monitoring -State Active -Requester 
 Set-ServerComponentState $Server -Component RecoveryActionsEnabled -State Active -Requester Functional
 
 #Get the status of component 
-Get-ServerComponentState $Server | ft Component,State -Autosize
+Get-ServerComponentState $Server | Format-Table Component, State -Autosize
 Write-Host "$Server is now completely out of maintenance mode and component are active and functional." -ForegroundColor Yellow
